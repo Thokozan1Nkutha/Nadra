@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <!-- # # # GOOGLE FONTS # # # -->
+              <!-- # Berkshire Swash # -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+               <!-- # Caesar Dressing # -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap" rel="stylesheet">
+               <!-- # Alegreya Sans SC # -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700&display=swap" rel="stylesheet">
+
+              <!-- # Roboto # -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+              <!-- # Kolker Brush # -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap" rel="stylesheet">
+    
+     <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+ 
+     <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+ 
+ 
+    <title>nadra</title>
+     <!-- CSS -->
+     <link rel="stylesheet" href="CSS/main.css">
+</head>
+
+<body>
+
+                                         <!-- # NAV BAR # -->
+<nav class="navbar navbar-expand-lg " >
+    <div class="container">
+                   <!-- logo image -->
+           <a href="#" class="navbar-logo"><img id="logo" src="./Images/logo.png" alt="logo"></a> 
+                   <!-- hamburger menu button -->
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+           <span class="navbar-toggler-icon"></span>
+           </button>
+    </div>
+                   <!-- menu items -->
+  <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto" >
+        <li class="nav-item">
+           <a href="" id="break" class="nav-link">Explore</a>
+        </li>
+
+
+        <li class="nav-item">
+           <a href="#" class="nav-link">About Us</a>
+        </li>
+
+        <li class="nav-item">
+           <a href="shop.html" class="nav-link">Shop</a>
+        </li>
+
+        <li class="nav-item">
+            <a href="savedForLater.html" class="nav-link">Saved Collections</a>
+         </li>
+
+        <li class="nav-item">
+           <a href="#" class="nav-link">Sign In</a>
+        </li>
+      </ul>
+  </div>         
+</nav>
+
+                                            <!-- # FIRST SECTION/HEADER # -->
+<div class="container-fluid" >
+    <div id="Row1" class="row">
+      <div class="col">
+                   <!-- left side section -->
+         <div class="CollectDigitalArtSection">
+             <h1 class="collect">Collect digital art, collect prints</h1>
+             <p class="buyAndSell">Buy and sell from Africa's Top Artists</p>
+             <button id="startCollectingBtn" onclick="window.location.href = 'shop.html'">START COLLECTING</button>        
+         </div>
+
+                  
+         <div id="slideshowWW-container">
+
+                   <!-- 1st slide -->
+           <div class="slideEE">
+           <div class="featuredArt">
+                   <!-- title -->
+             <h1 class="featured">FEATURED ART</h1>
+                   <!-- feautured art img -->
+             <img id="featuredImage" src="./Images/Artists/CedricNzaka/Artworks/q2k.jpg" alt="q2k">
+                   <!--artist-->
+             <p class="Artist">Artist</p>
+                   <!-- artist's name -->
+             <p class="artistName" onclick="" >Cedric Nzaka</p>
+                   <!-- artist's img -->
+             <img id="artistImage" onclick="" src="./Images/Artists/CedricNzaka/CedricNzaka.jpg" alt="Cedric">
+                                              
+                   <!--model-->
+             <p class="Model">Model</p>
+                   <!-- model's name -->
+             <p class="modelsName" onclick="" >q2k</p>
+                   <!-- model's img -->
+             <img id="modelsImage" onclick="" src="./Images/Models/q2k_model_profile_picture.jpg" alt="q2k">
+                   <!-- release date -->
+             <p class="releaseDate">RELEASE DATE</p>
+             <p class="Date"><b>Dec 13, 2021, 12pm</b></p>
+           </div>
+           </div>
+
+
+ <!-- 2nd slide -->
+
+ <div class="slideEE">
+      <div class="featuredArt">
+              <!-- title -->
+        <h1 class="featured">FEATURED ART</h1>
+              <!-- feautured art img -->
+        <img id="featuredImage" src="./Images/Artists/William_Ecrice/Artwork/moostapha_s.jpg" alt="moostapha_s">
+              <!--artist-->
+        <p class="Artist">Artist</p>
+              <!-- artist's name -->
+        <p class="artistName" onclick="" >William Ecrice</p>
+              <!-- artist's img -->
+        <img id="artistImage" onclick="" src="./Images/Artists/William_Ecrice/William.jpg" alt="William Ecrice">
+                                                   
+              <!--model-->
+        <p class="Model">Model</p>
+              <!-- model's name -->
+        <p class="modelsName" onclick="" >moostapha_s</p>
+              <!-- model's img -->
+        <img id="modelsImage" onclick="" src="./Images/Models/moostapha_s_profile_picture.jpg" alt="moostapha_s">
+              <!-- release date -->
+        <p class="releaseDate">RELEASE DATE</p>
+        <p class="Date"><b>Aug 4, 2021, 12pm</b></p>
+      </div>
+      </div>
+
+              <!-- 3rd slide -->
+
+      <div class="slideEE">
+      <div class="featuredArt">
+              <!-- title -->
+        <h1 class="featured">FEATURED ART</h1>
+              <!-- feautured art video -->
+        <video id="featuredVideo" autoplay loop muted playsinline preload="auto">
+             <source src="./Images/Artists/Bereket_Etus/Artwork/i_waited.mp4" type="video/mp4">
+        </video>
+              <!--artist-->
+        <p class="Artist">Artist</p>
+              <!-- artist's name -->
+        <p class="artistName" onclick="" >Bereket Etus</p>
+              <!-- artist's img -->
+        <img id="artistImage" onclick="" src="./Images/Artists/Bereket_Etus/Bereket.jpg" alt="Bereket Etus">                                                                
+              <!--model-->
+        <p class="Model">With</p>
+              <!-- model's name -->
+        <p class="modelsName" onclick="" >@incurableartiste</p>
+              <!-- model's img -->
+        <img id="modelsImage" onclick="" src="./Images/Artists/Bereket_Etus/incurableartiste.jpg" alt="@incurableartiste">
+              <!-- release date -->
+        <p class="releaseDate">RELEASE DATE</p>
+        <p class="Date"><b>Jul 7, 2017, 12am</b></p>
+      </div>
+      </div>
+
+              <!-- 4th slide -->
+      <div class="slideEE">
+      <div class="featuredArt">
+              <!-- title -->
+        <h1 class="featured">FEATURED ART</h1>
+              <!-- feautured art video -->
+        <img id="featuredImage" src="./Images/Artists/FelixEzema/Artworks/Like_Water.jpg" alt="Like Water">
+              <!--artist-->
+        <p class="Artist">Artist</p>
+              <!-- artist's name -->
+        <p class="artistName" onclick="" >Felix Ezema</p>
+              <!-- artist's img -->
+        <img id="artistImage" onclick="" src="./Images/Artists/FelixEzema/Felix.jpg" alt="Felix Ezema">
+                                                                                             
+              <!--model-->
+        <p class="Model">Model</p>
+              <!-- model's name -->
+        <p class="modelsName" onclick="" >Darchie</p>
+              <!-- model's img -->
+        <img id="modelsImage" onclick="" src="./Images/Models/darchie_robert_gift_profile_picture.jpg" alt="Darchie">
+              <!-- release date -->
+        <p class="releaseDate">RELEASE DATE</p>
+        <p class="Date"><b>Mar 14, 2022, 3pm</b></p>
+       </div>
+       </div>
+
+              <!-- 5th slide -->
+
+      <div class="slideEE">
+      <div class="featuredArt">
+              <!-- title -->
+        <h1 class="featured">FEATURED ART</h1>
+              <!-- feautured art img -->
+        <img id="featuredImage" src="./Images/Artists/Teekay_Kiing/Artwork/Abdul.jpg" alt="Abdul">
+              <!--artist-->
+        <p class="Artist">Artist</p>
+              <!-- artist's name -->
+        <p class="artistName" onclick="" >Teekay Kiing</p>
+              <!-- artist's img -->
+        <img id="artistImage" onclick="" src="./Images/Artists/Teekay_Kiing/Teekay.jpg" alt="Teekay">
+                                                      
+             
+              <!-- release date -->
+        <p class="releaseDate">RELEASE DATE</p>
+        <p class="Date"><b>Apr 22, 2021, 1am</b></p>
+      </div>
+      </div>
+
+
+              <!-- 6th slide -->
+      <div class="slideEE">
+      <div class="featuredArt">
+              <!-- title -->
+        <h1 class="featured">FEATURED ART</h1>
+              <!-- feautured art video -->
+        <video id="featuredVideo" autoplay loop muted playsinline preload="auto">
+                <source src="./Images/Artists/Don_Mupasi/Artwork/Marooned.mp4" type="video/mp4">
+        </video>
+              <!--artist-->
+        <p class="Artist">Artist</p>
+              <!-- artist's name -->
+        <p class="artistName" onclick="" >Don Mupasi</p>
+              <!-- artist's img -->
+        <img id="artistImage" onclick="" src="./Images/Artists/Don_Mupasi/Don.jpg" alt="Don">
+                                                                   
+              <!--model-->
+        <p class="Model">With</p>
+              <!-- model's name -->
+        <p class="modelsName" onclick="" >atypecollective</p>
+              <!-- model's img -->
+        <img id="modelsImage" onclick="" src="./Images/Artists/Don_Mupasi/atypecollective.jpg" alt="atypecollective">
+              <!-- release date -->
+        <p class="releaseDate">RELEASE DATE</p>
+        <p class="Date"><b>Apr 20, 2020, 3pm</b></p>
+      </div>
+      </div>
+
+              <!-- 7th slide -->
+      <div class="slideEE">
+      <div class="featuredArt">
+              <!-- title -->
+        <h1 class="featured">FEATURED ART</h1>
+              <!-- feautured art video -->
+        <img id="featuredImage" src="./Images/Artists/Waya_Zack/Artwork/King.jpg" alt="King">
+              <!--artist-->
+        <p class="Artist">Artist</p>
+              <!-- artist's name -->
+        <p class="artistName" onclick="" >Waya Zack</p>
+              <!-- artist's img -->
+        <img id="artistImage" onclick="" src="./Images/Artists/Waya_Zack/Waya.jpg" alt="Waya">
+                                                                                
+              <!-- release date -->
+        <p class="releaseDate">RELEASE DATE</p>
+        <p class="Date"><b>Aug 13, 2020, 3pm</b></p>
+      </div>
+      </div>
+
+         </div>
+                    
+
+
+      <!-- </div>      -->
+    </div>
+
+                                            <!-- # SECOND SECTION [ABOUT] # -->
+    <div id="Row2" class="row">
+
+          <div id="firstCol" class="col" >
+             <h1 class="futureOfArtCollecting"><span class="disappear">The future of art collecting</span></h1>
+             <p class="artCollectingParagraph">Browse and build your collection of the world's most cutting-edge digital art</p>
+             <p class="divider">__________________</p>
+             <hr>
+          </div>
+                                
+          <div id="secondCol" class="col" >
+             <hr>
+             <h1 class="PioneeringArtMarketRoyalties">Pioneering art market royalties</h1>
+             <p class="marketRoyaltiesParagraph">Artists receive continuous royalties for all secondary sales on their artworks - forever</p>
+             <p class="divider2">__________________</p>
+          </div>
+                                
+          <div id="thirdCol" class="col">
+             <h1 class="BuiltForLongevity">Built for longevity</h1>
+             <p class="transactionsParagraph">All transactions happen on-chain, creating a tamper-proof record of each artwork's history</p>
+             <button class="btn-learnMore">Learn More</button>
+             <hr>
+          </div>
+    </div>
+    
+                                            <!-- # THIRD SECTION [CONTENT] # -->
+    <div id="Row3" class="row">
+      <div class="col">
+
+          <div class="contentContainer">
+
+           <div class="tab-slider--nav">
+            <ul class="tab-slider--tabs">
+                   <!-- # "FOR YOU" AND "FOLLOWING" BUTTONS # -->
+             <li class="tab-slider--trigger active" rel="tab1">FOR YOU</li>
+             <li class="tab-slider--trigger" rel="tab2">FOLLOWING</li>
+            </ul>
+           </div>
+  
+          <div class="tab-slider--container" >
+           <div id="tab1" class="tab-slider--body">
+     
+                                           <!-- ICY HOT -->        
+                   <!-- artist's img -->
+             <img id="ValentinImg" onclick="" src="./Images/Artists/ValentinFabre/valentin.jpg" alt="Valentin Fabre">
+             <p class="ValentinUFeedText"><span style="color: rgb(0, 149, 255); cursor: pointer;">@valentinfabre</span> posted <b>Icy Hot</b> </p>
+             <p class="Vtime">24 minutes ago</p>
+                   <!-- feautured art img -->
+             <img id="hanabithekForYouImg" src="./Images/Artists/ValentinFabre/Artwork/hanabithek.jpg" alt="hanabithek" >
+       
+                                           <!-- MAGICAL BOND -->
+           <div class="MAGICAL_BOND">
+                   <!-- artist's img -->
+             <img id="BillImg" onclick="" src="./Images/Artists/BillKawah/Bill.jpg" alt="Bill Kawah">
+             <p class="BillFeedText"><span style="color: rgb(0, 149, 255); cursor: pointer;">@olueshotit</span> posted <b>MAGICAL BOND</b> </p>
+             <p class="Btime">49 minutes ago</p>
+                   <!-- feautured art img -->
+             <img id="bondBoysImg" src="./Images/Artists/BillKawah/Artworks/magicalBond.jpg" alt="Magical Bond" >
+           </div>
+       
+                                           <!-- VENOMOUS DEEDS -->
+           <div class="VENOMOUS_DEEDS" >
+                   <!-- artist's img -->
+             <img id="GilbertImg" onclick="" src="./Images/Artists/GilbertAsante/Gilbert.jpg" alt="Gilbert Asante">
+             <p class="GilbertFeedText"><span style="color: rgb(0, 149, 255); cursor: pointer;">@gilbertasante</span> posted <b>VENOMOUS DEEDS</b> </p>
+             <p class="Gtime">Just now</p>
+             <video id="venomousDeedsVideo" autoplay loop muted playsinline preload="auto">
+               <source src="./Images/Artists/GilbertAsante/Artworks/venomousDeeds.mp4" type="video/mp4">
+             </video>
+           </div>            
+           </div>
+  
+           <div id="tab2" class="tab-slider--body">
+             <h1 class="youArentFollowingAnyoneYet">You aren't following anyone yet</h1>
+             <p class="exploreTheRestOfNadra">Explore the rest of Nadra to find artists and collectors to follow.</p>
+             <button id="btn-browseExplore" type="submit" class="btn-browseExplore">BROWSE EXPLORE</button>
+           </div>
+  
+           </div>                             
+          </div>
+      </div>
+    </div>
+
+                                            <!-- # FOURTH SECTION [CONTACT FORM] # -->
+    <div id="Row4" class="row">
+      <div class="col">
+
+        <div class="background">
+        <div class="container">
+        <div class="screen">
+                   
+        <div class="screen-body">
+
+        <div class="screen-body-item left">
+                   <!-- form title -->
+          <div class="app-title">
+             <span>CONTACT</span>
+             <span>US</span>
+          </div>
+                   <!-- contact number -->
+             <div class="app-contact">CONTACT INFO : +37 81 275 888 444</div>
+        </div>
+
+        <div class="screen-body-item">
+    
+        <div class="app-form">
+                   <!-- input fields -->
+        <div class="app-form-group">
+             <input class="app-form-control" placeholder="NAME" >
+        </div>
+        <div class="app-form-group">
+             <input class="app-form-control" placeholder="EMAIL">
+        </div>
+        <div class="app-form-group">
+             <input class="app-form-control" placeholder="CONTACT NO">
+        </div>
+        <div class="app-form-group message">
+             <input class="app-form-control" placeholder="MESSAGE">
+        </div>
+                          <!-- form buttons -->
+        <div class="app-form-group buttons">
+             <button class="app-form-button">CANCEL</button>
+             <button class="app-form-button">SEND</button>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>     
+        </div>
+        </div>
+
+      </div>
+    </div>
+
+                                            <!-- # FIFTH SECTION [COMMENT FORM] # -->
+    <div id="Row5" class="row">
+      <div class="col">
+                   <!-- heading -->
+             <h1 class="comment">what do you think about us?</h1>
+                   <!-- form -->
+          <form id="commentForm">      
+             <input name="name" type="text" class="feedback-input" placeholder="Name">   
+             <input name="email" type="text" class="feedback-input" placeholder="Email">
+             <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+                   <!-- button -->
+             <input type="submit" value="SUBMIT">
+          </form>
+      </div>
+
+      <!-- <button id="break">Break The Site</button> -->
+       
+    </div>
+
+                                                      <!-- FOOTER     -->
+    <div id="Row6" class="row">
+      <div class="col">
+                   <!--google map -->
+             <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114584.75250900777!2d27.96998375991726!3d-26.171504553866594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c68f0406a51%3A0x238ac9d9b1d34041!2sJohannesburg!5e0!3m2!1sen!2sza!4v1671032692346!5m2!1sen!2sza"    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                   <!-- logo image -->
+             <a href="#" class="navbar-logo"><img id="footerLogo" src="./Images/footerLogo.png" alt="logo"></a> 
+             <p class="inspired">we are inspired by <a href="https://superrare.com/" id="style-2" class="superrare" data-replace="SuperRare"><span class="superrare">SuperRare</span></a></p>
+                   <!-- map heading -->
+             <h3 class="comeAndSeeUs">come and see us?</h3>
+
+                   <!-- newsletter -->
+        <div class="subscriptionCard">
+             <h5 class="card-title">Subscribe?</h5>
+
+             <p class="subscribeUs">we'll let you know when your favorite creators post new art</p>
+              
+             <input id="userEmail" type="email" placeholder="Your E-Mail" required>
+              
+             <button id="newsletterBtn">Submit</button>
+        </div>
+             
+                
+                   <!-- social media icons -->
+        <div class="socialMediaIcons">
+                  
+             <img id="socialApp-Logo" src="./Images/Social_Media_Icons/instagram.png" alt="instagram_icon">
+             <img id="socialApp-Logo" src="./Images/Social_Media_Icons/twitter.png" alt="twitter_icon">
+             <img id="socialApp-Logo" src="./Images/Social_Media_Icons/facebook.png" alt="facebook_icon">
+             <img id="socialApp-Logo" src="./Images/Social_Media_Icons/email.png" alt="email_icon">
+             <img id="socialApp-Logo" src="./Images/Social_Media_Icons/linkedin.png" alt="linkedin_icon">
+             <img id="socialApp-Logo" src="./Images/Social_Media_Icons/youtube.png" alt="youtube_icon">
+                 
+        </div>
+
+                   <!-- links -->
+        <ul class="footerLinks">
+             <li class="footerLink-item"><a href="#">Home</a></li>
+             <li class="footerLink-item"><a href="#">Explore</a></li>
+             <li class="footerLink-item"><a href="#">About Us</a></li>
+             <li class="footerLink-item"><a href="#">Shop</a></li>
+             <li class="footerLink-item"><a href="#">Sign In</a></li>
+        </ul>
+              
+                   <!-- copyright -->
+             <p class="copyright">Nadra © 2022</p>
+      </div>
+       
+    </div>
+
+</div>
+   
+<!-- importing jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- linking the JavaScript file -->
+   <script src="./JavaScript/main.js"></script>
+</body>
+</html> 

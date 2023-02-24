@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+              <!-- logo font [Britannic Bold] -->
+    <link href="//db.onlinewebfonts.com/c/8be4a2f403c2dc27187d892cca388e24?family=Britannic+Bold" rel="stylesheet" type="text/css"/>
+
+    <!-- # # # GOOGLE FONTS # # # -->
+              <!-- # Berkshire Swash # -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+               <!-- # Caesar Dressing # -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap" rel="stylesheet">
+               <!-- # Alegreya Sans SC # -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700&display=swap" rel="stylesheet">
+              <!-- # Roboto # -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+              <!-- # Kolker Brush # -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap" rel="stylesheet">
+              <!-- Unbounded -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Kolker+Brush&family=Roboto:wght@100&family=Unbounded&display=swap" rel="stylesheet">
+    
+     <!-- CSS -->
+    <link rel="stylesheet" href="CSS/Saved_For_Later/main.css">
+     <!-- BOOTSTRAP CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+     <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+ 
+    <title>nadra</title> 
+</head>
+
+<body>
+
+                                         <!-- # NAV BAR # -->
+<nav class="navbar">
+                   <!-- logo  -->
+             <h1 class="nadra">nadra</h1>
+             <p1 class="shop">SHOP</p1>
+                   <!-- line under logo, shopping bag icon and menu -->
+             <div class="line"></div>
+                   <!-- shopping bag icon -->
+             <img id="shopping_bag_icon" src="./Images/bag.png">
+
+                   <!-- hamburger menu button -->
+            <svg  id="ham" class="ham hamRotate ham8" viewBox="0 0 100 100" width="80" onclick="">
+                <path
+                      class="line top"
+                      d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+                <path
+                      class="line middle"
+                      d="m 30,50 h 40" />
+                <path
+                      class="line bottom"
+                      d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+             </svg>        
+
+                            <!-- menu items -->
+             <ul id="navLinks" class="navLinks" style="display:none;">
+               <li class="navLink-item"><a href="index.html">Home</a></li>
+               <li class="navLink-item"><a href="shop.html">Explore</a></li>
+               <li class="navLink-item"><a href="#">About Us</a></li>
+               <li class="navLink-item"><a href="shop.html">Shop</a></li>
+               <li class="navLink-item"><a href="#">Sign In</a></li>
+             </ul>
+
+             <div id="dropdown-content" style="display:none;">
+                  <a href="#" id="break">Flip</a>
+              </div>
+</nav>
+
+<div class="container-fluid">
+    <div id="Row1"  class="row">
+      <div class="col">
+
+            <h1 class="heading">Artworks Saved For Later</h1>
+        
+            <p class="notice">Please refresh the page if your saved collections are not displayed</p>
+
+            <div class="card-container">
+               
+            </div>
+            
+      </div>
+     
+    
+    
+
+
+    </div>
+
+                                            <!-- FOOOTER -->
+    <div id="Row2" class="row">
+        <div class="col">
+                   <!--google map -->
+             <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114584.75250900777!2d27.96998375991726!3d-26.171504553866594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c68f0406a51%3A0x238ac9d9b1d34041!2sJohannesburg!5e0!3m2!1sen!2sza!4v1671032692346!5m2!1sen!2sza"    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                   <!-- logo image -->
+             <a href="#" class="navbar-logo"><img id="footerLogo" src="./Images/footerLogo.png" alt="logo"></a> 
+             <p class="inspired">we are inspired by <a href="https://superrare.com/" id="style-2" class="superrare" data-replace="SuperRare"><span class="superrare">SuperRare</span></a></p>
+                   <!-- map heading -->
+             <h3 class="comeAndSeeUs">come and see us?</h3>
+
+                   <!-- newsletter -->
+        <div class="subscriptionCard">
+             <h5 class="footer-card-title">Subscribe?</h5>
+
+             <p class="subscribeUs">we'll let you know when your favorite creators post new art</p>
+   
+             <input id="userEmail" type="email" placeholder="Your E-Mail" required>
+   
+             <button id="newsletterBtn">Submit</button>
+        </div>
+  
+     
+                   <!-- social media icons -->
+        <div class="socialMediaIcons">
+             <img id="socialApp-Logo" src="./Images/Social_Media_Icons/instagram.png" alt="instagram_icon">
+             <img id="socialApp-Logo" src="./Images/Social_Media_Icons/twitter.png" alt="twitter_icon">
+             <img id="socialApp-Logo" src="./Images/Social_Media_Icons/facebook.png" alt="facebook_icon">
+             <img id="socialApp-Logo" src="./Images/Social_Media_Icons/email.png" alt="email_icon">
+             <img id="socialApp-Logo" src="./Images/Social_Media_Icons/linkedin.png" alt="linkedin_icon">
+             <img id="socialApp-Logo" src="./Images/Social_Media_Icons/youtube.png" alt="youtube_icon">
+        </div>
+
+                   <!-- links -->
+         <ul class="footerLinks">
+             <li class="footerLink-item"><a href="index.html">Home</a></li>
+             <li class="footerLink-item"><a href="shop.html">Explore</a></li>
+             <li class="footerLink-item"><a href="#">About Us</a></li>
+             <li class="footerLink-item"><a href="shop.html">Shop</a></li>
+             <li class="footerLink-item"><a href="#">Sign In</a></li>
+        </ul>
+   
+                   <!-- copyright -->
+             <p class="copyright">Nadra © 2022</p>
+        </div>
+    </div>
+</div>
+
+   
+<!-- importing jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- linking the JavaScript file -->
+   <script src="./JavaScript/savedForLater.js"></script>
+</body>
+</html> 

@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+              <!-- logo font [Britannic Bold] -->
+    <link href="//db.onlinewebfonts.com/c/8be4a2f403c2dc27187d892cca388e24?family=Britannic+Bold" rel="stylesheet" type="text/css"/>
+
+    <!-- # # # GOOGLE FONTS # # # -->
+              <!-- # Berkshire Swash # -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+               <!-- # Caesar Dressing # -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap" rel="stylesheet">
+               <!-- # Alegreya Sans SC # -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700&display=swap" rel="stylesheet">
+              <!-- # Roboto # -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+              <!-- # Kolker Brush # -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap" rel="stylesheet">
+              <!-- Unbounded -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Kolker+Brush&family=Roboto:wght@100&family=Unbounded&display=swap" rel="stylesheet">
+    
+     <!-- CSS -->
+    <link rel="stylesheet" href="CSS/Shop/shop_main.css">
+     <!-- BOOTSTRAP CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+     <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+ 
+    <title>nadra</title> 
+</head>
+
+<body>
+
+                                         <!-- # NAV BAR # -->
+<nav class="navbar">
+                   <!-- logo  -->
+             <h1 class="nadra">nadra</h1>
+             <p1 class="shop">SHOP</p1>
+                   <!-- line under logo, shopping bag icon and menu -->
+             <div class="line"></div>
+                   <!-- shopping bag icon -->
+             <img id="shopping_bag_icon" src="./Images/bag.png">
+
+                   <!-- hamburger menu button -->
+            <svg  id="ham" class="ham hamRotate ham8" viewBox="0 0 100 100" width="80" onclick="">
+                <path
+                      class="line top"
+                      d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+                <path
+                      class="line middle"
+                      d="m 30,50 h 40" />
+                <path
+                      class="line bottom"
+                      d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+             </svg>        
+
+                   <!-- menu items -->
+          <ul id="navLinks" class="navLinks">
+             <li class="navLink-item"><a href="index.html">Home</a></li>
+            
+             <li class="navLink-item"><a href="#">About Us</a></li>
+          
+             <li class="navLink-item"><a href="savedForLater.html">Saved Collections</a></li>
+             <li class="navLink-item"><a href="#">Sign In</a></li>
+          </ul>
+</nav>
+
+<div class="container-fluid">
+    <div id="Row1"  class="row">
+
+         <div class="collections_container">
+             <div class="left_line"></div>
+             <h1 class="collections">FEATURED COLLECTIONS</h1>
+             <div class="right_line"></div>
+         </div>
+        
+      
+                   <!-- 1st card -->
+         <div id="card" class="card">
+                <!-- artwork -->
+             <img id="print" src="./Images/Artists/Dan_Carter/Artwork/Dessert.jpg" class="card-img-top" alt="Footprints">
+
+           <div class="card-body">
+             <h5 class="card-title">Footprints</h5>
+             <p class="card-description">Art print photographed by Dan Carter.</p>
+             <p class="price">$300</p>
+             <button id="addToCart_Button">Add to Cart</button>
+             <button id="saveForLater_Button" onclick="">Save for Later</button>
+ 
+                <!-- form to allow a user to like the artwork -->
+             <form>
+             <input type="checkbox" id="checkbox" />
+             <label for="checkbox">
+                <!-- like button icon with number of likes -->
+             <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                  <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+                </g>
+             </svg><span id="count">1482</span>
+             </label>    
+           </form>
+           </div>
+
+         </div>
+
+                   <!-- 2nd card   -->
+         <div id="card" class="card">
+                <!-- artwork -->
+             <video id="print" class="card-img-top" autoplay loop muted playsinline preload="auto">
+                  <source id="video" src="./Images/Artists/Marc_Joy/Artwork/Our_Heroes.mp4" type="video/mp4">
+             </video>
+           <div class="card-body">
+             <h5 class="card-title">Our Heroes</h5>
+             <p class="card-description">Afrofuturistic AI generated art by Marc Joy.</p>
+             <p class="price">$800</p>
+             <button id="addToCart_Button" class="addToCart_Button">Add to Cart</button>
+             <button id="saveForLater_Button"  onclick="">Save for Later</button>
+
+                <!-- a form to allow a user to like the artwork -->
+             <form>
+             <input type="checkbox" id="checkbox2" />
+             <label for="checkbox2">
+                <!-- like button icon with number of likes -->
+             <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                  <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+                 </g>
+             </svg><span id="count">6347</span>
+             </label>    
+             </form>
+           </div>
+         </div>
+
+                   <!-- 3rd card -->
+         <div id="card" class="card">
+                <!-- artwork -->
+            <img id="print" src="./Images/Artists/Adeolu_Osibodu/Artwork/Impermanence.jpg" class="card-img-top" alt="Impermanence">
+
+           <div class="card-body">
+             <h5 class="card-title">Impermanence</h5>
+             <p class="card-description">Art print photographed by Adeolu Osibodu.</p>
+             <p class="price">$300</p>
+             <button id="addToCart_Button">Add to Cart</button>
+             <button id="saveForLater_Button">Save for Later</button>
+                <!-- form to allow a user to like the artwork -->
+             <form>
+             <input type="checkbox" id="checkbox3" />
+             <label for="checkbox3">
+              <!-- like button icon with number of likes -->
+             <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                  <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+                </g>
+             </svg><span id="count">955</span>
+             </label>    
+             </form>
+           </div>
+
+         </div>
+
+                   <!-- 4th card -->
+         <div id="card" class="card">
+                <!-- artwork -->
+            <img onclick="" id="print" src="./Images/Artists/gvuTong/Artwork/collector_of_worlds.jpg" class="card-img-top" alt="Impermanence">
+
+           <div class="card-body">
+             <h5 class="card-title">Collector of&nbspWorlds</h5>
+             <p class="card-description">Art print photographed by&nbsp G . V . U&nbsp t o n g.</p>
+             <p class="price">$500</p>
+             <button id="addToCart_Button">Add to Cart</button>
+             <button id="saveForLater_Button">Save for Later</button>
+
+                <!-- form to allow a user to like the artwork -->
+             <form>
+             <input type="checkbox" id="checkbox4" />
+             <label for="checkbox4">
+                <!-- like button icon with number of likes -->
+             <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                  <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+                </g>
+             </svg>
+             </label><span id="count">7214</span> 
+             </form>  
+           </div>
+         </div>
+
+                   <!-- 5th card -->
+         <div id="card" class="card">
+                <!-- artwork -->
+            <img id="print" src="./Images/Artists/Michael_Aboya/Artwork/one_in_a_billion.jpg" class="card-img-top" alt="Impermanence">
+
+           <div class="card-body">
+             <h5 class="card-title">One in a Billion</h5>
+             <p class="card-description">Art print photographed by Michael Aboya.</p>
+             <p class="price">$300</p>
+             <button id="addToCart_Button">Add to Cart</button>
+             <button id="saveForLater_Button">Save for Later</button>
+
+                <!-- form to allow a user to like the artwork -->
+             <form>
+             <input type="checkbox" id="checkbox5" />
+             <label for="checkbox5">
+                <!-- like button icon with number of likes -->
+             <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                  <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+                </g>
+             </svg><span id="count">2244</span>
+             </label>
+             </form>       
+           </div>
+         </div>
+
+                   <!-- 6th card -->
+         <div id="card" class="card">
+
+                <!-- artwork -->
+             <video id="print" class="card-img-top" autoplay loop muted playsinline preload="auto">
+                  <source id="video" src="./Images/Artists/Alexis_Chivir-ter/Artwork/the_sun_bows_for_you.mp4" type="video/mp4">
+             </video>
+
+           <div class="card-body">
+             <h5 class="card-title">The Sun Bows for You</h5>
+             <p class="card-description">Digital artwork created by Alexis Chivir-ter.</p>
+             <p class="price">$8000</p>
+             <button id="addToCart_Button">Add to Cart</button>
+             <button id="saveForLater_Button">Save for Later</button>
+
+                <!-- form to allow a user to like the artwork -->
+             <form>
+             <input type="checkbox" id="checkbox6" />
+             <label for="checkbox6">
+                <!-- like button icon with number of likes -->
+             <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                  <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+                </g>
+              </svg><span id="count">8887</span>
+             </label>    
+             </form>
+           </div>
+
+           
+         </div>
+
+                   <!-- 7th card -->
+         <div id="card" class="card">
+                <!-- artwork -->
+             <img id="print" src="./Images/Artists/Teekay_Kiing/Artwork/Abdul.jpg" class="card-img-top" alt="My Friend">
+               
+           <div class="card-body">
+             <h5 class="card-title">My Friend</h5>
+             <p class="card-description">Art print photographed by Teekay Kiing.</p>
+             <p class="price">$300</p>
+             <button id="addToCart_Button">Add to Cart</button>
+             <button id="saveForLater_Button">Save for Later</button>
+               
+                <!-- form to allow a user to like the artwork -->
+             <form>
+             <input type="checkbox" id="checkbox7" />
+             <label for="checkbox7">
+                <!-- like button icon with number of likes -->
+             <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                 <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                    <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+                  </g>
+             </svg><span id="count">5245</span>
+             </label> 
+             </form>      
+           </div>
+         </div>
+
+                   <!-- 8th card -->
+         <div id="card" class="card">
+                <!-- artwork -->
+             <img id="print" src="./Images/Artists/William_Ecrice/Artwork/moostapha_s.jpg" class="card-img-top" style="height: 28rem;" alt="Impermanence">
+        
+           <div class="card-body">
+             <h5 class="card-title">A Seat at the Table</h5>
+             <p class="card-description">Art print photographed by William Ecrice.</p>
+             <p class="price">$300</p>
+             <button id="addToCart_Button">Add to Cart</button>
+             <button id="saveForLater_Button">Save for Later</button>
+        
+                <!-- form to allow a user to like the artwork -->
+             <form>
+             <input type="checkbox" id="checkbox8" />
+             <label for="checkbox8">
+                <!-- like button icon with number of likes -->
+             <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                    <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+                </g>
+             </svg><span id="count">8221</span>
+             </label>
+             </form>       
+           </div>
+         </div>
+
+                   <!-- 9th card -->
+         <div id="card" class="card">
+                <!-- artwork -->
+             <img id="print" src="./Images/Artists/FelixEzema/Artworks/Like_Water.jpg" class="card-img-top" alt="Like Water">
+               
+           <div class="card-body">
+             <h5 class="card-title">Like Water</h5>
+             <p class="card-description">Art print photographed by Felix Ezema.</p>
+             <p class="price">$300</p>
+             <button id="addToCart_Button">Add to Cart</button>
+             <button id="saveForLater_Button">Save for Later</button>
+               
+                <!-- form to allow a user to like the artwork -->
+             <form>
+             <input type="checkbox" id="checkbox9" />
+             <label for="checkbox9">
+                <!-- like button icon with number of likes -->
+             <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                    <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+                </g>
+             </svg><span id="count">4245</span>
+             </label>   
+             </form>    
+           </div>
+         </div>
+
+                   <!-- 10th card -->
+         <div id="card" class="card">
+                <!-- artwork -->
+             <video id="print" class="card-img-top" autoplay loop muted playsinline preload="auto">
+                <source id="video" src="./Images/Artists/GilbertAsante/Artworks/venomousDeeds.mp4" type="video/mp4">
+             </video> 
+
+           <div class="card-body">
+             <h5 class="card-title">Venomous Deeds</h5>
+             <p class="card-description">Digital artwork created by Gilbert Asante.</p>
+             <p class="price">$300</p>
+             <button id="addToCart_Button">Add to Cart</button>
+             <button id="saveForLater_Button">Save for Later</button>
+                      
+                <!-- form to allow a user to like the artwork -->
+             <form>
+             <input type="checkbox" id="checkbox10" />
+             <label for="checkbox10">
+                <!-- like button icon with number of likes -->
+             <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                    <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+                </g>
+             </svg><span id="count">2235</span>
+             </label>  
+             </form>     
+           </div>
+         </div>
+
+                   <!-- 11th card -->
+         <div id="card" class="card">
+                <!-- artwork -->
+             <img id="print" src="./Images/Artists/ValentinFabre/Artwork/hanabithek.jpg" class="card-img-top" alt="hanabithek">
+    
+           <div class="card-body">
+             <h5 class="card-title">Icy Hot</h5>
+             <p class="card-description">Art print photographed by Valentin Fabre.</p>
+             <p class="price">$300</p>
+             <button id="addToCart_Button">Add to Cart</button>
+             <button id="saveForLater_Button">Save for Later</button>
+    
+                <!-- form to allow a user to like the artwork -->
+             <form>
+             <input type="checkbox" id="checkbox11" />
+             <label for="checkbox11">
+                <!-- like button icon with number of likes -->
+             <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                  <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+             </g>
+             </svg><span id="count">4245</span>
+             </label>     
+             </form>  
+           </div>
+         </div>
+
+                   <!-- 12th card -->
+         <div id="card" class="card">
+                <!-- artwork -->
+             <img id="print" src="./Images/Artists/BillKawah/Artworks/magicalBond.jpg" class="card-img-top" alt="Magical Bond">
+           
+           <div class="card-body">
+             <h5 class="card-title">Magical Bond</h5>
+             <p class="card-description">Art print photographed by Bill Kawah.</p>
+             <p class="price">$300</p>
+             <button id="addToCart_Button">Add to Cart</button>
+             <button id="saveForLater_Button">Save for Later</button>
+           
+                <!-- form to allow a user to like the artwork -->
+             <form>
+             <input type="checkbox" id="checkbox12" />
+             <label for="checkbox12">
+                <!-- like button icon with number of likes -->
+             <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                   <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+                </g>
+             </svg><span id="count">5211</span>
+             </label>    
+             </form>   
+           </div>
+         </div>
+
+                   <!-- 13th card -->
+         <div id="card" class="card">
+                <!-- artwork -->
+             <video id="print" class="card-img-top" autoplay loop muted playsinline preload="auto">
+                  <source id="video" src="./Images/Artists/Bereket_Etus/Artwork/i_waited.mp4" type="video/mp4">
+             </video>   
+
+           <div class="card-body">
+             <h5 class="card-title">I Waited</h5>
+             <p class="card-description">Digital Artwork created by Bereket Etus.</p>
+             <p class="price">$19000</p>
+             <button id="addToCart_Button">Add to Cart</button>
+             <button id="saveForLater_Button">Save for Later</button>
+                  
+                <!-- form to allow a user to like the artwork -->
+             <form>
+             <input type="checkbox" id="checkbox13" />
+             <label for="checkbox13">
+                <!-- like button icon with number of likes -->
+             <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                    <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+                </g>
+             </svg><span id="count">8000</span>
+             </label>     
+             </form>  
+           </div>
+         </div>
+
+                   <!-- 14th card -->
+         <div id="card" class="card">
+                <!-- artwork -->
+             <video id="print" class="card-img-top" autoplay loop muted playsinline preload="auto" style="height: 28rem;">
+                  <source id="video" src="./Images/Artists/Don_Mupasi/Artwork/Marooned2.mp4" type="video/mp4" >
+             </video> 
+
+           <div class="card-body">
+             <h5 class="card-title">Marooned</h5>
+             <p class="card-description">Digital Artwork created by Don Mupasi.</p>
+             <p class="price">$21000</p>
+             <button id="addToCart_Button">Add to Cart</button>
+             <button id="saveForLater_Button">Save for Later</button>
+                         
+                <!-- form to allow a user to like the artwork -->
+             <form>
+             <input type="checkbox" id="checkbox14" />
+             <label for="checkbox14">
+                <!-- like button icon with number of likes -->
+             <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg" >
+               <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)" >
+                   <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2" />
+               </g>
+             </svg><span id="count" style=" position: absolute; left: 16em; top: 26em;">5288</span>
+             </label>  
+             </form>     
+           </div>
+         </div>                   
+        
+                   <!-- 15th card -->
+         <div id="card" class="card">
+                <!-- artwork -->
+             <img id="print" src="./Images/Artists/Waya_Zack/Artwork/King.jpg" class="card-img-top" alt="King">
+                         
+           <div class="card-body">
+             <h5 class="card-title">King</h5>
+             <p class="card-description">Art print photographed by Waya Zack.</p>
+             <p class="price">$800</p>
+             <button id="addToCart_Button">Add to Cart</button>
+             <button id="saveForLater_Button">Save for Later</button>
+                         
+                <!-- form to allow a user to like the artwork -->
+             <form>
+             <input type="checkbox" id="checkbox15" />
+             <label for="checkbox15">
+                <!-- like button icon with number of likes -->
+             <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                  <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                     <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+                  </g>
+             </svg><span id="count">6221</span>
+             </label>
+             </form>       
+           </div>
+         </div>
+
+                   <!-- 16th card -->
+         <div id="card" class="card">
+                <!-- artwork -->
+             <img id="print" src="./Images/Artists/CedricNzaka/Artworks/q2k.jpg" class="card-img-top" alt="q2k">
+                                
+           <div class="card-body">
+             <h5 class="card-title">Face from a Place</h5>
+             <p class="card-description">Art print photographed by Cedric Nzaka.</p>
+             <p class="price">$800</p>
+             <button id="addToCart_Button">Add to Cart</button>
+             <button id="saveForLater_Button">Save for Later</button>
+                                
+                <!-- form to allow a user to like the artwork -->
+             <form>
+             <input type="checkbox" id="checkbox16" />
+             <label for="checkbox16">
+                <!-- like button icon with number of likes -->
+             <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                   <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+                </g>
+             </svg><span id="count">5211</span>
+             </label>   
+             </form>    
+           </div>
+         </div>
+
+                   <!-- 17th card -->
+         <div id="card" class="card">
+                <!-- artwork -->
+             <img id="print" src="./Images/Artists/Odunze_Harry/Artwork/Scars.jpg" class="card-img-top" alt="Emmy Lanie">
+                                       
+           <div class="card-body">
+             <h5 class="card-title">Scars</h5>
+             <p class="card-description">Art print photographed by Odunze Harry.</p>
+             <p class="price">$800</p>
+             <button id="addToCart_Button">Add to Cart</button>
+             <button id="saveForLater_Button">Save for Later</button>
+                                       
+                <!-- form to allow a user to like the artwork -->
+             <form>
+             <input type="checkbox" id="checkbox17" />
+             <label for="checkbox17">
+                <!-- like button icon with number of likes -->
+             <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                    <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+                       </g>
+             </svg><span id="count">8204</span>
+             </label>  
+             </form>     
+           </div>
+         </div>
+
+                   <!-- 18th card -->
+         <div id="card" class="card">
+                <!-- artwork -->
+             <img id="print" src="./Images/Artists/omg_diaja__/Artwork/I_Will_Flourish.jpg" class="card-img-top" alt="malory.n">
+                                              
+           <div class="card-body">
+             <h5 class="card-title">I Will Flourish</h5>
+             <p class="card-description">Art print photographed by omg_diaja__.</p>
+             <p class="price">$1200</p>
+             <button id="addToCart_Button">Add to Cart</button>
+             <button id="saveForLater_Button">Save for Later</button>
+                                              
+                <!-- form to allow a user to like the artwork -->
+             <form>
+             <input type="checkbox" id="checkbox18" />
+             <label for="checkbox18">
+                <!-- like button icon with number of likes -->
+             <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                     <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+                </g>
+             </svg><span id="count">1204</span>
+             </label> 
+             </form>      
+           </div>
+         </div>
+
+         
+    </div>
+
+ 
+         
+
+
+                                            <!-- FOOOTER -->
+    <div id="Row2" class="row">
+        <div class="col">
+                  <!--google map -->
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114584.75250900777!2d27.96998375991726!3d-26.171504553866594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c68f0406a51%3A0x238ac9d9b1d34041!2sJohannesburg!5e0!3m2!1sen!2sza!4v1671032692346!5m2!1sen!2sza"    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                   <!-- logo image -->
+             <a href="#" class="navbar-logo"><img id="footerLogo" src="./Images/footerLogo.png" alt="logo"></a> 
+             <p class="inspired">we are inspired by <a href="https://superrare.com/" id="style-2" class="superrare" data-replace="SuperRare"><span class="superrare">SuperRare</span></a></p>
+                   <!-- map heading -->
+             <h3 class="comeAndSeeUs">come and see us?</h3>
+
+                   <!-- newsletter -->
+        <div class="subscriptionCard">
+             <h5 class="footer-card-title">Subscribe?</h5>
+
+             <p class="subscribeUs">we'll let you know when your favorite creators post new art</p>
+   
+             <input id="userEmail" type="email" placeholder="Your E-Mail" required>
+   
+             <button id="newsletterBtn">Submit</button>
+        </div>
+  
+     
+                   <!-- social media icons -->
+        <div class="socialMediaIcons">
+       
+             <img id="socialApp-Logo" src="./Images/Social_Media_Icons/instagram.png" alt="instagram_icon">
+             <img id="socialApp-Logo" src="./Images/Social_Media_Icons/twitter.png" alt="twitter_icon">
+             <img id="socialApp-Logo" src="./Images/Social_Media_Icons/facebook.png" alt="facebook_icon">
+             <img id="socialApp-Logo" src="./Images/Social_Media_Icons/email.png" alt="email_icon">
+             <img id="socialApp-Logo" src="./Images/Social_Media_Icons/linkedin.png" alt="linkedin_icon">
+             <img id="socialApp-Logo" src="./Images/Social_Media_Icons/youtube.png" alt="youtube_icon">
+      
+        </div>
+
+                   <!-- links -->
+          <ul class="footerLinks">
+             <li class="footerLink-item"><a href="index.html">Home</a></li>
+             <li class="footerLink-item"><a href="shop.html">Explore</a></li>
+             <li class="footerLink-item"><a href="#">About Us</a></li>
+             <li class="footerLink-item"><a href="shop.html">Shop</a></li>
+             <li class="footerLink-item"><a href="#">Sign In</a></li>
+          </ul>
+   
+                   <!-- copyright -->
+             <p class="copyright">Nadra © 2022</p>
+        </div>
+    </div>
+</div>
+
+   
+<!-- importing jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- linking the JavaScript file -->
+   <script src="./JavaScript/shop.js"></script>
+</body>
+</html> 
