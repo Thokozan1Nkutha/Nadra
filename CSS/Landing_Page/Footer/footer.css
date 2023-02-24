@@ -1,0 +1,1140 @@
+#Row6 {
+  position: relative;
+  top: 3rem;
+  height: 1400px;
+  background: black;
+  background-size: cover;
+}
+
+#map {
+  position: relative;
+  top: 51rem;
+  left: 0.3rem;
+  border-radius: 20px;
+  -webkit-filter: invert(90%);
+          filter: invert(90%);
+  width: 350px;
+  height: 290px;
+}
+
+.comeAndSeeUs {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  top: 14em;
+  left: 3.9em;
+  width: 220px;
+}
+
+#footerLogo {
+  position: relative;
+  width: 250px;
+  height: 100px;
+  bottom: 16em;
+  left: 3.5em;
+}
+
+.inspired {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  bottom: 10.5em;
+  left: 0.1em;
+  font-size: 1.5em;
+  width: 350px;
+  color: white;
+}
+
+.superrare {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+}
+
+.superrare::before,
+.superrare::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+.superrare::before {
+  background-color: #ffffff;
+  height: 2px;
+  bottom: 0;
+  -webkit-transform-origin: 100% 50%;
+          transform-origin: 100% 50%;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1), -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.superrare::after {
+  content: attr(data-replace);
+  height: 100%;
+  top: 0;
+  -webkit-transform-origin: 100% 50%;
+          transform-origin: 100% 50%;
+  -webkit-transform: translate3d(200%, 0, 0);
+          transform: translate3d(200%, 0, 0);
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1), -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  color: #ffffff;
+}
+
+.superrare:hover::before {
+  -webkit-transform-origin: 0% 50%;
+          transform-origin: 0% 50%;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.superrare:hover::after {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.superrare span {
+  display: inline-block;
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1), -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.superrare:hover span {
+  -webkit-transform: translate3d(-200%, 0, 0);
+          transform: translate3d(-200%, 0, 0);
+}
+
+.superrare {
+  text-decoration: none;
+  color: #aeb2b4;
+  font-weight: 700;
+  vertical-align: top;
+}
+
+.subscriptionCard {
+  position: absolute;
+  top: 13.8rem;
+  left: 1.8rem;
+  height: 400px;
+  background: url("../../../Images/newsletterBg.jpg");
+  background-size: cover;
+  border: border-box;
+  border-radius: 8px;
+  background-color: #221D33;
+  width: 343px;
+  padding: 30px 25px;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.card-title {
+  color: white;
+  font-size: 2em;
+  -webkit-box-shadow: #000000;
+          box-shadow: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#newsletterBtn {
+  position: relative;
+  top: 5em;
+  right: 0.5em;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background: transparent;
+  cursor: pointer;
+  color: white;
+  font-size: 1.3em;
+}
+
+#newsletterBtn:hover {
+  color: #000000;
+}
+
+#userEmail {
+  position: relative;
+  top: 5em;
+  left: 0.5em;
+  color: #ffffff;
+  border-bottom: 2px solid white;
+  background: transparent;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+}
+
+#userEmail::-webkit-input-placeholder {
+  color: white;
+}
+
+#userEmail:-ms-input-placeholder {
+  color: white;
+}
+
+#userEmail::-ms-input-placeholder {
+  color: white;
+}
+
+#userEmail::placeholder {
+  color: white;
+}
+
+.subscribeUs {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0.5em;
+  color: white;
+  font-weight: bold;
+}
+
+.footerLinks {
+  position: relative;
+  width: 370px;
+  right: 1em;
+  top: 47em;
+  color: #ffffff;
+}
+
+.footerLink-item {
+  display: inline;
+  margin: 5px;
+}
+
+.footerLink-item a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footerLink-item a:hover {
+  border-bottom: 3px solid white;
+  color: white;
+  text-decoration: none;
+}
+
+.copyright {
+  position: relative;
+  width: 120px;
+  bottom: 2em;
+  top: 49em;
+  left: 8em;
+  color: #ffffff;
+}
+
+.socialMediaIcons {
+  position: relative;
+  top: 45rem;
+  width: 280px;
+  height: 50px;
+  left: 3em;
+}
+
+#socialApp-Logo {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+@media (min-width: 576px) {
+  #Row6 {
+    position: relative;
+    top: 8rem;
+    left: 0.4rem;
+    height: 1400px;
+    width: 602px;
+    background: black;
+    background-size: cover;
+  }
+  #map {
+    position: relative;
+    top: 52rem;
+    left: 3.8rem;
+    border-radius: 20px;
+    -webkit-filter: invert(90%);
+            filter: invert(90%);
+    width: 400px;
+    height: 290px;
+  }
+  .comeAndSeeUs {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    top: 14em;
+    left: 6.7em;
+    width: 220px;
+  }
+  #footerLogo {
+    position: relative;
+    width: 250px;
+    height: 100px;
+    bottom: 16em;
+    left: 8.8em;
+  }
+  .inspired {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 10.5em;
+    left: 3.7em;
+    font-size: 1.5em;
+    width: 370px;
+    color: white;
+  }
+  .superrare {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+  }
+  .superrare::before,
+  .superrare::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+  }
+  .superrare::before {
+    background-color: #ffffff;
+    height: 2px;
+    bottom: 0;
+    -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1), -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  .superrare::after {
+    content: attr(data-replace);
+    height: 100%;
+    top: 0;
+    -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%;
+    -webkit-transform: translate3d(200%, 0, 0);
+            transform: translate3d(200%, 0, 0);
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1), -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    color: #ffffff;
+  }
+  .superrare:hover::before {
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  .superrare:hover::after {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  .superrare span {
+    display: inline-block;
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1), -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  .superrare:hover span {
+    -webkit-transform: translate3d(-200%, 0, 0);
+            transform: translate3d(-200%, 0, 0);
+  }
+  .superrare {
+    text-decoration: none;
+    color: #aeb2b4;
+    font-weight: 700;
+    vertical-align: top;
+  }
+  .subscriptionCard {
+    position: absolute;
+    top: 13.8rem;
+    left: 7rem;
+    height: 400px;
+    background: url("../../../Images/newsletterBg.jpg");
+    background-size: cover;
+    border: border-box;
+    border-radius: 8px;
+    background-color: #221D33;
+    width: 343px;
+    padding: 30px 25px;
+    margin: auto;
+    margin-top: 10%;
+  }
+  .card-title {
+    color: white;
+    font-size: 2em;
+    -webkit-box-shadow: #000000;
+            box-shadow: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  #newsletterBtn {
+    position: relative;
+    top: 5em;
+    right: 0.5em;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    font-size: 1.3em;
+  }
+  #newsletterBtn:hover {
+    color: #000000;
+  }
+  #userEmail {
+    position: relative;
+    top: 5em;
+    left: 0.5em;
+    color: #ffffff;
+    border-bottom: 2px solid white;
+    background: transparent;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+  }
+  #userEmail::-webkit-input-placeholder {
+    color: white;
+  }
+  #userEmail:-ms-input-placeholder {
+    color: white;
+  }
+  #userEmail::-ms-input-placeholder {
+    color: white;
+  }
+  #userEmail::placeholder {
+    color: white;
+  }
+  .subscribeUs {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0.5em;
+    color: white;
+    font-weight: bold;
+  }
+  .footerLinks {
+    position: relative;
+    width: 370px;
+    left: 3.7em;
+    top: 47em;
+    color: #ffffff;
+  }
+  .footerLink-item {
+    display: inline;
+    margin: 5px;
+  }
+  .footerLink-item a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .footerLink-item a:hover {
+    border-bottom: 3px solid white;
+    color: white;
+    text-decoration: none;
+  }
+  .copyright {
+    position: relative;
+    width: 120px;
+    bottom: 0em;
+    top: 49em;
+    left: 12.7em;
+    color: #ffffff;
+  }
+  .socialMediaIcons {
+    position: relative;
+    top: 45rem;
+    width: 280px;
+    height: 50px;
+    left: 8em;
+  }
+  #socialApp-Logo {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 768px) {
+  #Row6 {
+    position: relative;
+    top: 17rem;
+    height: 1500px;
+    width: 768px;
+    background: black;
+    background-size: cover;
+  }
+  #map {
+    position: relative;
+    top: 55rem;
+    left: 6.2rem;
+    border-radius: 20px;
+    -webkit-filter: invert(90%);
+            filter: invert(90%);
+    width: 555px;
+    height: 344px;
+  }
+  .comeAndSeeUs {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    top: 17em;
+    left: 10.5em;
+    width: 234px;
+  }
+  #footerLogo {
+    position: absolute;
+    top: 2rem;
+    left: 16rem;
+    width: 250px;
+    height: 100px;
+  }
+  .inspired {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 9.5em;
+    left: 8.5em;
+    font-size: 1.5em;
+    width: 340px;
+    color: white;
+  }
+  .superrare {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+  }
+  .superrare::before,
+  .superrare::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+  }
+  .superrare::before {
+    background-color: #ffffff;
+    height: 2px;
+    bottom: 0;
+    -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1), -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  .superrare::after {
+    content: attr(data-replace);
+    height: 100%;
+    top: 0;
+    -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%;
+    -webkit-transform: translate3d(200%, 0, 0);
+            transform: translate3d(200%, 0, 0);
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1), -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    color: #ffffff;
+  }
+  .superrare:hover::before {
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  .superrare:hover::after {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  .superrare span {
+    display: inline-block;
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1), -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  .superrare:hover span {
+    -webkit-transform: translate3d(-200%, 0, 0);
+            transform: translate3d(-200%, 0, 0);
+  }
+  .superrare {
+    text-decoration: none;
+    color: #aeb2b4;
+    font-weight: 700;
+    vertical-align: top;
+  }
+  .subscriptionCard {
+    position: absolute;
+    top: 10rem;
+    left: 7.4rem;
+    height: 500px;
+    background: url("../../../Images/newsletterBg.jpg");
+    background-size: cover;
+    border: border-box;
+    border-radius: 8px;
+    background-color: #221D33;
+    width: 544px;
+    padding: 30px 25px;
+    margin: auto;
+    margin-top: 10%;
+  }
+  .card-title {
+    color: white;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  #newsletterBtn {
+    position: relative;
+    top: 10em;
+    right: 10em;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    font-size: 1.6em;
+  }
+  #newsletterBtn:hover {
+    color: #000000;
+  }
+  #userEmail {
+    position: relative;
+    font-size: 1.3em;
+    top: 8.8em;
+    left: 1.2em;
+    color: #ffffff;
+    border-bottom: 2px solid white;
+    background: transparent;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+  }
+  #userEmail::-webkit-input-placeholder {
+    color: white;
+  }
+  #userEmail:-ms-input-placeholder {
+    color: white;
+  }
+  #userEmail::-ms-input-placeholder {
+    color: white;
+  }
+  #userEmail::placeholder {
+    color: white;
+  }
+  .subscribeUs {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    top: 0.5em;
+    color: white;
+    font-weight: bold;
+  }
+  .footerLinks {
+    position: relative;
+    width: 380px;
+    left: 10em;
+    top: 52em;
+    color: #ffffff;
+  }
+  .footerLink-item {
+    display: inline;
+    margin: 5px;
+  }
+  .footerLink-item a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .footerLink-item a:hover {
+    border-bottom: 3px solid white;
+    color: white;
+    text-decoration: none;
+  }
+  .copyright {
+    position: relative;
+    width: 120px;
+    bottom: 0em;
+    top: 55em;
+    left: 19em;
+    color: #ffffff;
+  }
+  .socialMediaIcons {
+    position: relative;
+    top: 51rem;
+    width: 280px;
+    height: 50px;
+    left: 15em;
+  }
+  #socialApp-Logo {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 992px) {
+  #Row6 {
+    position: relative;
+    top: 15rem;
+    height: 500px;
+    width: 992px;
+    background: black;
+    background-size: cover;
+  }
+  #map {
+    position: relative;
+    top: 10rem;
+    left: 38.8rem;
+    border-radius: 20px;
+    -webkit-filter: invert(90%);
+            filter: invert(90%);
+    width: 322px;
+    height: 222px;
+  }
+  .comeAndSeeUs {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    top: -6em;
+    left: 25.5em;
+    width: 244px;
+  }
+  #footerLogo {
+    position: absolute;
+    top: 2rem;
+    left: 3.4rem;
+    width: 200px;
+    height: 80px;
+  }
+  .inspired {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 5.4em;
+    left: 0.5em;
+    font-size: 1.3em;
+    width: 340px;
+    color: white;
+  }
+  .superrare {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+  }
+  .superrare::before,
+  .superrare::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+  }
+  .superrare::before {
+    background-color: #ffffff;
+    height: 2px;
+    bottom: 0;
+    -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1), -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  .superrare::after {
+    content: attr(data-replace);
+    height: 100%;
+    top: 0;
+    -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%;
+    -webkit-transform: translate3d(200%, 0, 0);
+            transform: translate3d(200%, 0, 0);
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1), -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    color: #ffffff;
+  }
+  .superrare:hover::before {
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  .superrare:hover::after {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  .superrare span {
+    display: inline-block;
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1), -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  .superrare:hover span {
+    -webkit-transform: translate3d(-200%, 0, 0);
+            transform: translate3d(-200%, 0, 0);
+  }
+  .superrare {
+    text-decoration: none;
+    color: #aeb2b4;
+    font-weight: 700;
+    vertical-align: top;
+  }
+  .subscriptionCard {
+    position: absolute;
+    bottom: 3rem;
+    top: 0rem;
+    left: 21.4rem;
+    height: 340px;
+    background: url("../../../Images/newsletterBg.jpg");
+    background-size: cover;
+    border: border-box;
+    border-radius: 8px;
+    background-color: #221D33;
+    width: 284px;
+    padding: 30px 25px;
+    margin: auto;
+    margin-top: 10%;
+  }
+  .card-title {
+    color: white;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  #newsletterBtn {
+    position: relative;
+    top: 8em;
+    left: 0.5em;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    font-size: 1em;
+  }
+  #newsletterBtn:hover {
+    color: #000000;
+  }
+  #userEmail {
+    position: relative;
+    font-size: 0.8em;
+    top: 8.8em;
+    left: 1.2em;
+    color: #ffffff;
+    border-bottom: 2px solid white;
+    background: transparent;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+  }
+  #userEmail::-webkit-input-placeholder {
+    color: white;
+  }
+  #userEmail:-ms-input-placeholder {
+    color: white;
+  }
+  #userEmail::-ms-input-placeholder {
+    color: white;
+  }
+  #userEmail::placeholder {
+    color: white;
+  }
+  .subscribeUs {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    top: 0.5em;
+    color: white;
+    font-weight: bold;
+  }
+  .footerLinks {
+    position: relative;
+    width: 360px;
+    left: -2em;
+    top: -8em;
+    color: #ffffff;
+  }
+  .footerLink-item {
+    display: inline;
+    margin: 5px;
+  }
+  .footerLink-item a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .footerLink-item a:hover {
+    border-bottom: 3px solid white;
+    color: white;
+    text-decoration: none;
+  }
+  .copyright {
+    position: relative;
+    width: 120px;
+    bottom: 0em;
+    top: 2em;
+    left: 6em;
+    color: #ffffff;
+  }
+  .socialMediaIcons {
+    position: relative;
+    top: 1rem;
+    width: 280px;
+    height: 50px;
+    left: 1.2em;
+  }
+  #socialApp-Logo {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Row6 {
+    position: relative;
+    top: 16rem;
+    height: 400px;
+    width: 1255px;
+    background: black;
+    background-size: cover;
+  }
+  #map {
+    position: relative;
+    top: 5.5rem;
+    left: 48rem;
+    -webkit-filter: invert(90%);
+            filter: invert(90%);
+    width: 410px;
+    height: 290px;
+  }
+  .comeAndSeeUs {
+    position: absolute;
+    color: white;
+    top: 1.4em;
+    left: 31.8em;
+    width: 250px;
+  }
+  #footerLogo {
+    position: absolute;
+    width: 250px;
+    height: 100px;
+  }
+  .inspired {
+    position: absolute;
+    top: 5em;
+    left: 1em;
+    font-size: 1.5em;
+    width: 342px;
+    color: white;
+  }
+  .superrare {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+  }
+  .superrare::before,
+  .superrare::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+  }
+  .superrare::before {
+    background-color: #ffffff;
+    height: 2px;
+    bottom: 0;
+    -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1), -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  .superrare::after {
+    content: attr(data-replace);
+    height: 100%;
+    top: 0;
+    -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%;
+    -webkit-transform: translate3d(200%, 0, 0);
+            transform: translate3d(200%, 0, 0);
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1), -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    color: #ffffff;
+  }
+  .superrare:hover::before {
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  .superrare:hover::after {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  .superrare span {
+    display: inline-block;
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1), -webkit-transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  .superrare:hover span {
+    -webkit-transform: translate3d(-200%, 0, 0);
+            transform: translate3d(-200%, 0, 0);
+  }
+  .superrare {
+    text-decoration: none;
+    color: #b7d5e4;
+    font-weight: 700;
+    vertical-align: top;
+  }
+  .subscriptionCard {
+    position: absolute;
+    top: -6.5rem;
+    left: 25rem;
+    background-image: url("../../../Images/newsletterBg.jpg");
+    background-size: cover;
+    border: border-box;
+    border-radius: 8px;
+    background-color: #221D33;
+    height: 344px;
+    width: 343px;
+    padding: 30px 25px;
+    margin: auto;
+    margin-top: 10%;
+  }
+  .card-title {
+    color: white;
+    font-size: 2.4em;
+    -webkit-box-shadow: #000000;
+            box-shadow: #000000;
+  }
+  #newsletterBtn {
+    position: relative;
+    top: 7em;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    font-size: 1.3em;
+  }
+  #newsletterBtn:hover {
+    color: #000000;
+  }
+  #userEmail {
+    position: relative;
+    top: 5em;
+    left: 0.5em;
+    color: #ffffff;
+    border-bottom: 2px solid white;
+    background: transparent;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+  }
+  #userEmail::-webkit-input-placeholder {
+    color: white;
+  }
+  #userEmail:-ms-input-placeholder {
+    color: white;
+  }
+  #userEmail::-ms-input-placeholder {
+    color: white;
+  }
+  #userEmail::placeholder {
+    color: white;
+  }
+  .subscribeUs {
+    position: relative;
+    top: 0.5em;
+    color: white;
+    font-weight: bold;
+  }
+  .footerLinks {
+    position: relative;
+    bottom: 8em;
+    width: 380px;
+    left: -1.4em;
+    top: 5;
+    color: #ffffff;
+  }
+  .footerLink-item {
+    display: inline;
+    margin: 5px;
+  }
+  .footerLink-item a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .footerLink-item a:hover {
+    border-bottom: 3px solid white;
+    color: white;
+    text-decoration: none;
+  }
+  .copyright {
+    position: absolute;
+    width: 120px;
+    left: 8em;
+    top: 22.2em;
+    color: #ffffff;
+  }
+  .socialMediaIcons {
+    position: relative;
+    top: -2em;
+    width: 280px;
+    height: 50px;
+    left: 1.8em;
+  }
+  #socialApp-Logo {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

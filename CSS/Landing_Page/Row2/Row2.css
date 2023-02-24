@@ -1,0 +1,594 @@
+#Row2 {
+  position: relative;
+  top: 3.7em;
+  left: 0.8em;
+  width: auto;
+  height: 515px;
+  background-color: black;
+}
+
+#firstCol {
+  position: absolute;
+  width: 3380px;
+}
+
+.futureOfArtCollecting {
+  position: relative;
+  color: white;
+  font-family: 'Kolker Brush', cursive;
+  font-size: 2.8em;
+  top: 0.2em;
+  left: 0.3em;
+  width: 290px;
+}
+
+.artCollectingParagraph {
+  position: relative;
+  color: white;
+  top: 1em;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: bold;
+  font-size: 0.8em;
+  width: 340px;
+}
+
+.divider {
+  position: relative;
+  color: aliceblue;
+  left: 5em;
+  top: 0.5em;
+  width: 170px;
+}
+
+#secondCol {
+  position: absolute;
+  top: 9em;
+  width: 350px;
+}
+
+.PioneeringArtMarketRoyalties {
+  position: relative;
+  color: white;
+  font-family: 'Kolker Brush', cursive;
+  font-size: 2.8em;
+  bottom: 0.5em;
+  width: 340px;
+}
+
+.marketRoyaltiesParagraph {
+  position: relative;
+  color: white;
+  bottom: 1.6em;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: bold;
+  font-size: 0.8em;
+  width: 350px;
+}
+
+.divider2 {
+  position: relative;
+  color: aliceblue;
+  left: 7em;
+  bottom: 1em;
+  width: 170px;
+}
+
+#thirdCol {
+  position: relative;
+  top: 19rem;
+  height: 200px;
+}
+
+.BuiltForLongevity {
+  position: relative;
+  color: white;
+  font-family: 'Kolker Brush', cursive;
+  font-size: 2.8em;
+  top: 0.2em;
+  width: 300px;
+}
+
+.transactionsParagraph {
+  position: relative;
+  color: white;
+  top: 1em;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: bold;
+  font-size: 0.8em;
+  width: 350px;
+}
+
+.btn-learnMore {
+  position: relative;
+  top: 1.3em;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  font-size: 0.8em;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+}
+
+@media (min-width: 576px) {
+  #Row2 {
+    position: relative;
+    height: 515px;
+    width: 576px;
+    background-color: black;
+  }
+  #firstCol {
+    position: absolute;
+    width: 530px;
+  }
+  .futureOfArtCollecting {
+    position: relative;
+    color: white;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 3em;
+    top: 0.2em;
+    left: 0.3em;
+  }
+  .artCollectingParagraph {
+    position: relative;
+    color: white;
+    top: 1em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+  }
+  .divider {
+    position: relative;
+    color: aliceblue;
+    left: 5em;
+    top: 0.5em;
+    width: 170px;
+  }
+  #secondCol {
+    position: absolute;
+    top: 9em;
+  }
+  .PioneeringArtMarketRoyalties {
+    position: relative;
+    color: white;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 3em;
+    bottom: 0.5em;
+  }
+  .marketRoyaltiesParagraph {
+    position: relative;
+    color: white;
+    bottom: 1.6em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+  }
+  .divider2 {
+    position: relative;
+    color: aliceblue;
+    left: 19em;
+    bottom: 1em;
+    width: 170px;
+  }
+  #thirdCol {
+    position: relative;
+    top: 19rem;
+    height: 200px;
+  }
+  .BuiltForLongevity {
+    position: relative;
+    color: white;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 3em;
+    top: 0.2em;
+  }
+  .transactionsParagraph {
+    position: relative;
+    color: white;
+    top: 1em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+  }
+  .btn-learnMore {
+    position: relative;
+    top: 1.3em;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    font-size: 0.8em;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  #Row2 {
+    position: relative;
+    top: 11rem;
+    height: 515px;
+    width: 768px;
+    background-color: black;
+  }
+  #firstCol {
+    position: absolute;
+    width: 3380px;
+  }
+  .futureOfArtCollecting {
+    position: relative;
+    color: white;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 3em;
+    top: 0.2em;
+    left: 0.3em;
+  }
+  .artCollectingParagraph {
+    position: relative;
+    color: white;
+    top: 1em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+  }
+  .divider {
+    position: relative;
+    color: aliceblue;
+    left: 5em;
+    top: 0.5em;
+    width: 170px;
+  }
+  #secondCol {
+    position: absolute;
+    top: 9em;
+  }
+  .PioneeringArtMarketRoyalties {
+    position: relative;
+    color: white;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 3em;
+    bottom: 0.5em;
+  }
+  .marketRoyaltiesParagraph {
+    position: relative;
+    color: white;
+    bottom: 1.6em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+  }
+  .divider2 {
+    position: relative;
+    color: aliceblue;
+    left: 19em;
+    bottom: 1em;
+    width: 170px;
+  }
+  #thirdCol {
+    position: relative;
+    top: 19rem;
+    height: 200px;
+  }
+  .BuiltForLongevity {
+    position: relative;
+    color: white;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 3em;
+    top: 0.2em;
+  }
+  .transactionsParagraph {
+    position: relative;
+    color: white;
+    top: 1em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+  }
+  .btn-learnMore {
+    position: relative;
+    top: 1.3em;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    font-size: 0.8em;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  #Row2 {
+    position: relative;
+    width: 992px;
+    height: 305px;
+    background-color: black;
+  }
+  #Row2:hover {
+    background-color: white;
+  }
+  #Row2:hover .btn-learnMore {
+    opacity: 0;
+  }
+  #firstCol {
+    position: absolute;
+    width: 3380px;
+    width: 330px;
+  }
+  #firstCol:hover .artCollectingParagraph {
+    color: black;
+    top: -0.0em;
+    opacity: 100;
+  }
+  .futureOfArtCollecting {
+    position: relative;
+    color: white;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 4em;
+    top: 0.8em;
+    left: 0.3em;
+  }
+  .artCollectingParagraph {
+    position: relative;
+    color: white;
+    top: 1em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.88em;
+    opacity: 0;
+  }
+  .divider {
+    position: absolute;
+    color: white;
+    left: 14.5em;
+    top: 8em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    width: 170px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  #secondCol {
+    position: absolute;
+    top: -0.0em;
+    width: 330px;
+    left: 20.4em;
+  }
+  #secondCol:hover .marketRoyaltiesParagraph {
+    position: relative;
+    color: black;
+    bottom: 10em;
+    left: -0.1em;
+    opacity: 100;
+  }
+  .PioneeringArtMarketRoyalties {
+    position: relative;
+    color: white;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 3.6em;
+    top: 0.3em;
+    left: 0.1em;
+  }
+  .marketRoyaltiesParagraph {
+    position: relative;
+    color: white;
+    bottom: 1.6em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.88em;
+    opacity: 0;
+  }
+  .divider2 {
+    position: relative;
+    color: white;
+    left: 14.4em;
+    bottom: 8em;
+    width: 170px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  #thirdCol {
+    position: absolute;
+    top: -0.0rem;
+    width: 330px;
+    left: 41em;
+  }
+  #thirdCol:hover .transactionsParagraph {
+    color: black;
+    left: -0.0em;
+    opacity: 100;
+  }
+  #thirdCol:hover .btn-learnMore {
+    opacity: 100;
+  }
+  .BuiltForLongevity {
+    position: relative;
+    color: white;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 4em;
+    top: 0.8em;
+    left: 0em;
+  }
+  .transactionsParagraph {
+    position: relative;
+    color: white;
+    top: 1em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.88em;
+    opacity: 0;
+  }
+  .btn-learnMore {
+    position: relative;
+    top: 1.3em;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    font-size: 0.8em;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Row2 {
+    position: relative;
+    width: 1255px;
+    height: 355px;
+    background-color: black;
+    -webkit-transition: background-color 2s;
+    transition: background-color 2s;
+  }
+  #Row2:hover {
+    background-color: white;
+  }
+  #Row2:hover .btn-learnMore {
+    opacity: 0;
+  }
+  #firstCol {
+    position: absolute;
+    width: 410px;
+    height: 22.2em;
+  }
+  #firstCol:hover .artCollectingParagraph {
+    color: black;
+    top: -0.0em;
+    opacity: 100;
+  }
+  .futureOfArtCollecting {
+    position: relative;
+    color: white;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 5em;
+    left: 0.3em;
+    top: 1em;
+  }
+  .artCollectingParagraph {
+    position: relative;
+    color: white;
+    top: 1em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    left: 0.5em;
+    opacity: 0;
+  }
+  .divider {
+    position: absolute;
+    color: white;
+    left: 20.2em;
+    top: 10em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    width: 170px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    left: 21.8em;
+  }
+  #secondCol {
+    position: absolute;
+    top: 0em;
+    width: 400px;
+    left: 26em;
+    height: 21rem;
+  }
+  #secondCol:hover .marketRoyaltiesParagraph {
+    position: relative;
+    color: black;
+    bottom: 10em;
+    left: -0.1em;
+    opacity: 100;
+  }
+  .PioneeringArtMarketRoyalties {
+    position: relative;
+    color: white;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 5em;
+    bottom: 0.5em;
+    left: 0.88em;
+    top: 0.5em;
+  }
+  .marketRoyaltiesParagraph {
+    position: relative;
+    color: white;
+    bottom: 1.6em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    left: 1.6em;
+    opacity: 0;
+  }
+  .divider2 {
+    position: relative;
+    color: white;
+    left: 21.8em;
+    bottom: 10.8em;
+    width: 170px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  #thirdCol {
+    position: absolute;
+    top: -0.0rem;
+    height: 355px;
+    width: 400px;
+    left: 51em;
+  }
+  #thirdCol:hover .transactionsParagraph {
+    color: black;
+    left: -0.0em;
+    opacity: 100;
+  }
+  #thirdCol:hover .btn-learnMore {
+    opacity: 100;
+  }
+  .BuiltForLongevity {
+    position: relative;
+    color: white;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 5em;
+    left: 0.5em;
+    top: 1em;
+    width: 350px;
+  }
+  .transactionsParagraph {
+    position: relative;
+    color: white;
+    top: 2em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    left: 4em;
+    width: 350px;
+    opacity: 0;
+  }
+  .btn-learnMore {
+    position: relative;
+    top: 4.3em;
+    left: 5.8em;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    font-size: 0.9em;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+  }
+  .btn-learnMore:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+  }
+}
+/*# sourceMappingURL=Row2.css.map */

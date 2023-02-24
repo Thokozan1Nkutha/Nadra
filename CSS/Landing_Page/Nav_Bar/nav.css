@@ -1,0 +1,64 @@
+.nav-link {
+  margin: 20px;
+  width: 90px;
+  text-align: left;
+}
+
+#logo {
+  position: relative;
+  right: 4rem;
+  width: 300px;
+  height: 100px;
+}
+
+@media (min-width: 576px) {
+  .nav-link {
+    margin: 20px;
+    width: 90px;
+    text-align: left;
+    background-color: white;
+  }
+  #logo {
+    position: relative;
+    right: 5rem;
+    width: 300px;
+    height: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-link {
+    margin: 20px;
+    width: 90px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: white;
+  }
+  #logo {
+    position: relative;
+    right: 2rem;
+    width: 300px;
+    height: 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-link {
+    margin: 10px;
+    width: 158px;
+    text-align: center;
+    color: #000;
+  }
+  .nav-link:hover {
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+  }
+  #logo {
+    position: relative;
+    right: 3rem;
+    width: 300px;
+    height: 100px;
+  }
+}
+/*# sourceMappingURL=nav.css.map */

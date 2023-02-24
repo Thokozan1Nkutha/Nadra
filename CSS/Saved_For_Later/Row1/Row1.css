@@ -1,0 +1,402 @@
+.heading {
+  position: relative;
+  font-family: 'Unbounded', cursive;
+  font-weight: bold;
+  font-size: 1.3em;
+  left: 0.3em;
+  height: 28px;
+  width: 155px;
+  top: 3em;
+  border-bottom: 5px solid black;
+}
+
+.notice {
+  position: relative;
+  font-family: 'Unbounded', cursive;
+  font-weight: bold;
+  font-size: 0.7em;
+  top: 3.2em;
+  color: #585858;
+  left: 15em;
+  width: 200px;
+}
+
+.card {
+  position: relative;
+  float: left;
+  top: 5rem;
+  width: 18rem;
+  height: 17rem;
+  margin: 50px;
+}
+
+#print {
+  width: 100%;
+  height: 100%;
+}
+
+.card-title {
+  position: relative;
+  font-family: 'Unbounded', cursive;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.card-description {
+  position: relative;
+  right: 1em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8em;
+}
+
+.price {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+
+#addToCart_Button {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #000;
+  background-color: white;
+  border: 2px solid black;
+  margin: 20px;
+}
+
+#addToCart_Button:hover {
+  color: white;
+  background-color: black;
+}
+
+.delete-button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: #000;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.delete-button:hover {
+  background-color: black;
+  color: white;
+}
+
+@media (min-width: 576px) {
+  .heading {
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    font-size: 1.5em;
+    left: 2em;
+    height: 28px;
+    width: 205px;
+    top: 3em;
+    border-bottom: 5px solid black;
+  }
+  .notice {
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    font-size: 0.9em;
+    top: 3.2em;
+    color: #585858;
+    left: 21em;
+    width: 250px;
+  }
+  .card {
+    position: relative;
+    float: left;
+    top: 5rem;
+    left: 3rem;
+    width: 24rem;
+    height: 17rem;
+    margin: 50px;
+  }
+  #print {
+    width: 100%;
+    height: 100%;
+  }
+  .card-title {
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .card-description {
+    position: relative;
+    right: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+  }
+  .price {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+  }
+  #addToCart_Button {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #000;
+    background-color: white;
+    border: 2px solid black;
+    margin: 20px;
+  }
+  #addToCart_Button:hover {
+    color: white;
+    background-color: black;
+  }
+  .delete-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #000;
+    background-color: white;
+    border: 2px solid black;
+  }
+  .delete-button:hover {
+    background-color: black;
+    color: white;
+  }
+}
+
+@media (min-width: 768px) {
+  .heading {
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    font-size: 1.7em;
+    left: 3em;
+    height: 35px;
+    width: 205px;
+    top: 3em;
+    border-bottom: 5px solid black;
+  }
+  .notice {
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    font-size: 1.1em;
+    top: 3.2em;
+    color: #585858;
+    left: 24em;
+    width: 270px;
+  }
+  .card {
+    position: relative;
+    float: left;
+    top: 10rem;
+    left: 4rem;
+    width: 30rem;
+    height: 17rem;
+    margin: 50px;
+  }
+  #print {
+    width: 100%;
+    height: 100%;
+  }
+  .card-title {
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .card-description {
+    position: relative;
+    right: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+  }
+  .price {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+  }
+  #addToCart_Button {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #000;
+    background-color: white;
+    border: 2px solid black;
+    margin: 20px;
+  }
+  #addToCart_Button:hover {
+    color: white;
+    background-color: black;
+  }
+  .delete-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #000;
+    background-color: white;
+    border: 2px solid black;
+  }
+  .delete-button:hover {
+    background-color: black;
+    color: white;
+  }
+}
+
+@media (min-width: 992px) {
+  .heading {
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    font-size: 2.3em;
+    left: 3em;
+    height: 45px;
+    width: 300px;
+    top: 4em;
+    border-bottom: 5px solid black;
+  }
+  .notice {
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    font-size: 1.5em;
+    top: 3.2em;
+    color: #585858;
+    left: 20em;
+    width: 470px;
+  }
+  .card {
+    position: relative;
+    float: left;
+    top: 15rem;
+    left: 4rem;
+    width: 20rem;
+    height: 17rem;
+    margin: 50px;
+  }
+  #print {
+    width: 100%;
+    height: 100%;
+  }
+  .card-title {
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .card-description {
+    position: relative;
+    right: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+  }
+  .price {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+  }
+  #addToCart_Button {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #000;
+    background-color: white;
+    border: 2px solid black;
+    margin: 20px;
+  }
+  #addToCart_Button:hover {
+    color: white;
+    background-color: black;
+  }
+  .delete-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #000;
+    background-color: white;
+    border: 2px solid black;
+  }
+  .delete-button:hover {
+    background-color: black;
+    color: white;
+  }
+}
+
+@media (min-width: 1200px) {
+  .heading {
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    font-size: 2.3em;
+    left: 9em;
+    height: 45px;
+    width: 300px;
+    top: 3em;
+    border-bottom: 5px solid black;
+  }
+  .notice {
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    font-size: 1.3em;
+    top: 3.2em;
+    color: #585858;
+    left: 29.7em;
+    width: 340px;
+  }
+  .card {
+    position: relative;
+    float: left;
+    top: 10rem;
+    left: 5rem;
+    width: 28rem;
+    height: 17rem;
+    margin: 50px;
+  }
+  #print {
+    width: 100%;
+    height: 100%;
+  }
+  .card-title {
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .card-description {
+    position: relative;
+    right: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+  }
+  .price {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+  }
+  #addToCart_Button {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #000;
+    background-color: white;
+    border: 2px solid black;
+    margin: 20px;
+  }
+  #addToCart_Button:hover {
+    color: white;
+    background-color: black;
+  }
+  .delete-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #000;
+    background-color: white;
+    border: 2px solid black;
+  }
+  .delete-button:hover {
+    background-color: black;
+    color: white;
+  }
+}
+/*# sourceMappingURL=Row1.css.map */

@@ -1,0 +1,39 @@
+// this stylesheet links other stylesheets in ascending order
+
+// the design approach of the Nadra website is "iPhone 13-first" then bootstrap media queries
+// are used for other screens [576px - 1200px]
+
+// example: in the nav.scss stylesheet, line 04 to line 18 has the code for the iPhone 13 screen 
+// and from line 20 to line 86 the bootstrap media queries are applied for other screens
+
+
+//                              # LINKING THE STYLESHEETS #
+
+
+// the navbar
+@import url("Landing_Page/Nav_Bar/nav.css");
+
+// the first row/header. 
+@import url("Landing_Page/Row1/Row1.css");
+
+// the second row [about us]
+@import url("Landing_Page/Row2/Row2.css");
+
+// the third row [content]
+@import url("Landing_Page/Row3/Row3.css");
+
+// the third row | magical bond
+@import url("Landing_Page/Row3/Row3_MagicalBond.css");
+
+// the third row | venomous deeds
+@import url("Landing_Page/Row3/Row3_VenomousDeeds.css");
+
+// the fourth row [contact form]
+@import url("Landing_Page/Row4/Row4.css");
+
+// the fifth row [comment form]
+@import url("Landing_Page/Row5/Row5.css");
+
+// footer
+@import url("Landing_Page/Footer/footer.css");
+

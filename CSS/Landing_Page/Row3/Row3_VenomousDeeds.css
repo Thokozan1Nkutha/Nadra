@@ -1,0 +1,195 @@
+.VENOMOUS_DEEDS {
+  position: relative;
+  top: 6rem;
+}
+
+#GilbertImg {
+  position: relative;
+  left: 1.8rem;
+  top: 3.5rem;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: inline;
+  cursor: pointer;
+}
+
+.GilbertFeedText {
+  position: relative;
+  left: 5.2em;
+  top: 1em;
+  font-size: 0.9em;
+  width: 288px;
+}
+
+.Gtime {
+  position: relative;
+  left: 6em;
+  font-size: 0.78em;
+  font-weight: bold;
+  color: #999;
+  width: 120px;
+}
+
+#venomousDeedsVideo {
+  position: relative;
+  width: 88%;
+  height: 88%;
+  left: 1.7rem;
+}
+
+@media (min-width: 576px) {
+  .VENOMOUS_DEEDS {
+    position: relative;
+    top: 6rem;
+  }
+  #GilbertImg {
+    position: relative;
+    top: 3.4rem;
+    left: 3rem;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: inline;
+    cursor: pointer;
+  }
+  .GilbertFeedText {
+    position: relative;
+    left: 5.8em;
+    top: 1em;
+    font-size: 1em;
+    width: 322px;
+  }
+  .Gtime {
+    position: relative;
+    left: 6.6em;
+    top: 0.2em;
+    font-size: 0.88em;
+    font-weight: bold;
+    color: #999;
+    width: 120px;
+  }
+  #venomousDeedsVideo {
+    position: relative;
+    width: 88%;
+    height: 88%;
+    left: 2.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .VENOMOUS_DEEDS {
+    position: relative;
+    top: 6rem;
+  }
+  #GilbertImg {
+    position: relative;
+    top: 3.4rem;
+    left: 3rem;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: inline;
+    cursor: pointer;
+  }
+  .GilbertFeedText {
+    position: relative;
+    left: 5.8em;
+    top: 1em;
+    font-size: 1em;
+    width: 322px;
+  }
+  .Gtime {
+    position: relative;
+    left: 6.6em;
+    top: 0.2em;
+    font-size: 0.88em;
+    font-weight: bold;
+    color: #999;
+    width: 120px;
+  }
+  #venomousDeedsVideo {
+    position: relative;
+    width: 88%;
+    height: 88%;
+    left: 2.8rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .VENOMOUS_DEEDS {
+    position: relative;
+    top: 6rem;
+  }
+  #GilbertImg {
+    position: relative;
+    top: 3.4rem;
+    left: 3rem;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: inline;
+    cursor: pointer;
+  }
+  .GilbertFeedText {
+    position: relative;
+    left: 5.8em;
+    top: 1em;
+    font-size: 1em;
+    width: 322px;
+  }
+  .Gtime {
+    position: relative;
+    left: 6.6em;
+    top: 0.2em;
+    font-size: 0.88em;
+    font-weight: bold;
+    color: #999;
+    width: 120px;
+  }
+  #venomousDeedsVideo {
+    position: relative;
+    width: 48%;
+    height: 48%;
+    left: 2.8rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .VENOMOUS_DEEDS {
+    position: relative;
+    top: 6rem;
+  }
+  #GilbertImg {
+    position: relative;
+    left: 8.8rem;
+    top: 3.5rem;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: inline;
+    cursor: pointer;
+  }
+  .GilbertFeedText {
+    position: relative;
+    left: 12.8em;
+    top: 1em;
+    font-size: 0.9em;
+    width: 333px;
+  }
+  .Gtime {
+    position: relative;
+    left: 14.8em;
+    font-size: 0.78em;
+    font-weight: bold;
+    color: #999;
+    width: 120px;
+  }
+  #venomousDeedsVideo {
+    position: relative;
+    width: 48%;
+    height: 48%;
+    left: 8.8rem;
+  }
+}
+/*# sourceMappingURL=Row3_VenomousDeeds.css.map */

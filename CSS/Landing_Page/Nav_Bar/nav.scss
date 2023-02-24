@@ -1,0 +1,90 @@
+//                                          # NAV BAR #
+
+
+//nav bar items/links styled to have a white background and text aligned to the left, no borders
+.nav-link{ 
+    margin: 20px;
+    width: 90px;
+    text-align: left;
+}
+
+
+//logo image
+#logo{
+    position: relative;
+    right: 4rem;
+    width: 300px;
+    height: 100px;
+}
+
+
+
+//                                          # Media Queries #
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+//nav bar items styled to have a white background, links aligned to the left and the black curvy border is removed
+.nav-link{
+    margin: 20px;
+    width: 90px;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+  }
+  
+//logo image
+#logo{
+    position: relative;
+    right: 5rem;
+    width: 300px;
+    height: 100px;
+}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+//nav bar items styled to have a white background, links aligned to the left and the black curvy border is removed
+.nav-link{
+    margin: 20px;
+    width: 90px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+  
+//logo image
+#logo{
+    position: relative;
+    right: 2rem;
+    width: 300px;
+    height: 100px;
+}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+//nav bar items styled to have a white background and black text. black background and white text when hovered on
+.nav-link{
+    margin: 10px;
+    width: 158px;
+    text-align: center;
+    color: #000;
+}.nav-link:hover{
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}     
+      
+//logo image positioned at the top left of the page
+#logo{
+    position: relative;
+    right: 3rem;
+    width: 300px;
+    height: 100px;
+}
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    //we'll use the styling from min-width: 992px
+}

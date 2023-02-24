@@ -1,0 +1,759 @@
+#Row1 {
+  background-color: white;
+  position: relative;
+  height: 1100px;
+}
+
+.CollectDigitalArtSection {
+  position: relative;
+  top: 2rem;
+  height: 400px;
+}
+
+.collect {
+  position: relative;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 3em;
+  left: 1em;
+  width: 300px;
+}
+
+.buyAndSell {
+  position: relative;
+  font-family: 'Caesar Dressing', cursive;
+  top: 1rem;
+  font-size: 1em;
+  left: 2em;
+  display: inline-block;
+  -webkit-transform: scale(1.2, 1);
+  transform: scale(1.2, 1);
+}
+
+#startCollectingBtn {
+  position: relative;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  left: 5.5rem;
+  top: 5rem;
+  color: white;
+  font-size: 0.8em;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  background-color: black;
+  border-radius: 10px;
+}
+
+#slideshowWW-container {
+  position: relative;
+  width: 368px;
+  height: 640px;
+  top: 2rem;
+}
+
+.featuredArt {
+  position: absolute;
+  width: 367px;
+  height: 640px;
+  top: 0.1rem;
+}
+
+.slideEE {
+  display: none;
+}
+
+.active-slideEE {
+  display: block;
+}
+
+.featured {
+  position: absolute;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 1em;
+  left: 2.1em;
+  width: 120px;
+  top: 4em;
+}
+
+#featuredImage {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  top: 5.8rem;
+  left: 2.1rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#featuredVideo {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  top: 5.8rem;
+  left: 2.1rem;
+}
+
+.Artist {
+  position: absolute;
+  top: 31.5rem;
+  font-size: 0.9em;
+  width: 50px;
+  left: 2.2em;
+}
+
+#artistImage {
+  position: absolute;
+  bottom: 5.4rem;
+  left: 2rem;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: inline;
+  cursor: pointer;
+}
+
+.artistName {
+  position: absolute;
+  left: 5em;
+  top: 33.3rem;
+  font-size: 0.8em;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  width: 120px;
+}
+
+.Model {
+  position: absolute;
+  bottom: 2.8em;
+  font-size: 0.9em;
+  left: 2.2em;
+  width: 50px;
+}
+
+#modelsImage {
+  position: absolute;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  bottom: 1.8em;
+  left: 2rem;
+  cursor: pointer;
+}
+
+.modelsName {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8em;
+  cursor: pointer;
+  color: black;
+  bottom: 1.1em;
+  left: 5em;
+  width: 50px;
+}
+
+.releaseDate {
+  position: absolute;
+  bottom: 9em;
+  left: 24em;
+  color: black;
+  font-size: 0.7em;
+}
+
+.Date {
+  position: absolute;
+  bottom: 8.8em;
+  left: 25em;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.61em;
+}
+
+@media (min-width: 576px) {
+  #Row1 {
+    height: 1110px;
+  }
+  .CollectDigitalArtSection {
+    position: relative;
+    top: 2rem;
+    width: 540px;
+  }
+  .collect {
+    position: relative;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 4em;
+    width: 422px;
+    left: 1.8em;
+  }
+  .buyAndSell {
+    position: relative;
+    font-family: 'Caesar Dressing', cursive;
+    top: 1.5em;
+    font-size: 1.4em;
+    left: 4.8em;
+    display: inline-block;
+    -webkit-transform: scale(1.2, 1);
+    transform: scale(1.2, 1);
+  }
+  #startCollectingBtn {
+    position: absolute;
+    top: 21rem;
+    left: 14.4rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 122px;
+    height: 44px;
+    font-size: 0.7em;
+  }
+  #slideshowWW-container {
+    position: relative;
+    width: 558px;
+    height: 670px;
+    top: 2rem;
+  }
+  .featuredArt {
+    position: relative;
+    width: 558px;
+    height: 670px;
+    top: 0rem;
+  }
+  .slideEE {
+    display: none;
+  }
+  .active-slideEE {
+    display: block;
+  }
+  .featured {
+    position: absolute;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 1.2em;
+    top: 1.2em;
+    width: 130px;
+    left: 4.2em;
+  }
+  #featuredImage {
+    position: absolute;
+    width: 340px;
+    height: 450px;
+    left: 5rem;
+    top: 3.2rem;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  #featuredVideo {
+    position: absolute;
+    width: 340px;
+    height: 450px;
+    left: 5rem;
+    top: 3.2rem;
+  }
+  .Artist {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 29em;
+    left: 4.5em;
+    font-size: 1.1em;
+  }
+  #artistImage {
+    position: absolute;
+    top: 34rem;
+    bottom: 1.7rem;
+    left: 5rem;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline;
+    cursor: pointer;
+  }
+  .artistName {
+    position: absolute;
+    left: 6.5em;
+    top: 34.1rem;
+    font-size: 1.14em;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+  }
+  .Model {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    bottom: 2em;
+    left: 4.2em;
+  }
+  #modelsImage {
+    position: absolute;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    bottom: 1rem;
+    left: 4.7rem;
+  }
+  .modelsName {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.14em;
+    cursor: pointer;
+    color: black;
+    top: 34em;
+    left: 6.5em;
+  }
+  .releaseDate {
+    position: absolute;
+    font-size: 1.04em;
+    bottom: 6.9em;
+    left: 21em;
+    color: black;
+  }
+  .Date {
+    position: absolute;
+    font-size: 1em;
+    bottom: 5.5em;
+    left: 21em;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+@media (min-width: 768px) {
+  #Row1 {
+    height: 1388px;
+  }
+  .CollectDigitalArtSection {
+    position: relative;
+    top: 5rem;
+    left: 3rem;
+    width: 640px;
+    height: 500px;
+  }
+  .collect {
+    position: relative;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 4.5em;
+    left: 1.7em;
+  }
+  .buyAndSell {
+    position: relative;
+    font-family: 'Caesar Dressing', cursive;
+    top: 0.8em;
+    font-size: 1.4em;
+    left: 5em;
+    display: inline-block;
+    -webkit-transform: scale(1.2, 1);
+    transform: scale(1.2, 1);
+  }
+  #startCollectingBtn {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 188px;
+    height: 70px;
+    font-size: 0.8em;
+    top: 30em;
+    left: 18em;
+  }
+  #slideshowWW-container {
+    position: relative;
+    width: 640px;
+    height: 720px;
+    top: 9rem;
+    left: 5rem;
+  }
+  .featuredArt {
+    position: absolute;
+    width: 640px;
+    height: 720px;
+  }
+  .slideEE {
+    display: none;
+  }
+  .active-slideEE {
+    display: block;
+  }
+  .featured {
+    position: absolute;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 1.4em;
+    left: 4.8em;
+    width: 150px;
+    top: 0.7em;
+  }
+  #featuredImage {
+    position: relative;
+    width: 388px;
+    height: 470px;
+    left: 6.8rem;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+  #featuredVideo {
+    position: relative;
+    width: 388px;
+    height: 470px;
+    left: 6.8rem;
+  }
+  .Artist {
+    position: relative;
+    top: 4em;
+    left: 6.2em;
+  }
+  #artistImage {
+    position: absolute;
+    top: 36em;
+    left: 7rem;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline;
+    cursor: pointer;
+  }
+  .artistName {
+    position: absolute;
+    left: 9.5em;
+    font-size: 1em;
+    top: 36.3em;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+  }
+  .Model {
+    position: absolute;
+    top: 35.5em;
+    left: 6em;
+  }
+  #modelsImage {
+    position: absolute;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    left: 6.7em;
+  }
+  .modelsName {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.95em;
+    color: black;
+    top: 10.4em;
+    left: 9.7em;
+  }
+  .releaseDate {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    bottom: 8em;
+    left: 27em;
+    color: black;
+  }
+  .Date {
+    position: absolute;
+    font-size: 1em;
+    bottom: 6.5em;
+    left: 25em;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+@media (min-width: 992px) {
+  #Row1 {
+    height: 1555px;
+  }
+  .CollectDigitalArtSection {
+    position: relative;
+    top: 2.8em;
+    width: 888px;
+    height: 555px;
+  }
+  .collect {
+    position: relative;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 5em;
+    width: 500px;
+    left: 2.4em;
+  }
+  .buyAndSell {
+    position: relative;
+    font-family: 'Caesar Dressing', cursive;
+    top: 0.8em;
+    font-size: 2.4em;
+    left: 3.4em;
+    display: inline-block;
+    -webkit-transform: scale(1.2, 1);
+    transform: scale(1.2, 1);
+  }
+  #startCollectingBtn {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 280px;
+    height: 90px;
+    font-size: 1.4em;
+    left: 13em;
+    top: 20em;
+  }
+  #slideshowWW-container {
+    position: relative;
+    width: 840px;
+    height: 888px;
+    top: 5.8rem;
+    left: 4rem;
+  }
+  .featuredArt {
+    position: relative;
+    width: 840px;
+    height: 888px;
+  }
+  .slideEE {
+    display: none;
+  }
+  .active-slideEE {
+    display: block;
+  }
+  .featured {
+    position: relative;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 1.8em;
+    width: 200px;
+    height: 32px;
+    left: 4.8em;
+    top: 0.5em;
+  }
+  #featuredImage {
+    position: relative;
+    width: 34rem;
+    height: 41rem;
+    top: 1.2rem;
+    left: 8.8rem;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+  #featuredVideo {
+    position: relative;
+    width: 34rem;
+    height: 41rem;
+    top: 1.2rem;
+    left: 8.8rem;
+  }
+  .Artist {
+    position: absolute;
+    left: 8em;
+    top: 42em;
+  }
+  #artistImage {
+    position: relative;
+    top: 2.3rem;
+    left: 9rem;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline;
+    cursor: pointer;
+  }
+  .artistName {
+    position: relative;
+    font-size: 1em;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    left: 12em;
+    top: 5.2em;
+  }
+  .Model {
+    position: relative;
+    left: 8em;
+    top: 3em;
+  }
+  #modelsImage {
+    position: relative;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    left: 9rem;
+    top: 0.1rem;
+  }
+  .modelsName {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.95em;
+    color: black;
+    left: 12.7em;
+    top: 3em;
+  }
+  .releaseDate {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    width: 120px;
+    left: 37em;
+    top: 45.7em;
+    height: 20px;
+    color: black;
+  }
+  .Date {
+    position: absolute;
+    font-size: 1em;
+    left: 35.8em;
+    top: 47.7em;
+    width: 150px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Row1 {
+    height: 800px;
+    width: 1255px;
+  }
+  .CollectDigitalArtSection {
+    position: relative;
+    width: 640px;
+    height: 685px;
+    left: -0.7rem;
+    top: -0.01rem;
+  }
+  .collect {
+    position: relative;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 5em;
+    left: 1.8em;
+    top: 0.8em;
+    width: 500px;
+  }
+  .buyAndSell {
+    position: relative;
+    font-family: 'Caesar Dressing', cursive;
+    top: 4em;
+    font-size: 1.4em;
+    left: 4.8em;
+    display: inline-block;
+    -webkit-transform: scale(1.2, 1);
+    transform: scale(1.2, 1);
+  }
+  #startCollectingBtn {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 280px;
+    height: 80px;
+    font-size: 1.2em;
+    left: 8.8em;
+    top: 27em;
+  }
+  #slideshowWW-container {
+    position: absolute;
+    width: 610px;
+    height: 678px;
+    top: 0rem;
+    bottom: 15rem;
+    left: 40rem;
+  }
+  .featuredArt {
+    position: absolute;
+    width: 610px;
+    height: 678px;
+    top: 0rem;
+    bottom: 15rem;
+    left: 0rem;
+  }
+  .slideEE {
+    display: none;
+  }
+  .active-slideEE {
+    display: block;
+  }
+  .featured {
+    position: absolute;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 1.2em;
+    width: 150px;
+    height: 32px;
+    left: 7em;
+    top: 1.2em;
+  }
+  #featuredImage {
+    position: relative;
+    width: 25rem;
+    height: 28rem;
+    left: 8.5rem;
+    top: 3rem;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+  #featuredVideo {
+    position: relative;
+    width: 25rem;
+    height: 28rem;
+    left: 8.5rem;
+    top: 3rem;
+  }
+  .Artist {
+    position: absolute;
+    left: 7.7em;
+    top: 28.8em;
+  }
+  #artistImage {
+    position: relative;
+    top: 3.5rem;
+    left: 8.6rem;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline;
+    cursor: pointer;
+  }
+  .artistName {
+    position: relative;
+    font-size: 1em;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    left: 11.4em;
+    top: 6.3em;
+  }
+  .Model {
+    position: relative;
+    left: 7.7em;
+    top: 3.7em;
+  }
+  #modelsImage {
+    position: relative;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    left: 8.7rem;
+    top: 1rem;
+  }
+  .modelsName {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.95em;
+    color: black;
+    left: 12em;
+    top: 3.7em;
+  }
+  .releaseDate {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    width: 115px;
+    left: 28em;
+    top: 31.7em;
+    height: 20px;
+    color: black;
+  }
+  .Date {
+    position: absolute;
+    font-size: 1em;
+    left: 26.5em;
+    top: 33.4em;
+    width: 150px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+/*# sourceMappingURL=Row1.css.map */

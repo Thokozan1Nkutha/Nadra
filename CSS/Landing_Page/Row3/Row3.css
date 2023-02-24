@@ -1,0 +1,721 @@
+#Row3 {
+  position: relative;
+  top: 3.4em;
+  height: 1800px;
+}
+
+.contentContainer {
+  width: 100%;
+  margin: 3rem auto;
+  position: relative;
+}
+
+.tab-slider--nav {
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+  height: 55px;
+}
+
+.tab-slider--tabs {
+  position: relative;
+  left: 3em;
+  float: left;
+  color: #ffffff;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  overflow: hidden;
+  height: 50px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.tab-slider--tabs:after {
+  content: "";
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
+
+.tab-slider--tabs.slide:after {
+  left: 50%;
+}
+
+.tab-slider--trigger {
+  border: 4px solid #ffffff;
+  width: 138px;
+  border-radius: 50px;
+  left: 0em;
+  font-size: 0.7em;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 11px 20px;
+  position: relative;
+  bottom: 0.10em;
+  z-index: 2;
+  cursor: pointer;
+  display: inline-block;
+  -webkit-transition: color 250ms ease-in-out;
+  transition: color 250ms ease-in-out;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.tab-slider--trigger.active {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.tab-slider--body {
+  margin-bottom: 20px;
+}
+
+#tab2 {
+  position: relative;
+  top: 5em;
+  height: 500px;
+}
+
+.youArentFollowingAnyoneYet {
+  position: relative;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.exploreTheRestOfNadra {
+  position: relative;
+  font-family: 'Alegreya Sans', sans-serif;
+  top: 1em;
+  font-size: 1em;
+}
+
+#btn-browseExplore {
+  position: relative;
+  top: 8.8em;
+  left: 17em;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: black;
+  background-color: white;
+  font-size: 0.5em;
+  text-align: center;
+  width: 100px;
+  height: 34px;
+  border-radius: 50px;
+  border: 2px solid black;
+}
+
+#ValentinImg {
+  position: relative;
+  top: 3.4rem;
+  left: 1.8rem;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: inline;
+  cursor: pointer;
+}
+
+.ValentinUFeedText {
+  position: relative;
+  left: 5.2em;
+  top: 1em;
+  font-size: 0.9em;
+  width: 222px;
+}
+
+.Vtime {
+  position: relative;
+  left: 6em;
+  font-size: 0.78em;
+  font-weight: bold;
+  color: #999;
+  width: 120px;
+}
+
+#hanabithekForYouImg {
+  position: relative;
+  width: 88%;
+  height: 88%;
+  left: 1.7rem;
+}
+
+@media (min-width: 576px) {
+  #Row3 {
+    height: 2400px;
+  }
+  .contentContainer {
+    width: 100%;
+    margin: 3rem auto;
+    position: relative;
+  }
+  .tab-slider--nav {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    height: 55px;
+  }
+  .tab-slider--tabs {
+    position: relative;
+    left: 10em;
+    float: left;
+    color: #ffffff;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .tab-slider--tabs:after {
+    content: "";
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+  }
+  .tab-slider--tabs.slide:after {
+    left: 50%;
+  }
+  .tab-slider--trigger {
+    width: 138px;
+    border-radius: 50px;
+    left: 0em;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 11px 20px;
+    position: relative;
+    bottom: 0.10em;
+    z-index: 2;
+    cursor: pointer;
+    display: inline-block;
+    -webkit-transition: color 250ms ease-in-out;
+    transition: color 250ms ease-in-out;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .tab-slider--trigger.active {
+    color: #ffffff;
+    background-color: #000000;
+  }
+  .tab-slider--body {
+    margin-bottom: 20px;
+  }
+  #tab2 {
+    position: relative;
+    top: 5em;
+    height: 500px;
+  }
+  .youArentFollowingAnyoneYet {
+    position: relative;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    left: 0.2em;
+  }
+  .exploreTheRestOfNadra {
+    position: relative;
+    font-family: 'Alegreya Sans', sans-serif;
+    top: 1em;
+    font-size: 1.3em;
+    left: 0.5em;
+  }
+  #btn-browseExplore {
+    position: relative;
+    top: 8.8em;
+    left: 12em;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: black;
+    background-color: white;
+    font-size: 1em;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid black;
+  }
+  #ValentinImg {
+    position: relative;
+    top: 3.4rem;
+    left: 3rem;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: inline;
+    cursor: pointer;
+  }
+  .ValentinUFeedText {
+    position: relative;
+    left: 5.8em;
+    top: 1em;
+    font-size: 1em;
+    width: 222px;
+  }
+  .Vtime {
+    position: relative;
+    left: 6.6em;
+    top: 0.2em;
+    font-size: 0.88em;
+    font-weight: bold;
+    color: #999;
+    width: 120px;
+  }
+  #hanabithekForYouImg {
+    position: relative;
+    width: 88%;
+    height: 88%;
+    left: 2.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #Row3 {
+    position: relative;
+    top: 12em;
+    height: 3250px;
+  }
+  .contentContainer {
+    width: 100%;
+    margin: 3rem auto;
+    position: relative;
+    top: 5rem;
+  }
+  .tab-slider--nav {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    height: 55px;
+  }
+  .tab-slider--tabs {
+    position: relative;
+    left: 15.5em;
+    float: left;
+    color: #ffffff;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .tab-slider--tabs:after {
+    content: "";
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+  }
+  .tab-slider--tabs.slide:after {
+    left: 50%;
+  }
+  .tab-slider--trigger {
+    width: 138px;
+    border-radius: 50px;
+    left: 0em;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 11px 20px;
+    position: relative;
+    bottom: 0.10em;
+    z-index: 2;
+    cursor: pointer;
+    display: inline-block;
+    -webkit-transition: color 250ms ease-in-out;
+    transition: color 250ms ease-in-out;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .tab-slider--trigger.active {
+    color: #ffffff;
+    background-color: #000000;
+  }
+  .tab-slider--body {
+    margin-bottom: 20px;
+  }
+  #tab2 {
+    position: relative;
+    top: 5em;
+    height: 500px;
+  }
+  .youArentFollowingAnyoneYet {
+    position: relative;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    left: 0.2em;
+  }
+  .exploreTheRestOfNadra {
+    position: relative;
+    font-family: 'Alegreya Sans', sans-serif;
+    top: 1em;
+    font-size: 1.3em;
+    left: 0.5em;
+  }
+  #btn-browseExplore {
+    position: relative;
+    top: 8.8em;
+    left: 12em;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: black;
+    background-color: white;
+    font-size: 1em;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid black;
+  }
+  #ValentinImg {
+    position: relative;
+    top: 3.4rem;
+    left: 3rem;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: inline;
+    cursor: pointer;
+  }
+  .ValentinUFeedText {
+    position: relative;
+    left: 5.8em;
+    top: 1em;
+    font-size: 1em;
+    width: 222px;
+  }
+  .Vtime {
+    position: relative;
+    left: 6.6em;
+    top: 0.2em;
+    font-size: 0.88em;
+    font-weight: bold;
+    color: #999;
+    width: 120px;
+  }
+  #hanabithekForYouImg {
+    position: relative;
+    width: 88%;
+    height: 88%;
+    left: 2.8rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #Row3 {
+    height: 2322px;
+  }
+  .contentContainer {
+    width: 100%;
+    margin: 3rem auto;
+    position: relative;
+    top: 0rem;
+  }
+  .tab-slider--nav {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    height: 55px;
+  }
+  .tab-slider--tabs {
+    position: relative;
+    left: 22.2em;
+    float: left;
+    color: #ffffff;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .tab-slider--tabs:after {
+    content: "";
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+  }
+  .tab-slider--tabs.slide:after {
+    left: 50%;
+  }
+  .tab-slider--trigger {
+    width: 138px;
+    border-radius: 50px;
+    left: 0em;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 11px 20px;
+    position: relative;
+    bottom: 0.10em;
+    z-index: 2;
+    cursor: pointer;
+    display: inline-block;
+    -webkit-transition: color 250ms ease-in-out;
+    transition: color 250ms ease-in-out;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .tab-slider--trigger.active {
+    color: #ffffff;
+    background-color: #000000;
+  }
+  .tab-slider--body {
+    margin-bottom: 20px;
+  }
+  #tab2 {
+    position: relative;
+    top: 5em;
+    height: 500px;
+  }
+  .youArentFollowingAnyoneYet {
+    position: relative;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    left: 0.2em;
+  }
+  .exploreTheRestOfNadra {
+    position: relative;
+    font-family: 'Alegreya Sans', sans-serif;
+    top: 1em;
+    font-size: 1.3em;
+    left: 0.5em;
+  }
+  #btn-browseExplore {
+    position: relative;
+    top: 8.8em;
+    left: 24.4em;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: black;
+    background-color: white;
+    font-size: 1em;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid black;
+  }
+  #ValentinImg {
+    position: relative;
+    top: 3.4rem;
+    left: 3rem;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: inline;
+    cursor: pointer;
+  }
+  .ValentinUFeedText {
+    position: relative;
+    left: 5.8em;
+    top: 1em;
+    font-size: 1em;
+    width: 222px;
+  }
+  .Vtime {
+    position: relative;
+    left: 6.6em;
+    top: 0.2em;
+    font-size: 0.88em;
+    font-weight: bold;
+    color: #999;
+    width: 120px;
+  }
+  #hanabithekForYouImg {
+    position: relative;
+    width: 48%;
+    height: 48%;
+    left: 2.8rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Row3 {
+    height: 3050px;
+    left: 1rem;
+  }
+  .contentContainer {
+    width: 70rem;
+    height: 180rem;
+    margin: 3rem auto;
+    position: relative;
+    top: 3rem;
+  }
+  .tab-slider--nav {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    height: 55px;
+  }
+  .tab-slider--tabs {
+    position: relative;
+    left: 33em;
+    float: left;
+    color: #ffffff;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .tab-slider--tabs:after {
+    content: "";
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+  }
+  .tab-slider--tabs.slide:after {
+    left: 50%;
+  }
+  .tab-slider--trigger {
+    width: 138px;
+    border-radius: 50px;
+    left: 0em;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 11px 20px;
+    position: relative;
+    bottom: 0.10em;
+    z-index: 2;
+    cursor: pointer;
+    display: inline-block;
+    -webkit-transition: color 250ms ease-in-out;
+    transition: color 250ms ease-in-out;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .tab-slider--trigger.active {
+    color: #ffffff;
+    background-color: #000000;
+  }
+  .tab-slider--body {
+    margin-bottom: 20px;
+  }
+  #tab2 {
+    position: relative;
+    top: 5em;
+    height: 500px;
+  }
+  .youArentFollowingAnyoneYet {
+    position: relative;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    left: 0.2em;
+  }
+  .exploreTheRestOfNadra {
+    position: relative;
+    font-family: 'Alegreya Sans', sans-serif;
+    top: 1em;
+    font-size: 1.3em;
+    left: 0.5em;
+  }
+  #btn-browseExplore {
+    position: relative;
+    top: 8.8em;
+    left: 34em;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: black;
+    background-color: white;
+    font-size: 1em;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid black;
+  }
+  #ValentinImg {
+    position: relative;
+    top: 3.4rem;
+    left: 8.8rem;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: inline;
+    cursor: pointer;
+  }
+  .ValentinUFeedText {
+    position: relative;
+    left: 11.5em;
+    top: 1em;
+    font-size: 1em;
+    width: 242px;
+  }
+  .Vtime {
+    position: relative;
+    left: 13.3em;
+    top: 0em;
+    font-size: 0.88em;
+    font-weight: bold;
+    color: #999;
+    width: 120px;
+  }
+  #hanabithekForYouImg {
+    position: relative;
+    width: 48%;
+    height: 48%;
+    left: 8.8rem;
+  }
+}
+/*# sourceMappingURL=Row3.css.map */

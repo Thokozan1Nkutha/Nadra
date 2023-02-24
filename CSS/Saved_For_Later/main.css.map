@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,OAAO,CAAC,wDAAI;AAGZ,OAAO,CAAC,uCAAI;AAGZ,OAAO,CAAC,wDAAI",
+    "sources": [
+        "main.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

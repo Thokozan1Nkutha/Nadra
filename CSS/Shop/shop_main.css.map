@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,OAAO,CAAC,qCAAI;AAGZ,OAAO,CAAC,mCAAI;AAGZ,OAAO,CAAC,gCAAI",
+    "sources": [
+        "shop_main.scss"
+    ],
+    "names": [],
+    "file": "shop_main.css"
+}

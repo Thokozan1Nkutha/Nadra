@@ -1,0 +1,1207 @@
+//footer with a black background
+#Row2{
+    position: relative;
+    top: 90rem;
+    height: 1400px;
+    background: black;
+    background-size: cover;
+}
+  
+//google maps embedded map positioned under the logo image and credit paragraph
+#map{
+    position: relative;
+    top: 51rem;
+    left: 0.8rem;
+    border-radius: 20px;
+   // border: 5px solid rgb(89, 0, 255);
+    filter: invert(90%);
+    width: 350px;
+    height: 290px;
+}
+  
+//map heading positioned on the top of the map
+.comeAndSeeUs{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+   // border: 2px solid blue;
+    top: 14em;
+    left: 3.9em;
+    width: 220px;
+}
+  
+//store logo positioned on the top left of the footer
+#footerLogo{
+    position: relative;
+    //border: 5px solid red;
+    width: 250px;
+    height: 100px;
+    bottom: 16em;
+    left: 3.5em;
+}
+//credit paragraph positioned under the logo
+.inspired{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 10.5em;
+    left: 1em;
+    font-size: 1.5em;
+    width: 330px;
+    color: white;
+}
+  
+// the code below [line 54 to line 107] styles the word/link "SuperRare" and is from:https://codepen.io/team/css-tricks/pen/jOarVmy
+.superrare {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+   // color: white;
+}
+  
+.superrare::before,
+.superrare::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+.superrare::before {
+    background-color: #ffffff;
+    height: 2px;
+    bottom: 0;
+    transform-origin: 100% 50%;
+    transform: scaleX(0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.superrare::after {
+    content: attr(data-replace);
+    height: 100%;
+    top: 0;
+    transform-origin: 100% 50%;
+    transform: translate3d(200%, 0, 0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    color: #ffffff;
+}
+  
+.superrare:hover::before {
+    transform-origin: 0% 50%;
+    transform: scaleX(1);
+}
+.superrare:hover::after {
+    transform: translate3d(0, 0, 0);
+}
+  
+.superrare span {
+    display: inline-block;
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+  
+.superrare:hover span {
+    transform: translate3d(-200%, 0, 0);
+}
+  
+.superrare {
+    text-decoration: none;
+    color: #aeb2b4;
+    font-weight: 700;
+    vertical-align: top;
+}
+  
+//subscription card with an image background
+.subscriptionCard{
+    //border: 5px solid red;
+    position: absolute;
+   // bottom: 38rem;
+    top: 13.8rem;
+    left: 1.8rem;
+    height: 400px;
+    background: url("../../../Images/newsletterBg.jpg");
+    background-size: cover;
+    border: border-box;
+    border-radius: 8px;
+    background-color: #221D33;
+    width: 343px;
+    padding: 30px 25px;
+    margin: auto; 
+    margin-top: 10%;
+}
+  
+// the word "subscribe?"
+.footer-card-title{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    box-shadow: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+//the submit button, styled to appear as just a word colored white and black when hovered on
+#newsletterBtn{
+   // border: 5px solid red;
+    position: relative;
+    top: 5em;
+    right: 0.5em;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background:transparent;
+    cursor:pointer;
+    color:white;
+    font-size: 1.3em;
+}
+#newsletterBtn:hover { 
+    color:#000000;
+}
+  
+  //email address input field, styled to only have a bottom border and colored white
+#userEmail{
+    position: relative;
+    top: 5em;
+    left: 0.5em;
+    color: #ffffff;
+    border-bottom: 2px solid white ;
+    background: transparent;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+}
+#userEmail::placeholder{
+    color: white;
+}
+  
+// the paragraph under "Subscribe?" colored white
+.subscribeUs{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0.5em;
+    color: white;
+    font-weight: bold;
+}
+  
+// links positioned on the left of the footer under the logo image and paragraph, colored white
+.footerLinks{
+    position: relative;
+    width: 360px;
+    right: 0.1em;
+    top: 47em;
+    color: #ffffff;
+}
+  
+// styling each link
+.footerLink-item{
+    display: inline;
+    margin: 5px;
+}
+.footerLink-item a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footerLink-item a:hover{
+    border-bottom: 3px solid white;
+    color: white;
+    text-decoration: none;
+}
+  
+// "Nadra © 2022" 
+.copyright{
+    position: relative;
+    //border: 4px solid red;
+    width: 120px;
+    bottom: 0em;
+    top: 49em;
+    left: 8em;
+    color: #ffffff;
+}
+  
+// social media icons positioned on the left of the footer under the logo image, paragraph and links
+.socialMediaIcons{
+   // border: 5px solid red;
+    position: relative;
+    top: 45rem;
+   // bottom: 12em;
+    width: 280px;
+    height: 50px;
+    left: 3.6em;
+}
+  
+//styling each icon
+#socialApp-Logo{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+//                                  # Media Queries #
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+//footer with a black background
+#Row2{
+    //  border: 5px solid rgb(255, 0, 0);
+    position: relative;
+    top: 10rem;
+    height: 1400px;
+    width: 602px;
+    background: black;
+    background-size: cover;
+}
+  
+  
+//google maps embedded map positioned under the logo image and credit paragraph
+#map{
+    position: relative;
+    top: 52rem;
+    left:7rem;
+    border-radius: 20px;
+   // border: 5px solid rgb(89, 0, 255);
+    filter: invert(90%);
+    width: 350px;
+    height: 290px;
+}
+  
+//map heading positioned on the top of the map
+.comeAndSeeUs{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+   // border: 2px solid blue;
+    top: 14em;
+    // bottom: 13em;
+    left: 7.7em;
+    width: 220px;
+}
+  
+//store logo positioned on the top left of the footer
+#footerLogo{
+    position: relative;
+    //border: 5px solid red;
+    width: 250px;
+    height: 100px;
+    bottom: 16em;
+    left: 10em;
+}
+//credit paragraph positioned under the logo
+.inspired{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 10.5em;
+    left: 5em;
+    font-size: 1.5em;
+    width: 330px;
+    color: white;
+}
+  
+// the code below [line 305 to line 359] styles the word/link "SuperRare" and is from:https://codepen.io/team/css-tricks/pen/jOarVmy
+.superrare {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+   // color: white;
+}
+  
+.superrare::before,
+.superrare::after {
+   content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+.superrare::before {
+    background-color: #ffffff;
+    height: 2px;
+    bottom: 0;
+    transform-origin: 100% 50%;
+    transform: scaleX(0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.superrare::after {
+    content: attr(data-replace);
+    height: 100%;
+    top: 0;
+    transform-origin: 100% 50%;
+    transform: translate3d(200%, 0, 0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    color: #ffffff;
+}
+  
+.superrare:hover::before {
+    transform-origin: 0% 50%;
+    transform: scaleX(1);
+}
+.superrare:hover::after {
+    transform: translate3d(0, 0, 0);
+}
+  
+.superrare span {
+    display: inline-block;
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+  
+.superrare:hover span {
+    transform: translate3d(-200%, 0, 0);
+}
+  
+.superrare {
+    text-decoration: none;
+    color: #aeb2b4;
+    font-weight: 700;
+    vertical-align: top;
+}
+  
+//subscription card with an image background
+.subscriptionCard{
+    //border: 5px solid red;
+    position: absolute;
+   // bottom: 38rem;
+    top: 13.8rem;
+    left: 8rem;
+    height: 400px;
+    background: url("../../../Images/newsletterBg.jpg");
+    background-size: cover;
+    border: border-box;
+    border-radius: 8px;
+    background-color: #221D33;
+    width: 343px;
+    padding: 30px 25px;
+    margin: auto; 
+    margin-top: 10%;
+}
+  
+// the word "subscribe?"
+.footer-card-title{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    box-shadow: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+//the submit button, styled to appear as just a word colored white and black when hovered on
+#newsletterBtn{
+   // border: 5px solid red;
+    position: relative;
+    top: 5em;
+    right: 0.5em;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background:transparent;
+    cursor:pointer;
+    color:white;
+    font-size: 1.3em;
+}
+#newsletterBtn:hover { 
+    color:#000000;
+}
+  
+//email address input field, styled to only have a bottom border and colored white
+#userEmail{
+    position: relative;
+    top: 5em;
+    left: 0.5em;
+    color: #ffffff;
+    border-bottom: 2px solid white ;
+    background: transparent;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+}
+#userEmail::placeholder{
+    color: white;
+}
+  
+// the paragraph under "Subscribe?" colored white
+.subscribeUs{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0.5em;
+    color: white;
+    font-weight: bold;
+}
+  
+// links positioned on the left of the footer under the logo image and paragraph, colored white
+.footerLinks{
+    position: relative;
+    //bottom: 8em;
+    //border: 4px solid red;
+    width: 360px;
+    left: 5.7em;
+    top: 47em;
+    color: #ffffff;
+}
+  
+// styling each link
+.footerLink-item{
+    display: inline;
+    margin: 5px;
+}
+.footerLink-item a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footerLink-item a:hover{
+    border-bottom: 3px solid white;
+    color: white;
+    text-decoration: none;
+}
+  
+// "Nadra © 2022" 
+.copyright{
+    position: relative;
+    //border: 4px solid red;
+    width: 120px;
+    bottom: 0em;
+    top: 49em;
+    left: 14.7em;
+    color: #ffffff;
+}
+  
+// social media icons positioned on the left of the footer under the logo image, paragraph and links
+.socialMediaIcons{
+// border: 5px solid red;
+    position: relative;
+    top: 45rem;
+    width: 280px;
+    height: 50px;
+    left: 9.7em;
+}
+  
+//styling each icon
+#socialApp-Logo{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+//6th row, basically a footer with a black background
+#Row2{
+    //  border: 5px solid rgb(255, 0, 0);
+    position: relative;
+    top: 13rem;
+    height: 1400px;
+    width: auto;
+    background: black;
+    background-size: cover;
+}
+  
+  
+//google maps embedded map positioned under the logo image and credit paragraph
+#map{
+    position: relative;
+    top: 55rem;
+    left: 6.2rem;
+    border-radius: 20px;
+   // border: 5px solid rgb(89, 0, 255);
+    filter: invert(90%);
+    width: 555px;
+    height: 344px;
+}
+  
+//map heading positioned on the top of the map
+.comeAndSeeUs{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+   // border: 2px solid blue;
+    top: 17em;
+    // bottom: 13em;
+    left: 10.5em;
+    width: 234px;
+}
+  
+//store logo positioned on the top left of the footer
+#footerLogo{
+    position: absolute;
+    top: 2rem;
+    left: 16rem;
+    width: 250px;
+    height: 100px;
+}
+//credit paragraph positioned under the logo
+.inspired{
+    //border: 5px solid red;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 9.5em;
+    left: 8.5em;
+    font-size: 1.5em;
+    width: 340px;
+    color: white;
+}
+  
+// the code below [line 550 to line 603] styles the word/link "SuperRare" and is from:https://codepen.io/team/css-tricks/pen/jOarVmy
+.superrare {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+   // color: white;
+} 
+.superrare::before,
+.superrare::after {
+   content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+.superrare::before {
+    background-color: #ffffff;
+    height: 2px;
+    bottom: 0;
+    transform-origin: 100% 50%;
+    transform: scaleX(0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.superrare::after {
+    content: attr(data-replace);
+    height: 100%;
+    top: 0;
+    transform-origin: 100% 50%;
+    transform: translate3d(200%, 0, 0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    color: #ffffff;
+}
+  
+.superrare:hover::before {
+    transform-origin: 0% 50%;
+    transform: scaleX(1);
+}
+.superrare:hover::after {
+    transform: translate3d(0, 0, 0);
+}
+  
+.superrare span {
+    display: inline-block;
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+  
+.superrare:hover span {
+    transform: translate3d(-200%, 0, 0);
+}
+  
+.superrare {
+    text-decoration: none;
+    color: #aeb2b4;
+    font-weight: 700;
+    vertical-align: top;
+}
+  
+//subscription card with an image background
+.subscriptionCard{
+    //border: 5px solid red;
+    position: absolute;
+   // bottom: 38rem;
+    top: 10rem;
+    left: 7.4rem;
+    height: 500px;
+    background: url("../../../Images/newsletterBg.jpg");
+    background-size: cover;
+    border: border-box;
+    border-radius: 8px;
+    background-color: #221D33;
+    width: 544px;
+    padding: 30px 25px;
+    margin: auto; 
+    margin-top: 10%;
+}
+  
+// the word "subscribe?"
+.footer-card-title{
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+//the submit button, styled to appear as just a word colored white and black when hovered on
+#newsletterBtn{
+   // border: 5px solid red;
+    position: relative;
+    top: 10em;
+    right: 10em;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background:transparent;
+    cursor:pointer;
+    color:white;
+    font-size: 1.6em;
+}
+#newsletterBtn:hover { 
+    color:#000000;
+}
+  
+//email address input field, styled to only have a bottom border and colored white
+#userEmail{
+    position: relative;
+    font-size: 1.3em;
+    top: 8.8em;
+    left: 1.2em;
+    color: #ffffff;
+    border-bottom: 2px solid white ;
+    background: transparent;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+}
+#userEmail::placeholder{
+    color: white;
+}
+  
+// the paragraph under "Subscribe?" colored white
+.subscribeUs{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    top: 0.5em;
+    color: white;
+    font-weight: bold;
+}
+  
+// links positioned on the left of the footer under the logo image and paragraph, colored white
+.footerLinks{
+    position: relative;
+    //bottom: 8em;
+    //border: 4px solid red;
+    width: 360px;
+    left: 11.1em;
+    top: 52em;
+    color: #ffffff;
+}
+  
+// styling each link
+.footerLink-item{
+    display: inline;
+    margin: 5px;
+}
+.footerLink-item a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footerLink-item a:hover{
+    border-bottom: 3px solid white;
+    color: white;
+    text-decoration: none;
+}
+  
+// "Nadra © 2022" 
+  .copyright{
+    position: relative;
+    //border: 4px solid red;
+    width: 120px;
+    bottom: 0em;
+    top: 52em;
+    left: 20em;
+    color: #ffffff;
+}
+  
+// social media icons positioned on the left of the footer under the logo image, paragraph and links
+.socialMediaIcons{
+   // border: 5px solid red;
+    position: relative;
+    top: 51rem;
+    width: 280px;
+    height: 50px;
+    left: 15em;
+}
+  
+//styling each icon
+#socialApp-Logo{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+//footer with a black background
+#Row2{
+    //  border: 5px solid rgb(255, 0, 0);
+    position: relative;
+    top: 8rem;
+    height: 500px;
+    width: auto;
+    background: black;
+    background-size: cover;
+}
+   
+//google maps embedded map positioned under the logo image and credit paragraph
+#map{
+    position: relative;
+    top: 10rem;
+    left: 39.8rem;
+    border-radius: 20px;
+   // border: 5px solid rgb(89, 0, 255);
+    filter: invert(90%);
+    width: 322px;
+    height: 222px;
+}
+  
+//map heading positioned on the top of the map
+.comeAndSeeUs{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    //border: 2px solid blue;
+    top: -6em;
+    left: 25.5em;
+    width: 244px;
+}
+  
+//store logo positioned on the top left of the footer
+#footerLogo{
+    position: absolute;
+    top: 2rem;
+    left: 3.4rem;
+    width: 200px;
+    height: 80px;
+}
+//credit paragraph positioned under the logo
+.inspired{
+    //border: 5px solid red;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 5.4em;
+    left: 0.5em;
+    font-size: 1.3em;
+    width: 340px;
+    color: white;
+}
+  
+// the code below [line 793 to line 847] styles the word/link "SuperRare" and is from:https://codepen.io/team/css-tricks/pen/jOarVmy
+.superrare {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+   // color: white;
+}
+  
+.superrare::before,
+.superrare::after {
+   content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+.superrare::before {
+    background-color: #ffffff;
+    height: 2px;
+    bottom: 0;
+    transform-origin: 100% 50%;
+    transform: scaleX(0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.superrare::after {
+    content: attr(data-replace);
+    height: 100%;
+    top: 0;
+    transform-origin: 100% 50%;
+    transform: translate3d(200%, 0, 0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    color: #ffffff;
+}
+  
+.superrare:hover::before {
+    transform-origin: 0% 50%;
+    transform: scaleX(1);
+}
+.superrare:hover::after {
+    transform: translate3d(0, 0, 0);
+}
+  
+.superrare span {
+    display: inline-block;
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+  
+.superrare:hover span {
+    transform: translate3d(-200%, 0, 0);
+}
+  
+.superrare {
+    text-decoration: none;
+    color: #aeb2b4;
+    font-weight: 700;
+    vertical-align: top;
+}
+  
+//subscription card with an image background
+.subscriptionCard{
+    //border: 5px solid red;
+    position: absolute;
+    bottom: 3rem;
+    top: 0rem;
+    left: 21.4rem;
+    height: 340px;
+    background: url("../../../Images/newsletterBg.jpg");
+    background-size: cover;
+    border: border-box;
+    border-radius: 8px;
+    background-color: #221D33;
+    width: 284px;
+    padding: 30px 25px;
+    margin: auto; 
+    margin-top: 10%;
+}
+  
+// the word "subscribe?"
+.footer-card-title{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+//the submit button, styled to appear as just a word colored white and black when hovered on
+#newsletterBtn{
+   // border: 5px solid red;
+    position: relative;
+    top: 8em;
+    left: 0.5em;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background:transparent;
+    cursor:pointer;
+    color:white;
+    font-size: 1em;
+}
+#newsletterBtn:hover { 
+    color:#000000;
+}
+  
+//email address input field, styled to only have a bottom border and colored white
+#userEmail{
+    position: relative;
+    font-size: 0.8em;
+    top: 8.8em;
+    left: 1.2em;
+    color: #ffffff;
+    border-bottom: 2px solid white ;
+    background: transparent;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+}
+#userEmail::placeholder{
+    color: white;
+}
+  
+// the paragraph under "Subscribe?" colored white
+.subscribeUs{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    top: 0.5em;
+    color: white;
+    font-weight: bold;
+}
+  
+// links positioned on the left of the footer under the logo image and paragraph, colored white
+.footerLinks{
+    position: relative;
+    width: 360px;
+    left: -2em;
+    top: -8em;
+    color: #ffffff;
+}
+  
+// styling each link
+.footerLink-item{
+    display: inline;
+    margin: 5px;
+}
+.footerLink-item a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footerLink-item a:hover{
+    border-bottom: 3px solid white;
+    color: white;
+    text-decoration: none;
+}
+  
+// "Nadra © 2022" 
+.copyright{
+    position: relative;
+    //border: 4px solid red;
+    width: 120px;
+    bottom: 0em;
+    top: 2em;
+    left: 6em;
+    color: #ffffff;
+}
+  
+// social media icons positioned on the left of the footer under the logo image, paragraph and links
+.socialMediaIcons{
+   // border: 5px solid red;
+    position: relative;
+    top: 1rem;
+    width: 280px;
+    height: 50px;
+    left: 1.2em;
+}
+  
+//styling each icon
+#socialApp-Logo{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+//footer with a black background
+#Row2{
+    //  border: 5px solid black;
+    position: relative;
+    top: 10rem;
+    height: 400px;
+    background: black;
+    background-size: cover;
+}
+  
+//google maps embedded map positioned on the right of the screen and styled for dark mode
+#map{
+    position: relative;
+    top: 5.5rem;
+    left: 48rem;
+   // border: 5px solid rgb(89, 0, 255);
+    filter: invert(90%);
+    width: 470px;
+    height: 290px;
+}
+  
+//map heading positioned on the top of the map
+.comeAndSeeUs{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    //border: 2px solid blue;
+    top: 1.4em;
+    left: 33em;
+    width: 250px;
+}
+  
+//store logo positioned on the top left of the footer
+#footerLogo{
+    position: absolute;
+    //border: 5px solid red;
+    width: 250px;
+    height: 100px;
+    // bottom: 13em;
+     //left: -20em;
+}
+//credit paragraph positioned under the logo
+.inspired{
+   // border: 5px solid red;
+    position: absolute;
+    top: 5em;
+    left: 1em;
+    font-size: 1.5em;
+    width: 342px;
+    color: white;
+}
+  
+// the code below [line 1038 to line 1095] styles the word/link "SuperRare" and is from:https://codepen.io/team/css-tricks/pen/jOarVmy
+.superrare {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+   // color: white;
+}
+  
+.superrare::before,
+.superrare::after {
+   content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+.superrare::before {
+    background-color: #ffffff;
+   
+    height: 2px;
+    bottom: 0;
+    transform-origin: 100% 50%;
+    transform: scaleX(0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.superrare::after {
+    content: attr(data-replace);
+    height: 100%;
+    top: 0;
+    transform-origin: 100% 50%;
+    transform: translate3d(200%, 0, 0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    color: #ffffff;
+}
+  
+.superrare:hover::before {
+    transform-origin: 0% 50%;
+    transform: scaleX(1);
+}
+.superrare:hover::after {
+    transform: translate3d(0, 0, 0);
+}
+  
+.superrare span {
+    display: inline-block;
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+  
+.superrare:hover span {
+    transform: translate3d(-200%, 0, 0);
+}
+  
+.superrare {
+    text-decoration: none;
+    color: #b7d5e4;
+    font-weight: 700;
+    vertical-align: top;
+}
+  
+//subscription card with an image background
+.subscriptionCard{
+    //border: 5px solid red;
+    position: absolute;
+    top: -6.5rem;
+    //bottom: 6em;
+    left: 25rem;
+  
+    background-image: url("../../../Images/newsletterBg.jpg");
+    background-size: cover;
+    border: border-box;
+    border-radius: 8px;
+    background-color: #221D33;
+     height: 344px;
+   width: 343px;
+//  width: 100%; 
+//  height: 100%;
+    padding: 30px 25px;
+    margin: auto; 
+    margin-top: 10%;
+}
+  
+// the word "subscribe?"
+.footer-card-title{
+    color: rgb(255, 255, 255);
+    font-size: 2.4em;
+    box-shadow: #000000;
+}
+//the submit button, styled to appear as just a word colored white and black when hovered on
+#newsletterBtn{
+    position: relative;
+    top: 7em;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background:transparent;
+    cursor:pointer;
+    color:white;
+    font-size: 1.3em;
+}
+#newsletterBtn:hover { 
+    color:#000000;
+}
+  
+//email address input field, styled to only have a bottom border and colored white
+#userEmail{
+    position: relative;
+    top: 5em;
+    left: 0.5em;
+    color: #ffffff;
+    border-bottom: 2px solid white ;
+    background: transparent;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+}
+#userEmail::placeholder{
+    color: white;
+}
+  
+// the paragraph under "Subscribe?" colored white
+.subscribeUs{
+    position: relative;
+    top: 0.5em;
+    color: white;
+    font-weight: bold;
+}
+  
+// links positioned on the left of the footer under the logo image and paragraph, colored white
+.footerLinks{
+    position: relative;
+    bottom: 8em;
+    width: 380px;
+    left: -1.4em;
+    top: 5;
+    color: #ffffff;
+}
+  
+// styling each link
+.footerLink-item{
+    display: inline;
+    margin: 5px;
+}
+.footerLink-item a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footerLink-item a:hover{
+    border-bottom: 3px solid white;
+    color: white;
+    text-decoration: none;
+}
+  
+// "Nadra © 2022" 
+.copyright{
+    position: absolute;
+    //border: 4px solid red;
+    width: 120px;
+    left: 8em;
+    top: 22.2em;
+    color: #ffffff;
+}
+  
+// social media icons positioned on the left of the footer under the logo image, paragraph and links
+.socialMediaIcons{
+    position: relative;
+    top: -2em;
+    width: 280px;
+    height: 50px;
+    left: 1.8em;
+}
+  
+//styling each icon
+#socialApp-Logo{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+}

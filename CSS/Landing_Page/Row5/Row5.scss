@@ -1,0 +1,380 @@
+//                                      # COMMENT FORM #
+
+
+//REFERENCE: https://codepen.io/ZachSaucier/pen/jOwNvO
+
+//5th row
+#Row5{
+    position: relative;
+    top: 3rem;
+    left: 1.1em;
+    width: auto;
+}
+  
+// "tell us something?" positioned in the middle of the screen and colored black
+.comment{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    top: 1.5em;
+    left: 1.8em;
+    width: 270px;
+}
+  
+// the comment form positioned in the middle of the screen
+#commentForm{
+    position: relative;
+    top: 1em;
+    left: 1em;
+    width: 300px;
+}
+  
+form { max-width:420px; margin:50px auto; }
+
+//input fields
+.feedback-input {
+  color:rgb(0, 0, 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #000000;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+  
+.feedback-input:focus { border:2px solid #ffffff; }
+  
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+// the submit button  
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#000000;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#ffffff;
+  color:#000000;
+}
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+//5th row
+#Row5{
+    position: relative;
+    top: 3.3rem;
+    width: 560px;
+}
+  
+// "tell us something?" positioned in the middle of the screen and colored black
+.comment{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    top: 1.5em;
+    left: 5em;
+    width: 270px;
+}
+  
+// the comment form positioned in the middle of the screen
+#commentForm{
+    position: relative;
+    top: 1em;
+    width: 300px;
+}
+  
+form { max-width:420px; margin:50px auto; }
+
+//input fields
+.feedback-input {
+  color:rgb(0, 0, 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #000000;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+  
+.feedback-input:focus { border:2px solid #ffffff; }
+  
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+// the submit button  
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#000000;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#ffffff;
+  color:#000000;
+}
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+//5th row
+#Row5{
+    position: relative;
+    width: 768px;
+    top: 14rem;
+}
+  
+// "tell us something?" positioned in the middle of the screen and colored black
+.comment{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    top: 1.5em;
+    left: 7em;
+    width: 270px;
+}
+  
+// the comment form positioned in the middle of the screen
+#commentForm{
+    position: relative;
+    top: 1em;
+    width: 300px;
+}
+  
+form { max-width:420px; margin:50px auto; }
+
+//input fields
+.feedback-input {
+  color:rgb(0, 0, 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #000000;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+  
+.feedback-input:focus { border:2px solid #ffffff; }
+  
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+// the submit button  
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#000000;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#ffffff;
+  color:#000000;
+}
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+//5th row
+#Row5{
+    position: relative;
+    top: 14rem;
+    height: 800px;
+    width: 992px;
+}
+  
+// "tell us something?" positioned in the middle of the screen and colored black
+.comment{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    top: 4.5em;
+    left: 8.8em;
+    width: 280px;
+}
+  
+// the comment form positioned in the middle of the screen
+#commentForm{
+    position: relative;
+    top: 8.8em;
+    width: 700px;
+}
+  
+form { max-width:420px; margin:50px auto; }
+
+//input fields
+.feedback-input {
+  color:rgb(0, 0, 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #000000;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+  
+.feedback-input:focus { border:2px solid #ffffff; }
+  
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+// the submit button  
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#000000;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#ffffff;
+  color:#000000;
+}
+
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    //5th row
+#Row5{
+    position: relative;
+    top: 15rem;
+    width: 1200px;
+}
+  
+// "tell us something?" positioned in the middle of the screen and colored black
+.comment{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    top: 5em;
+    left: 12em;
+    width: 288px;
+}
+  
+// the comment form positioned in the middle of the screen
+#commentForm{
+    position: relative;
+    top: 15em;
+    width: 888px;
+}
+  
+form { max-width:420px; margin:50px auto; }
+
+//input fields
+.feedback-input {
+  color:rgb(0, 0, 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #000000;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+  
+.feedback-input:focus { border:2px solid #ffffff; }
+  
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+// the submit button  
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#000000;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#ffffff;
+  color:#000000;
+}
+
+}

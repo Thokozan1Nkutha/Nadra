@@ -1,0 +1,832 @@
+//                                     # Styling the CONTENT posted by artists #
+
+// the first post is styled in this sheet [line 128 to 167] ,and it's media queries are also in this sheet
+// the two other posts have their own stylesheets
+// the "following" and "for you" tabs are from: // https://codepen.io/derekjp/pen/pPqwXJ [line 18 to line 86]
+
+$base-margin: 20px;
+$black: #000000;
+$white: #ffffff;
+$tab-height: 35px;
+$tab-border-radius: 35px;
+
+//resizing the row
+#Row3{
+	position: relative;
+	top: 3.4em;
+    height: 1800px;
+	//border: 5px solid rgb(0, 157, 255);
+}
+
+// contains everything from the "for you" and "following" buttons to the content posted
+.contentContainer{
+	width: 100%;
+	margin: 3rem auto;
+	position: relative;
+}
+
+//"for you" and "following" buttons container
+.tab-slider--nav{
+	width: 100%;
+	float: left;
+	margin-bottom: $base-margin;
+	height: 55px;
+}
+.tab-slider--tabs{
+	position: relative;
+	left: 3em;
+	float: left;
+	color: $white;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	overflow: hidden;
+	height: 50px;
+	user-select: none; 
+
+	&:after{
+		content: "";
+		width: 50%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		transition: all 250ms ease-in-out;
+		
+	}
+	&.slide:after{
+		left: 50%;
+	}
+}
+
+// "for you" and "following" buttons
+.tab-slider--trigger {
+	border: 4px solid $white;
+	width: 138px;
+	border-radius: 50px;
+	left: 0em;
+	font-size: 0.7em;
+	font-weight: bold;
+	color: $black;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 11px $base-margin;
+	position: relative;
+	bottom: 0.10em;
+	z-index: 2;
+	cursor: pointer;
+	display: inline-block;
+	transition: color 250ms ease-in-out;
+	user-select: none; 
+	&.active {
+		color: $white;
+		background-color: $black;
+	}
+}
+.tab-slider--body{
+	margin-bottom: $base-margin;
+}
+
+//													# "FOLLOWING" PAGE #
+
+//contains the content of this tab/page
+#tab2{
+	position: relative;
+	top: 5em;
+	height: 500px;
+}
+//designed to appear bigger than the paragraph below, colored black and positioned on the left of the screen
+.youArentFollowingAnyoneYet{
+	position: relative;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: bold;
+	font-size: 3em;
+	
+}
+// designed to appear smaller than the above heading, colored black and positioned on the left of the screen
+.exploreTheRestOfNadra{
+	position: relative;
+	font-family: 'Alegreya Sans', sans-serif;
+	top: 1em;
+	font-size: 1em;
+}
+// "Browse Explore" button designed to have a white background, black text, black curved border and to be positioned in the middle
+#btn-browseExplore{
+	position: relative;
+    top: 8.8em;
+	left: 17em;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 0.5em;
+    text-align: center;
+    width: 100px;
+    height: 34px;
+	border-radius: 50px;
+	border: 2px solid black;
+}
+
+
+//                    								# "FOR YOU" PAGE #
+//styling all content that will be displayed
+
+//artist's profile picture aligned with the artwork image
+#ValentinImg{
+  position: relative;
+  top: 3.4rem;
+  left: 1.8rem;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: inline;
+  cursor: pointer;
+}
+
+// "@valentinfabre posted Icy Hot" positioned above the time and on the right of the profile picture. the username is colored blue in the html [Ln 159, Col 46]
+.ValentinUFeedText{
+	position: relative;
+	left: 5.2em;
+	top: 1em;
+	font-size: 0.9em;
+	width: 222px;
+}
+
+//the time the artist posted at. positioned on the right of the profile picture and the artist's username
+.Vtime{
+	position: relative;
+	left: 6em;
+	font-size: 0.78em;
+	font-weight: bold;
+	color: #999;
+	width: 120px;
+}
+
+//the artwork posted, positioned in the middle of the screen
+#hanabithekForYouImg{
+	position: relative;
+	width: 88%; 
+	height: 88%;
+    left: 1.7rem;
+}
+
+
+//                                    # Media Queries #
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+//resizing the row
+#Row3{
+    height: 2400px;
+}
+
+// contains everything from the "for you" and "following" buttons to the content posted
+.contentContainer{
+	width: 100%;
+	margin: 3rem auto;
+	position: relative;
+}
+
+//"for you" and "following" buttons container
+.tab-slider--nav{
+	width: 100%;
+	float: left;
+	margin-bottom: $base-margin;
+	height: 55px;
+}
+.tab-slider--tabs{
+	position: relative;
+	left: 10em;
+	float: left;
+	color: $white;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	overflow: hidden;
+	height: 50px;
+	user-select: none; 
+
+	&:after{
+		content: "";
+		width: 50%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		transition: all 250ms ease-in-out;
+		
+	}
+	&.slide:after{
+		left: 50%;
+	}
+}
+
+// "for you" and "following" buttons
+.tab-slider--trigger {
+	width: 138px;
+	border-radius: 50px;
+	left: 0em;
+	font-size: 0.8em;
+	font-weight: bold;
+	color: $black;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 11px $base-margin;
+	position: relative;
+	bottom: 0.10em;
+	z-index: 2;
+	cursor: pointer;
+	display: inline-block;
+	transition: color 250ms ease-in-out;
+	user-select: none; 
+	&.active {
+		color: $white;
+		background-color: $black;
+	}
+}
+.tab-slider--body{
+	margin-bottom: $base-margin;
+}
+
+//													# "FOLLOWING" PAGE #
+
+//contains the content of this tab/page
+#tab2{
+	position: relative;
+	top: 5em;
+	height: 500px;
+}
+//designed to appear bigger than the paragraph below, colored black and positioned on the left of the screen
+.youArentFollowingAnyoneYet{
+	position: relative;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: bold;
+	font-size: 3em;
+	left: 0.2em;
+	
+}
+// designed to appear smaller than the above heading, colored black and positioned on the left of the screen
+.exploreTheRestOfNadra{
+	position: relative;
+	font-family: 'Alegreya Sans', sans-serif;
+	top: 1em;
+	font-size: 1.3em;
+	left: 0.5em;
+}
+// "Browse Explore" button designed to have a white background, black text, black curved border and to be positioned in the middle
+#btn-browseExplore{
+	position: relative;
+    top: 8.8em;
+	left: 12em;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 1em;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+	border-radius: 50px;
+	border: 2px solid black;
+}
+
+
+//                    								# "FOR YOU" PAGE #
+//styling all content that will be displayed
+
+//artist's profile picture aligned with the artwork image
+#ValentinImg{
+  position: relative;
+  top: 3.4rem;
+  left: 3rem;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: inline;
+  cursor: pointer;
+}
+
+// "@valentinfabre posted Icy Hot" positioned above the time and on the right of the profile picture. the username is colored blue in the html [Ln 159, Col 46]
+.ValentinUFeedText{
+	position: relative;
+	left: 5.8em;
+	top: 1em;
+	font-size: 1em;
+	width: 222px;
+}
+
+//the time the artist posted at. positioned on the right of the profile picture and the artist's username
+.Vtime{
+	position: relative;
+	left: 6.6em;
+	top: 0.2em;
+	font-size: 0.88em;
+	font-weight: bold;
+	color: #999;
+	width: 120px;
+}
+
+//the artwork posted, positioned in the middle of the screen
+#hanabithekForYouImg{
+	position: relative;
+	width: 88%; 
+	height: 88%;
+    left: 2.8rem;
+}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+//resizing the row
+#Row3{
+	position: relative;
+	top: 12em;
+    height: 3250px;
+}    
+// contains everything from the "for you" and "following" buttons to the content posted
+.contentContainer{
+    width: 100%;
+    margin: 3rem auto;
+    position: relative;
+    top: 5rem;
+}
+    
+//"for you" and "following" buttons container
+.tab-slider--nav{
+    width: 100%;
+    float: left;
+    margin-bottom: $base-margin;
+    height: 55px;
+}
+.tab-slider--tabs{
+    position: relative;
+    left: 15.5em;
+    float: left;
+    color: $white;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+    user-select: none; 
+    
+    &:after{
+        content: "";
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        transition: all 250ms ease-in-out;
+        
+    }
+    &.slide:after{
+        left: 50%;
+    }
+}
+    
+// "for you" and "following" buttons
+.tab-slider--trigger {
+    width: 138px;
+    border-radius: 50px;
+    left: 0em;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: $black;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 11px $base-margin;
+    position: relative;
+    bottom: 0.10em;
+    z-index: 2;
+    cursor: pointer;
+    display: inline-block;
+    transition: color 250ms ease-in-out;
+    user-select: none; 
+    &.active {
+        color: $white;
+        background-color: $black;
+    }
+}
+.tab-slider--body{
+    margin-bottom: $base-margin;
+}
+    
+//													# "FOLLOWING" PAGE #
+    
+//contains the content of this tab/page
+#tab2{
+    position: relative;
+    top: 5em;
+    height: 500px;
+}
+
+//designed to appear bigger than the paragraph below, colored black and positioned on the left of the screen
+.youArentFollowingAnyoneYet{
+    position: relative;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    left: 0.2em;
+}
+
+// designed to appear smaller than the above heading, colored black and positioned on the left of the screen
+.exploreTheRestOfNadra{
+    position: relative;
+    font-family: 'Alegreya Sans', sans-serif;
+    top: 1em;
+    font-size: 1.3em;
+    left: 0.5em;
+}
+
+// "Browse Explore" button designed to have a white background, black text, black curved border and to be positioned in the middle
+#btn-browseExplore{
+    position: relative;
+    top: 8.8em;
+    left: 12em;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 1em;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+    
+    
+//                    								# "FOR YOU" PAGE #
+//styling all content that will be displayed
+    
+//artist's profile picture aligned with the artwork image
+#ValentinImg{
+    position: relative;
+    top: 3.4rem;
+    left: 3rem;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: inline;
+    cursor: pointer;
+}
+    
+// "@valentinfabre posted Icy Hot" positioned above the time and on the right of the profile picture. the username is colored blue in the html [Ln 159, Col 46]
+.ValentinUFeedText{
+    position: relative;
+    left: 5.8em;
+    top: 1em;
+    font-size: 1em;
+    width: 222px;
+}
+    
+//the time the artist posted at. positioned on the right of the profile picture and the artist's username
+.Vtime{
+    position: relative;
+    left: 6.6em;
+    top: 0.2em;
+    font-size: 0.88em;
+    font-weight: bold;
+    color: #999;
+    width: 120px;
+}
+    
+//the artwork posted, positioned in the middle of the screen
+#hanabithekForYouImg{
+    position: relative;
+    width: 88%; 
+    height: 88%;
+    left: 2.8rem;
+}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+//resizing the row
+#Row3{
+    height: 2322px;
+}
+
+// contains everything from the "for you" and "following" buttons to the content posted
+.contentContainer{
+    width: 100%;
+    margin: 3rem auto;
+    position: relative;
+    // border: 5px solid red;
+    top: 0rem;
+}
+
+//"for you" and "following" buttons container
+.tab-slider--nav{
+    width: 100%;
+    float: left;
+    margin-bottom: $base-margin;
+    height: 55px;
+}
+.tab-slider--tabs{
+    position: relative;
+    left: 22.2em;
+    float: left;
+    color: $white;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+    user-select: none; 
+
+    &:after{
+        content: "";
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        transition: all 250ms ease-in-out;
+        
+    }
+    &.slide:after{
+        left: 50%;
+    }
+}
+
+// "for you" and "following" buttons
+.tab-slider--trigger {
+    width: 138px;
+    border-radius: 50px;
+    left: 0em;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: $black;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 11px $base-margin;
+    position: relative;
+    bottom: 0.10em;
+    z-index: 2;
+    cursor: pointer;
+    display: inline-block;
+    transition: color 250ms ease-in-out;
+    user-select: none; 
+    &.active {
+        color: $white;
+        background-color: $black;
+    }
+}
+.tab-slider--body{
+    margin-bottom: $base-margin;
+}
+
+//													# "FOLLOWING" PAGE #
+
+//contains the content of this tab/page
+#tab2{
+    position: relative;
+    top: 5em;
+    height: 500px;
+}
+//designed to appear bigger than the paragraph below, colored black and positioned on the left of the screen
+.youArentFollowingAnyoneYet{
+    position: relative;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    left: 0.2em;
+}
+// designed to appear smaller than the above heading, colored black and positioned on the left of the screen
+.exploreTheRestOfNadra{
+    position: relative;
+    font-family: 'Alegreya Sans', sans-serif;
+    top: 1em;
+    font-size: 1.3em;
+    left: 0.5em;
+}
+// "Browse Explore" button designed to have a white background, black text, black curved border and to be positioned in the middle
+#btn-browseExplore{
+    position: relative;
+    top: 8.8em;
+    left: 24.4em;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 1em;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+
+//                    								# "FOR YOU" PAGE #
+//styling all content that will be displayed
+
+//artist's profile picture aligned with the artwork image
+#ValentinImg{
+  position: relative;
+  top: 3.4rem;
+  left: 3rem;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: inline;
+  cursor: pointer;
+}
+
+// "@valentinfabre posted Icy Hot" positioned above the time and on the right of the profile picture. the username is colored blue in the html [Ln 159, Col 46]
+.ValentinUFeedText{
+    position: relative;
+    left: 5.8em;
+    top: 1em;
+    font-size: 1em;
+    width: 222px;
+}
+
+//the time the artist posted at. positioned on the right of the profile picture and the artist's username
+.Vtime{
+    position: relative;
+    left: 6.6em;
+    top: 0.2em;
+    font-size: 0.88em;
+    font-weight: bold;
+    color: #999;
+    width: 120px;
+}
+
+//the artwork posted, positioned in the middle of the screen
+#hanabithekForYouImg{
+    position: relative;
+    width: 48%; 
+    height: 48%;
+    left: 2.8rem;
+}
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+//resizing the row    
+#Row3{
+    height: 3050px;
+	left: 1rem;
+}
+
+// contains everything from the "for you" and "following" buttons to the content posted
+.contentContainer{
+	width: 70rem;
+	height: 180rem;
+	margin: 3rem auto;
+	position: relative;
+	top: 3rem;
+}
+		
+//"for you" and "following" buttons container
+.tab-slider--nav{
+	width: 100%;
+	float: left;
+	margin-bottom: $base-margin;
+	height: 55px;
+}
+.tab-slider--tabs{
+	position: relative;
+	left: 33em;
+	float: left;
+	color: $white;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	overflow: hidden;
+	height: 50px;
+	user-select: none; 
+		
+	&:after{
+		content: "";
+		width: 50%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		transition: all 250ms ease-in-out;
+			
+	}
+	&.slide:after{
+		left: 50%;
+	}
+}
+		
+// "for you" and "following" buttons
+.tab-slider--trigger {
+	width: 138px;
+	border-radius: 50px;
+	left: 0em;
+	font-size: 0.8em;
+	font-weight: bold;
+	color: $black;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 11px $base-margin;
+	position: relative;
+	bottom: 0.10em;
+	z-index: 2;
+	cursor: pointer;
+	display: inline-block;
+	transition: color 250ms ease-in-out;
+	user-select: none; 
+	&.active {
+		color: $white;
+		background-color: $black;
+	}
+}
+.tab-slider--body{
+	margin-bottom: $base-margin;
+}
+		
+//													# "FOLLOWING" PAGE #
+		
+//contains the content of this tab/page
+#tab2{
+	position: relative;
+	top: 5em;
+	height: 500px;
+}
+
+//designed to appear bigger than the paragraph below, colored black and positioned on the left of the screen
+.youArentFollowingAnyoneYet{
+	position: relative;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: bold;
+	font-size: 3em;
+	left: 0.2em;
+}
+
+// designed to appear smaller than the above heading, colored black and positioned on the left of the screen
+.exploreTheRestOfNadra{
+	position: relative;
+	font-family: 'Alegreya Sans', sans-serif;
+	top: 1em;
+	font-size: 1.3em;
+	left: 0.5em;
+}
+		
+// "Browse Explore" button designed to have a white background, black text, black curved border and to be positioned in the middle
+#btn-browseExplore{
+	position: relative;
+	top: 8.8em;
+	left: 34em;
+	font-family: 'Alegreya Sans', sans-serif;
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	font-size: 1em;
+	text-align: center;
+	width: 200px;
+	height: 50px;
+	border-radius: 50px;
+	border: 2px solid black;
+}
+		
+		
+//                    								# "FOR YOU" PAGE #
+//styling all content that will be displayed
+		
+//artist's profile picture aligned with the artwork image
+#ValentinImg{
+    position: relative;
+	top: 3.4rem;
+	left: 8.8rem;
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	display: inline;
+	cursor: pointer;
+}
+		
+// "@valentinfabre posted Icy Hot" positioned above the time and on the right of the profile picture. the username is colored blue in the html [Ln 159, Col 46]
+.ValentinUFeedText{
+	position: relative;
+	left: 11.5em;
+	top: 1em;
+	font-size: 1em;
+    width: 242px;
+}
+		
+//the time the artist posted at. positioned on the right of the profile picture and the artist's username
+.Vtime{
+	position: relative;
+	left: 13.3em;
+	top: 0em;
+	font-size: 0.88em;
+	font-weight: bold;
+	color: #999;
+	width: 120px;
+}
+		
+//the artwork posted, positioned on the left of the screen
+#hanabithekForYouImg{
+	position: relative;
+	width: 48%; 
+	height: 48%;
+	left: 8.8rem;
+}
+}

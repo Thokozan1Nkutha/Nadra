@@ -1,0 +1,963 @@
+                    // in this sheet we'll be styling the FIRST SECTION/HEADER SECTION
+
+
+
+//resizing the row
+#Row1{
+  //  border: 5px solid rgb(255, 255, 255);
+    background-color: white;
+    position: relative;
+    height: 1100px;
+}
+
+// collect digital art section, this div contains all the text and the button
+// positioned in the middle of the screen, colored black with a white background
+.CollectDigitalArtSection{
+    position: relative;
+    top: 2rem;
+    height: 400px;
+}
+  
+// "collect digital art, collect prints" heading
+.collect{
+    position: relative;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 3em;
+    left: 1em;
+    width: 300px;
+}
+  
+// "buy and sell from africa's top Artists"
+.buyAndSell{
+    position: relative;
+    font-family: 'Caesar Dressing', cursive;
+    top: 1rem;
+    font-size: 1em;
+    left: 2em;
+    
+    
+    //stretching the text vertically
+    display: inline-block;
+    -webkit-transform: scale(1.2, 1);
+    -moz-transform: scale(1.2, 1);
+    -o-transform: scale(1.2, 1);
+    transform: scale(1.2, 1
+    );
+}
+  
+// "start collecting" button, styled to have a black background, white text and curved corners
+#startCollectingBtn{
+    position: relative;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    left: 5.5rem;
+    top: 5rem;
+    color: white;
+    font-size: 0.8em;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 10px;
+}
+
+// contains all the content in the slideshow [the featured art]
+#slideshowWW-container{
+    position: relative;
+    width: 368px;
+    height: 640px;
+    top: 2rem; 
+}
+
+//featured art div, this div contains the "featured art" text, the art img and all the text under the img
+.featuredArt{
+    position:absolute;
+    width: 367px;
+    height: 640px;
+    top: 0.1rem;
+}
+
+// these divs are the "slides" , hidden here and displayed using the JavaScript function "SLIDESHOW"
+.slideEE {
+    display: none;
+}
+.active-slideEE {
+    display: block;
+}
+  
+//featured art heading, stlyed to align with the image
+.featured{
+    position: absolute;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 1em;
+    left: 2.1em;
+    width: 120px;
+    top: 4em;
+}
+  
+//featured image, positioned in the middle of the screen
+#featuredImage{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 5.8rem;
+    left: 2.1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+// same styling as the image, just without box shadow
+#featuredVideo{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 5.8rem;
+    left: 2.1rem;
+} 
+// the word "artist" , stlyed to align with the featured art image
+.Artist{
+    position: absolute;
+    top: 31.5rem;
+    font-size: 0.9em;
+    width: 50px;
+    left: 2.2em;
+}
+//artist's profile image, stlyed to align with the featured art image
+#artistImage{
+    position: absolute;
+    bottom: 5.4rem;
+    left: 2rem;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    display: inline;
+    cursor: pointer;
+}
+//artist's name, positioned next to the artist's profile image
+.artistName{
+    position: absolute;
+    left: 5em;
+    top: 33.3rem;
+    font-size: 0.8em;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    width: 120px;
+}
+  
+//the word "model" , stlyed to align with the featured art image
+.Model{
+    position: absolute;
+    bottom: 2.8em;
+    font-size: 0.9em;
+    left: 2.2em;
+    width: 50px;
+}
+  
+//model's profile image, stlyed to align with the featured art image
+#modelsImage{
+    position: absolute;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    bottom: 1.8em;
+    left: 2rem;
+    cursor: pointer;
+}
+  
+//model's name, positioned next to the model's profile image
+.modelsName{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    cursor: pointer;
+    color: black;
+    bottom: 1.1em;
+    left: 5em;
+    width: 50px;
+}
+  
+// the words "release date", styled to not align with the image
+.releaseDate{
+    position:absolute;
+    bottom: 9em;
+    left: 24em;
+    color: black;
+    font-size: 0.7em;
+}
+.Date{//the date, positioned under "release date"
+    position:absolute;
+    bottom: 8.8em;
+    left: 25em;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.61em;
+}
+
+
+
+//                                          # Media Queries #
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+//resizing the row
+#Row1{
+    height: 1110px;
+}
+
+//collect digital art section, this div contains all the text and the button
+.CollectDigitalArtSection{
+    position: relative;
+    top: 2rem;
+    width: 540px;
+}
+  
+// "collect digital art, collect prints" heading
+.collect{
+    position: relative;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 4em;
+    width: 422px;
+    left: 1.8em;
+}
+  
+//"buy and sell from africa's top Artists"
+.buyAndSell{
+    position: relative;
+    font-family: 'Caesar Dressing', cursive;
+    top: 1.5em;
+    font-size: 1.4em;
+    left: 4.8em;
+    
+    //stretching the text vertically
+    display: inline-block;
+    -webkit-transform: scale(1.2, 1);
+    -moz-transform: scale(1.2, 1);
+    -o-transform: scale(1.2, 1);
+    transform: scale(1.2, 1
+    );
+}
+  
+//start collecting button
+#startCollectingBtn{
+    position:absolute;
+    top: 21rem;
+    left: 14.4rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+     background-color: rgb(0, 0, 0);
+     border-radius: 10px;
+     width: 122px;
+     height: 44px;
+     font-size: 0.7em;
+}
+
+// contains all the content in the slideshow [the featured art]
+#slideshowWW-container{
+    position: relative;
+    width: 558px;
+    height: 670px;
+    top: 2rem; 
+}
+//featured art div, this div contains the "featured art" text, the art img and all the text under the img
+.featuredArt{
+    position: relative;
+    width: 558px;
+    height: 670px;
+    top: 0rem;
+}
+
+//these divs are the "slides" , hidden here and displayed using the JavaScript function "SLIDESHOW"
+.slideEE {
+    display: none;
+}
+.active-slideEE {
+    display: block;
+}
+
+//featured art heading
+.featured{
+    position: absolute;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 1.2em;
+    top: 1.2em;
+    width: 130px;
+    left: 4.2em;
+}
+  
+//featured art image
+#featuredImage{
+    position: absolute;
+    width: 340px;
+    height: 450px;
+    left: 5rem;;
+    top: 3.2rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+// same styling as the image, just without box shadow
+#featuredVideo{
+    position: absolute;
+    width: 340px;
+    height: 450px;
+    left: 5rem;;
+    top: 3.2rem;
+}
+
+// the word "artist"
+.Artist{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 29em;
+    left: 4.5em;
+    font-size: 1.1em;
+}
+//artist's profile image
+#artistImage{
+    position: absolute;
+    top: 34rem;
+    bottom: 1.7rem;
+    left: 5rem;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline;
+    cursor: pointer;
+}
+//artist's name
+.artistName{
+    position: absolute;
+    left: 6.5em;
+    top: 34.1rem;
+    font-size: 1.14em;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+  
+// the word "model"
+.Model{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    bottom: 2em;
+    left: 4.2em;
+}
+  
+//model's profile image
+#modelsImage{
+    position: absolute;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    bottom: 1rem;
+    left: 4.7rem;
+}
+  
+//model's name
+.modelsName{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.14em;
+    cursor: pointer;
+    color: black;
+  //  bottom: 1em;
+    top: 34em;
+    left: 6.5em;
+}
+  
+//release date
+.releaseDate{
+    position:absolute;
+    font-size: 1.04em;
+    bottom: 6.9em;
+    left: 21em;
+    color: black;
+    
+}
+.Date{//the date
+    position:absolute;
+    font-size: 1em;
+    bottom: 5.5em;
+    left: 21em;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+//resizing the row
+#Row1{
+    height: 1388px;
+}
+
+//collect digital art section, this div contains all the text and the button
+.CollectDigitalArtSection{
+    position: relative;
+    top: 5rem;
+    left: 3rem;
+    width: 640px;
+    height: 500px;
+}
+  
+// "collect digital art, collect prints" heading
+.collect{
+    position: relative;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 4.5em;
+    left: 1.7em;
+}
+  
+//"buy and sell from africa's top Artists"
+.buyAndSell{
+    position: relative;
+    font-family: 'Caesar Dressing', cursive;
+    top: 0.8em;
+    font-size: 1.4em;
+    left: 5em;
+    
+    //stretching the text vertically
+    display: inline-block;
+    -webkit-transform: scale(1.2, 1);
+    -moz-transform: scale(1.2, 1);
+    -o-transform: scale(1.2, 1);
+    transform: scale(1.2, 1
+    );
+}
+  
+//start collecting button
+#startCollectingBtn{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 188px;
+    height: 70px;
+    font-size: 0.8em;
+    top: 30em;
+    left: 18em;;
+}
+
+// contains all the content in the slideshow [the featured art]
+#slideshowWW-container{
+    position: relative;
+    width: 640px;
+    height: 720px;
+    top: 9rem;
+    left: 5rem; 
+}
+//featured art div, this div contains the "featured art" text, the art img and all the text under the img
+.featuredArt{
+    position: absolute;
+    width: 640px;
+    height: 720px;
+}
+
+// these divs are the "slides" , hidden here and displayed using the JavaScript function "SLIDESHOW"
+.slideEE {
+    display: none;
+}
+.active-slideEE {
+    display: block;
+}
+
+//featured art heading
+.featured{
+    position: absolute;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 1.4em;
+    left: 4.8em;
+    width: 150px;
+    top: 0.7em;
+}
+  
+//featured art image
+#featuredImage{
+    position: relative;
+    width: 388px;
+    height: 470px;
+    left: 6.8rem;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+// same styling as the image, just without box shadow
+#featuredVideo{
+    position: relative;
+    width: 388px;
+    height: 470px;
+    left: 6.8rem;
+}
+  
+// the word "artist"
+.Artist{
+    position: relative;
+    top: 4em;
+    left: 6.2em;
+}
+//artist's profile image
+#artistImage{
+    position: absolute;
+    top: 36em;
+    left: 7rem;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline;
+    cursor: pointer;
+}
+//artist's name
+.artistName{
+    position: absolute;
+    left: 9.5em;
+    font-size: 1em;
+    top: 36.3em;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+  
+// the word "model"
+.Model{
+    position: absolute;
+    top: 35.5em;
+    left: 6em;
+}
+  
+//model's profile image
+#modelsImage{
+    position: absolute;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    left: 6.7em;
+}
+
+//model's name
+.modelsName{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.95em;
+    color: black;
+    top: 10.4em;
+    left: 9.7em;
+}
+  
+//release date
+.releaseDate{
+    position:absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    bottom: 8em;
+    left: 27em;
+    color: black;
+}
+.Date{//the date
+    position:absolute;
+    font-size: 1em;
+    bottom: 6.5em;
+    left: 25em;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+//resizing the row
+#Row1{
+    height: 1555px;
+}
+
+// collect digital art section, this div contains all the text and the button, all positioned on the left
+.CollectDigitalArtSection{
+    position: relative;
+    top: 2.8em;
+    width: 888px;
+    height: 555px;
+}
+  
+// "collect digital art, collect prints" heading, colored black and positioned in the middle of the screen
+.collect{
+    position: relative;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 5em;
+    width: 500px;
+    left: 2.4em;
+}
+  
+//"buy and sell from africa's top Artists" sentence, colored black and positioned almost in the middle of the screen and below the heading
+.buyAndSell{
+    position: relative;
+    font-family: 'Caesar Dressing', cursive;
+    top: 0.8em;
+    font-size: 2.4em;
+    left: 3.4em;
+    
+    //stretching the text vertically
+    display: inline-block;
+    -webkit-transform: scale(1.2, 1);
+    -moz-transform: scale(1.2, 1);
+    -o-transform: scale(1.2, 1);
+    transform: scale(1.2, 1
+    );
+}
+  
+//start collecting button, designed to have a black background and positioned in the middle of the screen
+#startCollectingBtn{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 280px;
+    height: 90px;
+    font-size: 1.4em;
+    left: 13em;
+    top: 20em;
+}
+  
+// contains all the content in the slideshow [the featured art]
+#slideshowWW-container{
+    position: relative;
+    width: 840px;
+    height: 888px;
+    top: 5.8rem;
+    left: 4rem; 
+}
+
+// featured art div, this div contains the "featured art" text, the art img and all the text under the img, all positioned on the right
+.featuredArt{
+    position: relative;
+    width: 840px;
+    height: 888px;
+}
+
+// these divs are the "slides" , hidden here and displayed using the JavaScript function "SLIDESHOW"
+.slideEE {
+    display: none;
+}
+.active-slideEE {
+    display: block;
+}  
+
+//featured art heading positioned on top of the artwork image
+.featured{
+    position: relative
+    ;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 1.8em; 
+    width: 200px;
+    height: 32px;
+    left: 4.8em;
+    top: 0.5em;
+}
+  
+//featured art image positioned at the center of the screen
+#featuredImage{
+    position: relative;
+    width: 34rem;
+    height: 41rem;
+    top: 1.2rem;
+    left: 8.8rem;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+// same styling as the image, just without box shadow
+#featuredVideo{
+    position: relative;
+    width: 34rem;
+    height: 41rem;
+    top: 1.2rem;
+    left: 8.8rem;
+}  
+// the word "artist" positioned to align with the artwork image 
+.Artist{
+    position: absolute;
+    left: 8em;
+    top: 42em;
+  //  border: 5px solid red;
+}
+//artist's profile image, positioned to align with "artist" and the artwork image
+#artistImage{
+    position: relative;
+    top: 2.3rem;
+    left: 9rem;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline;
+    cursor: pointer;
+}
+  
+//artist's name positioned on the right of the profile picture
+.artistName{
+    position: relative;
+    font-size: 1em;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    left: 12em;
+    top: 5.2em;
+}
+  
+// the word "model" positioned to align with the artwork image and the word "artist"
+.Model{
+    position: relative;
+    left: 8em;
+    top: 3em;
+}
+  
+//model's profile image positioned to align with the artwork image and the other profile picture
+#modelsImage{
+    position: relative;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px; 
+    left: 9rem;
+    top: 0.1rem;
+}
+  
+//model's name positioned on the right of the profile picture
+.modelsName{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.95em;
+    color: black;
+    left: 12.7em;
+    top: 3em;
+}
+  
+//release date positioned on the bottom right of the artwork image but not aligned
+.releaseDate{
+    position:absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    width: 120px;
+    left: 37em;
+    top: 45.7em;
+    height: 20px;
+    color: black;
+}
+.Date{//the date positioned under "release date", not aligned with the artwork image
+    position:absolute;
+    font-size: 1em;
+    left: 35.8em;
+    top: 47.7em;
+    width: 150px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+//resizing the row
+#Row1{
+    height: 800px;
+    width: 1255px;
+}
+
+// collect digital art section, this div contains all the text and the button, all positioned on the left
+.CollectDigitalArtSection{
+    position: relative;
+    width: 640px;
+    height: 685px;
+    left: -0.7rem;
+    top: -0.01rem;
+}
+    
+// "collect digital art, collect prints" heading, colored black and positioned in the middle of the screen
+.collect{
+    position: relative;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 5em;
+    left: 1.8em;
+    top: 0.8em;
+    width: 500px;
+}
+    
+//"buy and sell from africa's top Artists" sentence, colored black and positioned almost in the middle of the screen and below the heading
+.buyAndSell{
+    position: relative;
+    font-family: 'Caesar Dressing', cursive;
+    top: 4em;
+    font-size: 1.4em;
+    left: 4.8em;
+      
+     //stretching the text vertically
+    display: inline-block;
+    -webkit-transform: scale(1.2, 1);
+    -moz-transform: scale(1.2, 1);
+    -o-transform: scale(1.2, 1);
+    transform: scale(1.2, 1
+    );
+}
+    
+//start collecting button, designed to have a black background and positioned in the middle of the screen
+#startCollectingBtn{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 280px;
+    height: 80px;
+    font-size: 1.2em;
+    left: 8.8em;
+    top: 27em;
+}
+    
+// contains all the content in the slideshow [the featured art]
+#slideshowWW-container{
+    position: absolute;
+    width: 610px;
+    height: 678px;
+    top: 0rem;
+    bottom: 15rem;
+    left: 40rem; 
+}
+
+// featured art div, this div contains the "featured art" text, the art img and all the text under the img, all positioned on the right
+.featuredArt{
+    position: absolute;
+    width: 610px;
+    height: 678px;
+    top: 0rem;
+    bottom: 15rem;
+    left: 0rem;
+}
+    
+// these divs are the "slides" , hidden here and displayed using the JavaScript function "SLIDESHOW"
+.slideEE {
+    display: none;
+}
+.active-slideEE {
+    display: block;
+}
+
+//featured art heading positioned on top of the artwork image
+.featured{
+    position: absolute;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 1.2em; 
+    width: 150px;
+    height: 32px;
+    left: 7em;
+    top: 1.2em;
+ }
+    
+//featured art image positioned on the right of the screen
+#featuredImage{
+    position: relative;
+    width: 25rem;
+    height: 28rem;
+    left: 8.5rem;
+    top: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+// same styling as the image, just without box shadow
+#featuredVideo{
+    position: relative;
+    width: 25rem;
+    height: 28rem;
+    left: 8.5rem;
+    top: 3rem;
+}
+    
+// the word "artist" positioned to align with the artwork image 
+.Artist{
+    position: absolute;
+    left: 7.7em;
+    top: 28.8em;     
+}
+//artist's profile image, positioned to align with "artist" and the artwork image
+#artistImage{
+    position: relative;
+    top: 3.5rem;
+    left: 8.6rem;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline;
+    cursor: pointer;
+}
+    
+//artist's name positioned on the right of the profile picture
+.artistName{
+    position: relative;
+    font-size: 1em;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    left: 11.4em;
+    top: 6.3em;
+}
+    
+// the word "model" positioned to align with the artwork image and the word "artist"
+.Model{
+    position: relative;
+    left: 7.7em;
+    top: 3.7em;
+}
+    
+//model's profile image positioned to align with the artwork image and the other profile picture
+#modelsImage{
+    position: relative;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px; 
+    left: 8.7rem;
+    top: 1rem;
+}
+    
+//model's name positioned on the right of the profile picture
+.modelsName{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.95em;
+    color: black;
+    left: 12em;
+    top: 3.7em;
+}
+    
+//release date positioned on the bottom right of the artwork image but not aligned
+.releaseDate{
+    position:absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    width: 115px;
+    left: 28em;
+    top: 31.7em;
+    height: 20px;
+    color: black;
+}
+.Date{//the date positioned under "release date", not aligned with the artwork image
+    position:absolute;
+    font-size: 1em;
+    left: 26.5em;
+    top: 33.4em;
+    width: 150px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+////////////////////////////////////////////////////////////////////////////
+/// 
+/// 
+/// 
+/// 
+
+
+// .slideEE {
+//     display: none;
+//     position: absolute;
+//     bottom: 2rem;
+//   }
+  
+//   .active-slideEE {
+//     display: block;
+//   }
+
+//   #slideshowWW-container{
+//     position: absolute;
+//     bottom: 2rem;
+//     width: 300rem;
+//     height: 100rem;
+//     border: 5px solid green;
+//   }
+}

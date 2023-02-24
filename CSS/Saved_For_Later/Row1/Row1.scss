@@ -1,0 +1,515 @@
+// this page (SAVEDFORLATER) can have 18 cards that share the same class/id name
+// the class/id name sharing also applies to the content in the cards
+
+// #Row1{
+//     border: 3px solid green;
+// }
+
+//the heading styled black and positioned on the left of the screen
+.heading{ 
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    font-size: 1.3em;
+    left: 0.3em;
+    height: 28px;
+    width: 155px;
+    top: 3em;
+    border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+// the paragraph next to the heading, colored to be a little bit faded black
+.notice{
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    font-size: 0.7em;
+    top: 3.2em;
+    color: rgb(88, 88, 88);
+    left: 15em;
+    width: 200px;
+   
+}
+
+// cards positioned in the middle of the screen
+.card{
+    position: relative;
+    float: left;
+    top: 5rem;
+    width: 18rem;
+    height: 17rem;
+    margin: 50px;
+}
+
+// the images and/or videos
+#print{
+    width: 100%;
+    height: 100%;
+}
+
+//card title, description and artwork price are colored black and positioned on the bottom left of the video/image
+// card title
+.card-title{
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+// artwork description
+.card-description{
+    position: relative;
+    right: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+}
+
+// artwork price
+.price{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+ 
+ 
+// the buttons have a solid border with no radius, a white background and black text
+// on hover the text color is white and the background is black
+
+// add to cart button
+#addToCart_Button{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    margin: 20px;
+}#addToCart_Button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+// delete button
+.delete-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}.delete-button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+//                                        # Media Queries #
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+//the heading styled black and positioned on the left of the screen
+.heading{ 
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    font-size: 1.5em;
+    left: 2em;
+    height: 28px;
+    width: 205px;
+    top: 3em;
+    border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+// the paragraph next to the heading, colored to be a little bit faded black
+.notice{
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    font-size: 0.9em;
+    top: 3.2em;
+    color: rgb(88, 88, 88);
+    left: 21em;
+    width: 250px;
+   
+}
+
+// cards positioned in the middle of the screen
+.card{
+    position: relative;
+    float: left;
+    top: 5rem;
+    left: 3rem;
+    width: 24rem;
+    height: 17rem;
+    margin: 50px;
+}
+
+// the images and/or videos
+#print{
+    width: 100%;
+    height: 100%;
+}
+
+//card title, description and artwork price are colored black and positioned on the bottom left of the video/image
+// card title
+.card-title{
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+// artwork description
+.card-description{
+    position: relative;
+    right: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+}
+
+// artwork price
+.price{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+ 
+ 
+// the buttons have a solid border with no radius, a white background and black text
+// on hover the text color is white and the background is black
+
+// add to cart button
+#addToCart_Button{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    margin: 20px;
+}#addToCart_Button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+// delete button
+.delete-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}.delete-button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+//the heading styled black and positioned on the left of the screen
+.heading{ 
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    font-size: 1.7em;
+    left: 3em;
+    height: 35px;
+    width: 205px;
+    top: 3em;
+    border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+// the paragraph next to the heading, colored to be a little bit faded black
+.notice{
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    font-size: 1.1em;
+    top: 3.2em;
+    color: rgb(88, 88, 88);
+    left: 24em;
+    width: 270px;
+   
+}
+
+// cards positioned in the middle of the screen
+.card{
+    position: relative;
+    float: left;
+    top: 10rem;
+    left: 4rem;
+    width: 30rem;
+    height: 17rem;
+    margin: 50px;
+}
+
+// the images and/or videos
+#print{
+    width: 100%;
+    height: 100%;
+}
+
+//card title, description and artwork price are colored black and positioned on the bottom left of the video/image
+// card title
+.card-title{
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+// artwork description
+.card-description{
+    position: relative;
+    right: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+}
+
+// artwork price
+.price{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+ 
+// the buttons have a solid border with no radius, a white background and black text
+// on hover the text color is white and the background is black
+
+// add to cart button
+#addToCart_Button{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    margin: 20px;
+}#addToCart_Button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+// delete button
+.delete-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}.delete-button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+//the heading styled black and positioned on the left of the screen
+.heading{ 
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    font-size: 2.3em;
+    left: 3em;
+    height: 45px;
+    width: 300px;
+    top: 4em;
+    border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+// the paragraph next to the heading, colored to be a little bit faded black
+.notice{
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    font-size: 1.5em;
+    top: 3.2em;
+    color: rgb(88, 88, 88);
+    left: 20em;
+    width: 470px;  
+}
+
+// cards positioned in the middle of the screen
+.card{
+    position: relative;
+    float: left;
+    top: 15rem;
+    left: 4rem;
+    width: 20rem;
+    height: 17rem;
+    margin: 50px;
+}
+
+// the images and/or videos
+#print{
+    width: 100%;
+    height: 100%;
+}
+
+//card title, description and artwork price are colored black and positioned on the bottom left of the video/image
+// card title
+.card-title{
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+// artwork description
+.card-description{
+    position: relative;
+    right: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+}
+
+// artwork price
+.price{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+ 
+// the buttons have a solid border with no radius, a white background and black text
+// on hover the text color is white and the background is black
+
+// add to cart button
+#addToCart_Button{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    margin: 20px;
+}#addToCart_Button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+// delete button
+.delete-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}.delete-button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+ 
+//the heading styled black and positioned on the left of the screen
+.heading{ 
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    font-size: 2.3em;
+    left: 9em;
+    height: 45px;
+    width: 300px;
+    top: 3em;
+    border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+// the paragraph next to the heading, colored to be a little bit faded black
+.notice{
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    font-size: 1.3em;
+    top: 3.2em;
+    color: rgb(88, 88, 88);
+    left: 29.7em;
+    width: 340px;  
+}
+
+// cards positioned in the middle of the screen
+.card{
+    position: relative;
+    float: left;
+    top: 10rem;
+    left: 5rem;
+    width: 28rem;
+    height: 17rem;
+    margin: 50px;
+}
+
+// the images and/or videos
+#print{
+    width: 100%;
+    height: 100%;
+}
+
+//card title, description and artwork price are colored black and positioned on the bottom left of the video/image
+// card title
+.card-title{
+    position: relative;
+    font-family: 'Unbounded', cursive;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+// artwork description
+.card-description{
+    position: relative;
+    right: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+}
+
+// artwork price
+.price{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+ 
+// the buttons have a solid border with no radius, a white background and black text
+// on hover the text color is white and the background is black
+
+// add to cart button
+#addToCart_Button{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    margin: 20px;
+}#addToCart_Button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+// delete button
+.delete-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}.delete-button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+}
+

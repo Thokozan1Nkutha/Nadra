@@ -1,0 +1,213 @@
+//  in this sheet we'll be styling the second post on the "FOR YOU" page
+
+
+//container
+.MAGICAL_BOND{
+    position: relative;
+    top: 3rem;
+    
+}
+
+// artist's profile picture positioned on the top left of the artwork image 
+#BillImg{
+    position: relative;
+   // right: 1.8rem;
+   left: 1.8rem;
+    top: 3.5rem;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: inline;
+    cursor: pointer;
+}
+// "@olueshotit posted MAGICAL BOND" positioned above the time and on the right of the profile picture. the username is colored blue in the html [Ln 166, Col 41]
+.BillFeedText{
+    position: relative;
+	left: 5.2em;
+	top: 1em;
+	font-size: 0.9em;
+	width: 288px;
+}
+//the time the artist posted at. positioned on the right of the profile picture and the artist's username
+.Btime{
+    position: relative;
+	left: 6em;
+	font-size: 0.78em;
+	font-weight: bold;
+	color: #999;
+	width: 120px;
+}
+//the artwork posted, positioned in the middle of the screen
+#bondBoysImg{
+    position: relative;
+	width: 88%; 
+	height: 88%;
+    left: 1.7rem;
+}
+
+
+//                                    # Media Queries #
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+// artist's profile picture positioned on the top left of the artwork image 
+#BillImg{
+    position: relative;
+   left: 2.8rem;
+    top: 3.5rem;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: inline;
+    cursor: pointer;
+}
+// "@olueshotit posted MAGICAL BOND" positioned above the time and on the right of the profile picture. the username is colored blue in the html [Ln 166, Col 41]
+.BillFeedText{
+    position: relative;
+	left: 6.2em;
+	top: 1em;
+	font-size: 0.9em;
+	width: 288px;
+    //border: 1px solid black;
+}
+//the time the artist posted at. positioned on the right of the profile picture and the artist's username
+.Btime{
+    position: relative;
+	left: 7em;
+	font-size: 0.78em;
+	font-weight: bold;
+	color: #999;
+	width: 120px;
+}
+//the artwork posted, positioned in the middle of the screen
+#bondBoysImg{
+    position: relative;
+	width: 88%; 
+	height: 88%;
+    left: 2.8rem;
+}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+// artist's profile picture positioned on the top left of the artwork image 
+#BillImg{
+    position: relative;
+   // right: 1.8rem;
+    left: 2.8rem;
+    top: 3.5rem;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: inline;
+    cursor: pointer;
+}
+
+// "@olueshotit posted MAGICAL BOND" positioned above the time and on the right of the profile picture. the username is colored blue in the html [Ln 166, Col 41]
+.BillFeedText{
+    position: relative;
+	left: 6.2em;
+	top: 1em;
+	font-size: 0.9em;
+	width: 288px;
+    //border: 1px solid black;
+}
+
+//the time the artist posted at. positioned on the right of the profile picture and the artist's username
+.Btime{
+    position: relative;
+	left: 7em;
+	font-size: 0.78em;
+	font-weight: bold;
+	color: #999;
+	width: 120px;
+}
+
+//the artwork posted, positioned in the middle of the screen
+#bondBoysImg{
+    position: relative;
+	width: 88%; 
+	height: 88%;
+    left: 2.8rem;
+}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+// artist's profile picture positioned on the top left of the artwork image 
+#BillImg{
+    position: relative;
+   // right: 1.8rem;
+    left: 2.8rem;
+    top: 3.5rem;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: inline;
+    cursor: pointer;
+}
+// "@olueshotit posted MAGICAL BOND" positioned above the time and on the right of the profile picture. the username is colored blue in the html [Ln 166, Col 41]
+.BillFeedText{
+    position: relative;
+	left: 6.2em;
+	top: 1em;
+	font-size: 0.9em;
+	width: 288px;
+    //border: 1px solid black;
+}
+//the time the artist posted at. positioned on the right of the profile picture and the artist's username
+.Btime{
+    position: relative;
+	left: 7em;
+	font-size: 0.78em;
+	font-weight: bold;
+	color: #999;
+	width: 120px;
+}
+//the artwork posted, positioned in the middle of the screen
+#bondBoysImg{
+    position: relative;
+	width: 48%; 
+	height: 48%;
+    left: 2.8rem;
+}
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+// artist's profile picture positioned on the top left of the artwork image 
+#BillImg{
+    position: relative;
+    left: 8.8rem;
+    top: 3.5rem;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: inline;
+    cursor: pointer;
+}
+// "@olueshotit posted MAGICAL BOND" positioned above the time and on the right of the profile picture. the username is colored blue in the html [Ln 166, Col 41]
+.BillFeedText{
+    position: relative;
+	left: 12.8em;
+	top: 1em;
+	font-size: 0.9em;
+	width: 288px;
+}
+//the time the artist posted at. positioned on the right of the profile picture and the artist's username
+.Btime{
+    position: relative;
+	left: 14.8em;
+	font-size: 0.78em;
+	font-weight: bold;
+	color: #999;
+	width: 120px;
+}
+//the artwork posted, positioned in the middle of the screen
+#bondBoysImg{
+    position: relative;
+	width: 48%; 
+	height: 48%;
+	left: 8.8rem;
+}
+}

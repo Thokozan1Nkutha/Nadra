@@ -1,0 +1,641 @@
+.line {
+  position: relative;
+  top: 2em;
+  left: 2.8em;
+  border: 2px solid black;
+  width: 300px;
+}
+
+.navbar {
+  height: 150px;
+  width: 390px;
+}
+
+.nadra {
+  position: absolute;
+  left: 2.8em;
+  top: 1.4em;
+  font-family: Britannic Bold;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+.shop {
+  position: absolute;
+  left: 14.4em;
+  top: 4.5em;
+  font-family: 'Unbounded', cursive;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#shopping_bag_icon {
+  position: absolute;
+  width: 7%;
+  left: 19.4em;
+  top: 4.3em;
+}
+
+.ham {
+  position: absolute;
+  top: 3.8em;
+  left: 2.5em;
+  width: 45px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transition: -webkit-transform 400ms;
+  transition: -webkit-transform 400ms;
+  transition: transform 400ms;
+  transition: transform 400ms, -webkit-transform 400ms;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.hamRotate.active {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.hamRotate180.active {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.line {
+  fill: none;
+  -webkit-transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  stroke: #000;
+  stroke-width: 5.5;
+  stroke-linecap: round;
+}
+
+.ham8 .top {
+  stroke-dasharray: 40 160;
+}
+
+.ham8 .middle {
+  stroke-dasharray: 40 142;
+  -webkit-transform-origin: 50%;
+          transform-origin: 50%;
+  -webkit-transition: -webkit-transform 400ms;
+  transition: -webkit-transform 400ms;
+  transition: transform 400ms;
+  transition: transform 400ms, -webkit-transform 400ms;
+}
+
+.ham8 .bottom {
+  stroke-dasharray: 40 85;
+  -webkit-transform-origin: 50%;
+          transform-origin: 50%;
+  -webkit-transition: stroke-dashoffset 400ms, -webkit-transform 400ms;
+  transition: stroke-dashoffset 400ms, -webkit-transform 400ms;
+  transition: transform 400ms, stroke-dashoffset 400ms;
+  transition: transform 400ms, stroke-dashoffset 400ms, -webkit-transform 400ms;
+}
+
+.ham8.active .top {
+  stroke-dashoffset: -64px;
+}
+
+.ham8.active .middle {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.ham8.active .bottom {
+  stroke-dashoffset: -64px;
+}
+
+.navLinks {
+  position: absolute;
+  width: 373px;
+  right: 1.3em;
+  top: 7.7em;
+}
+
+.navLink-item {
+  display: inline;
+  margin: 5px;
+}
+
+.navLink-item a {
+  font-family: 'Unbounded', cursive;
+  font-size: 0.8em;
+  text-decoration: none;
+  color: #000000;
+}
+
+.navLink-item a:hover {
+  font-family: 'Unbounded', cursive;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #000000;
+  border: 8px solid black;
+  border-top: hidden;
+  border-right: hidden;
+  border-left: hidden;
+}
+
+@media (min-width: 576px) {
+  .line {
+    position: relative;
+    top: 0.5em;
+    left: 6.3em;
+    border: 2px solid black;
+    width: 370px;
+  }
+  .navbar {
+    height: 200px;
+    width: 576px;
+  }
+  .nadra {
+    position: absolute;
+    left: 3.8em;
+    top: 1em;
+    font-family: Britannic Bold;
+    font-weight: bold;
+    font-size: 3em;
+  }
+  .shop {
+    position: absolute;
+    left: 16.4em;
+    top: 3.5em;
+    font-family: 'Unbounded', cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  #shopping_bag_icon {
+    position: absolute;
+    width: 7%;
+    left: 26.5em;
+    top: 3.8em;
+  }
+  .ham {
+    position: absolute;
+    top: 3.8em;
+    left: 5.8em;
+    width: 45px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-transition: -webkit-transform 400ms;
+    transition: -webkit-transform 400ms;
+    transition: transform 400ms;
+    transition: transform 400ms, -webkit-transform 400ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .hamRotate.active {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .hamRotate180.active {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .line {
+    fill: none;
+    -webkit-transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke: #000;
+    stroke-width: 5.5;
+    stroke-linecap: round;
+  }
+  .ham8 .top {
+    stroke-dasharray: 40 160;
+  }
+  .ham8 .middle {
+    stroke-dasharray: 40 142;
+    -webkit-transform-origin: 50%;
+            transform-origin: 50%;
+    -webkit-transition: -webkit-transform 400ms;
+    transition: -webkit-transform 400ms;
+    transition: transform 400ms;
+    transition: transform 400ms, -webkit-transform 400ms;
+  }
+  .ham8 .bottom {
+    stroke-dasharray: 40 85;
+    -webkit-transform-origin: 50%;
+            transform-origin: 50%;
+    -webkit-transition: stroke-dashoffset 400ms, -webkit-transform 400ms;
+    transition: stroke-dashoffset 400ms, -webkit-transform 400ms;
+    transition: transform 400ms, stroke-dashoffset 400ms;
+    transition: transform 400ms, stroke-dashoffset 400ms, -webkit-transform 400ms;
+  }
+  .ham8.active .top {
+    stroke-dashoffset: -64px;
+  }
+  .ham8.active .middle {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .ham8.active .bottom {
+    stroke-dashoffset: -64px;
+  }
+  .navLinks {
+    position: absolute;
+    width: 444px;
+    right: 3.6em;
+    top: 7.7em;
+  }
+  .navLink-item {
+    display: inline;
+    margin: 5px;
+  }
+  .navLink-item a {
+    font-family: 'Unbounded', cursive;
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #000000;
+  }
+  .navLink-item a:hover {
+    font-family: 'Unbounded', cursive;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #000000;
+    border: 8px solid black;
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+  }
+}
+
+@media (min-width: 768px) {
+  .line {
+    position: relative;
+    top: 1.5em;
+    left: 8.8em;
+    border: 2px solid black;
+    width: 470px;
+  }
+  .navbar {
+    height: 200px;
+    width: 768px;
+  }
+  .nadra {
+    position: absolute;
+    left: 4.4em;
+    top: 1em;
+    font-family: Britannic Bold;
+    font-weight: bold;
+    font-size: 3.5em;
+  }
+  .shop {
+    position: absolute;
+    left: 17.8em;
+    top: 3.5em;
+    font-family: 'Unbounded', cursive;
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+  #shopping_bag_icon {
+    position: absolute;
+    width: 7%;
+    left: 34.4em;
+    top: 3.8em;
+  }
+  .ham {
+    position: absolute;
+    top: 3.8em;
+    left: 8.4em;
+    width: 58.8px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-transition: -webkit-transform 400ms;
+    transition: -webkit-transform 400ms;
+    transition: transform 400ms;
+    transition: transform 400ms, -webkit-transform 400ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .hamRotate.active {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .hamRotate180.active {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .line {
+    fill: none;
+    -webkit-transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke: #000;
+    stroke-width: 5.5;
+    stroke-linecap: round;
+  }
+  .ham8 .top {
+    stroke-dasharray: 40 160;
+  }
+  .ham8 .middle {
+    stroke-dasharray: 40 142;
+    -webkit-transform-origin: 50%;
+            transform-origin: 50%;
+    -webkit-transition: -webkit-transform 400ms;
+    transition: -webkit-transform 400ms;
+    transition: transform 400ms;
+    transition: transform 400ms, -webkit-transform 400ms;
+  }
+  .ham8 .bottom {
+    stroke-dasharray: 40 85;
+    -webkit-transform-origin: 50%;
+            transform-origin: 50%;
+    -webkit-transition: stroke-dashoffset 400ms, -webkit-transform 400ms;
+    transition: stroke-dashoffset 400ms, -webkit-transform 400ms;
+    transition: transform 400ms, stroke-dashoffset 400ms;
+    transition: transform 400ms, stroke-dashoffset 400ms, -webkit-transform 400ms;
+  }
+  .ham8.active .top {
+    stroke-dashoffset: -64px;
+  }
+  .ham8.active .middle {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .ham8.active .bottom {
+    stroke-dashoffset: -64px;
+  }
+  .navLinks {
+    position: absolute;
+    width: 484px;
+    right: 9.6em;
+    top: 8.8em;
+  }
+  .navLink-item {
+    display: inline;
+    margin: 5px;
+  }
+  .navLink-item a {
+    font-family: 'Unbounded', cursive;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #000000;
+  }
+  .navLink-item a:hover {
+    font-family: 'Unbounded', cursive;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #000000;
+    border: 8px solid black;
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+  }
+}
+
+@media (min-width: 992px) {
+  .line {
+    position: relative;
+    top: 2.4em;
+    left: 10.8em;
+    border: 3px solid black;
+    width: 670px;
+  }
+  .navbar {
+    height: 200px;
+    width: 992px;
+  }
+  .nadra {
+    position: absolute;
+    left: 4.2em;
+    top: 0.6em;
+    font-family: Britannic Bold;
+    font-weight: bold;
+    font-size: 5em;
+  }
+  .shop {
+    position: absolute;
+    left: 17.4em;
+    top: 2.5em;
+    font-family: 'Unbounded', cursive;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  #shopping_bag_icon {
+    position: absolute;
+    width: 7%;
+    left: 48em;
+    top: 3.6em;
+  }
+  .ham {
+    position: absolute;
+    top: 2.8em;
+    left: 9.4em;
+    width: 108.8px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-transition: -webkit-transform 400ms;
+    transition: -webkit-transform 400ms;
+    transition: transform 400ms;
+    transition: transform 400ms, -webkit-transform 400ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .hamRotate.active {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .hamRotate180.active {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .line {
+    fill: none;
+    -webkit-transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke: #000;
+    stroke-width: 5.5;
+    stroke-linecap: round;
+  }
+  .ham8 .top {
+    stroke-dasharray: 40 160;
+  }
+  .ham8 .middle {
+    stroke-dasharray: 40 142;
+    -webkit-transform-origin: 50%;
+            transform-origin: 50%;
+    -webkit-transition: -webkit-transform 400ms;
+    transition: -webkit-transform 400ms;
+    transition: transform 400ms;
+    transition: transform 400ms, -webkit-transform 400ms;
+  }
+  .ham8 .bottom {
+    stroke-dasharray: 40 85;
+    -webkit-transform-origin: 50%;
+            transform-origin: 50%;
+    -webkit-transition: stroke-dashoffset 400ms, -webkit-transform 400ms;
+    transition: stroke-dashoffset 400ms, -webkit-transform 400ms;
+    transition: transform 400ms, stroke-dashoffset 400ms;
+    transition: transform 400ms, stroke-dashoffset 400ms, -webkit-transform 400ms;
+  }
+  .ham8.active .top {
+    stroke-dashoffset: -64px;
+  }
+  .ham8.active .middle {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .ham8.active .bottom {
+    stroke-dashoffset: -64px;
+  }
+  .navLinks {
+    position: absolute;
+    width: 604px;
+    right: 12em;
+    top: 10em;
+  }
+  .navLink-item {
+    display: inline;
+    margin: 5px;
+  }
+  .navLink-item a {
+    font-family: 'Unbounded', cursive;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #000000;
+  }
+  .navLink-item a:hover {
+    font-family: 'Unbounded', cursive;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #000000;
+    border: 8px solid black;
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+  }
+}
+
+@media (min-width: 1200px) {
+  .line {
+    position: relative;
+    top: 0.7em;
+    left: 19em;
+    border: 2px solid black;
+    width: 670px;
+  }
+  .navbar {
+    height: 222px;
+    width: auto;
+  }
+  .nadra {
+    position: absolute;
+    left: 6em;
+    top: 0.4em;
+    font-family: Britannic Bold;
+    font-weight: bold;
+    font-size: 5em;
+  }
+  .shop {
+    position: absolute;
+    left: 21.6em;
+    top: 2em;
+    font-family: 'Unbounded', cursive;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  #shopping_bag_icon {
+    position: absolute;
+    width: 5.1%;
+    left: 56.4em;
+    top: 2.9em;
+  }
+  .ham {
+    position: absolute;
+    top: 2.2em;
+    left: 17.5em;
+    width: 108.8px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-transition: -webkit-transform 400ms;
+    transition: -webkit-transform 400ms;
+    transition: transform 400ms;
+    transition: transform 400ms, -webkit-transform 400ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .hamRotate.active {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .hamRotate180.active {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .line {
+    fill: none;
+    -webkit-transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke: #000;
+    stroke-width: 5.5;
+    stroke-linecap: round;
+  }
+  .ham8 .top {
+    stroke-dasharray: 40 160;
+  }
+  .ham8 .middle {
+    stroke-dasharray: 40 142;
+    -webkit-transform-origin: 50%;
+            transform-origin: 50%;
+    -webkit-transition: -webkit-transform 400ms;
+    transition: -webkit-transform 400ms;
+    transition: transform 400ms;
+    transition: transform 400ms, -webkit-transform 400ms;
+  }
+  .ham8 .bottom {
+    stroke-dasharray: 40 85;
+    -webkit-transform-origin: 50%;
+            transform-origin: 50%;
+    -webkit-transition: stroke-dashoffset 400ms, -webkit-transform 400ms;
+    transition: stroke-dashoffset 400ms, -webkit-transform 400ms;
+    transition: transform 400ms, stroke-dashoffset 400ms;
+    transition: transform 400ms, stroke-dashoffset 400ms, -webkit-transform 400ms;
+  }
+  .ham8.active .top {
+    stroke-dashoffset: -64px;
+  }
+  .ham8.active .middle {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .ham8.active .bottom {
+    stroke-dashoffset: -64px;
+  }
+  .navLinks {
+    position: absolute;
+    width: 604px;
+    right: 21.1em;
+    top: 8.8em;
+  }
+  .navLink-item {
+    display: inline;
+    margin: 5px;
+  }
+  .navLink-item a {
+    font-family: 'Unbounded', cursive;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: #000000;
+  }
+  .navLink-item a:hover {
+    font-family: 'Unbounded', cursive;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #000000;
+    border: 8px solid black;
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+  }
+}
+/*# sourceMappingURL=saveForLater_navbar.css.map */

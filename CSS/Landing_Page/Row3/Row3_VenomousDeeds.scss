@@ -1,0 +1,242 @@
+//  in this sheet we'll be styling the third post on the "FOR YOU" page
+
+
+// this div contains the artwork, artist's profile picture, name and the time they posted at
+.VENOMOUS_DEEDS{
+    position: relative;
+    top: 6rem;
+}
+
+// artist's profile picture positioned on the top left of the artwork image 
+#GilbertImg{
+    position: relative;
+   left: 1.8rem;
+    top: 3.5rem;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: inline;
+    cursor: pointer;
+}
+// "@gilbertasante posted VENOMOUS DEEDS" positioned above the time and on the right of the profile picture. the username is colored blue in the html [Ln 166, Col 41]
+.GilbertFeedText{
+    position: relative;
+	left: 5.2em;
+	top: 1em;
+	font-size: 0.9em;
+	width: 288px;
+    //border: 1px solid black;
+}
+//the time the artist posted at. positioned on the right of the profile picture and the artist's username
+.Gtime{
+    position: relative;
+	left: 6em;
+	font-size: 0.78em;
+	font-weight: bold;
+	color: #999;
+	width: 120px;
+}
+//the artwork posted, positioned in the middle of the screen
+#venomousDeedsVideo{
+    position: relative;
+	width: 88%; 
+	height: 88%;
+    left: 1.7rem;
+}
+
+//                                    # Media Queries #
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+// this div contains the artwork, artist's profile picture, name and the time they posted at
+.VENOMOUS_DEEDS{
+    position: relative;
+    top: 6rem;
+}
+
+// artist's profile picture positioned on the top left of the artwork image 
+#GilbertImg{
+    position: relative;
+    top: 3.4rem;
+    left: 3rem;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: inline;
+    cursor: pointer;
+}
+
+// "@gilbertasante posted VENOMOUS DEEDS" positioned above the time and on the right of the profile picture. the username is colored blue in the html [Ln 166, Col 41]
+.GilbertFeedText{
+    position: relative;
+    left: 5.8em;
+    top: 1em;
+    font-size: 1em;
+    width: 322px;
+}
+
+//the time the artist posted at. positioned on the right of the profile picture and the artist's username
+.Gtime{
+    position: relative;
+    left: 6.6em;
+    top: 0.2em;
+    font-size: 0.88em;
+    font-weight: bold;
+    color: #999;
+    width: 120px;
+}
+//the artwork posted, positioned in the middle of the screen
+#venomousDeedsVideo{
+    position: relative;
+    width: 88%; 
+    height: 88%;
+    left: 2.8rem;
+}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+// this div contains the artwork, artist's profile picture, name and the time they posted at
+.VENOMOUS_DEEDS{
+    position: relative;
+    top: 6rem;
+}
+    
+// artist's profile picture positioned on the top left of the artwork image 
+#GilbertImg{
+    position: relative;
+    top: 3.4rem;
+    left: 3rem;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: inline;
+    cursor: pointer;
+}
+
+// "@gilbertasante posted VENOMOUS DEEDS" positioned above the time and on the right of the profile picture. the username is colored blue in the html [Ln 166, Col 41]
+.GilbertFeedText{
+    position: relative;
+    left: 5.8em;
+    top: 1em;
+    font-size: 1em;
+    width: 322px;
+}
+
+//the time the artist posted at. positioned on the right of the profile picture and the artist's username
+.Gtime{
+    position: relative;
+    left: 6.6em;
+    top: 0.2em;
+    font-size: 0.88em;
+    font-weight: bold;
+    color: #999;
+    width: 120px;
+}
+
+//the artwork posted, positioned in the middle of the screen
+#venomousDeedsVideo{
+    position: relative;
+    width: 88%; 
+    height: 88%;
+    left: 2.8rem;
+}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+// this div contains the artwork, artist's profile picture, name and the time they posted at
+.VENOMOUS_DEEDS{
+    position: relative;
+    //border: 5px solid black;
+    top: 6rem;
+}
+    
+// artist's profile picture positioned on the top left of the artwork image 
+#GilbertImg{
+    position: relative;
+    top: 3.4rem;
+    left: 3rem;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: inline;
+    cursor: pointer;
+}
+
+// "@gilbertasante posted VENOMOUS DEEDS" positioned above the time and on the right of the profile picture. the username is colored blue in the html [Ln 166, Col 41]
+.GilbertFeedText{
+    position: relative;
+    left: 5.8em;
+    top: 1em;
+    font-size: 1em;
+    width: 322px;
+}
+
+//the time the artist posted at. positioned on the right of the profile picture and the artist's username
+.Gtime{
+    position: relative;
+    left: 6.6em;
+    top: 0.2em;
+    font-size: 0.88em;
+    font-weight: bold;
+    color: #999;
+    width: 120px;
+}
+
+//the artwork posted, positioned in the middle of the screen
+#venomousDeedsVideo{
+    position: relative;
+    width: 48%; 
+    height: 48%;
+    left: 2.8rem;
+}
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+// this div contains the artwork, artist's profile picture, name and the time they posted at
+.VENOMOUS_DEEDS{
+    position: relative;
+    top: 6rem;
+}
+        
+// artist's profile picture positioned on the top left of the artwork image 
+#GilbertImg{
+    position: relative;
+    left: 8.8rem;
+    top: 3.5rem;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: inline;
+    cursor: pointer;
+}
+
+// "@gilbertasante posted VENOMOUS DEEDS" positioned above the time and on the right of the profile picture. the username is colored blue in the html [Ln 166, Col 41]
+.GilbertFeedText{
+    position: relative;
+    left: 12.8em;
+    top: 1em;
+    font-size: 0.9em;
+    width: 333px;
+}
+
+//the time the artist posted at. positioned on the right of the profile picture and the artist's username
+.Gtime{
+    position: relative;
+    left: 14.8em;
+    font-size: 0.78em;
+    font-weight: bold;
+    color: #999;
+    width: 120px;
+}
+
+//the artwork posted, positioned in the middle of the screen
+#venomousDeedsVideo{
+    position: relative;
+    width: 48%; 
+    height: 48%;
+    left: 8.8rem;
+}
+}

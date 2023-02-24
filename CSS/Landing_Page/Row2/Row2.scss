@@ -1,0 +1,714 @@
+//                                          # ABOUT US SECTION #
+
+
+
+//this row has three columns and a black background for all columns
+#Row2{
+    position: relative;
+    top: 3.7em;
+    left: 0.8em;
+    width: auto;
+    height: 515px;
+    background-color: rgb(0, 0, 0);
+}
+
+//first column
+#firstCol{
+    position: absolute;
+    width: 3380px;
+}
+
+//first column heading, designed to have a fancy font and to appear bigger than the paragraph
+.futureOfArtCollecting{
+    position: relative;
+    color:white;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 2.8em;
+    top: 0.2em;
+    left: 0.3em;
+    width: 290px;
+}
+
+//first column paragraph, designed to have the alegreya sans font and appear smaller than the heading
+.artCollectingParagraph{
+    position: relative;
+    color: rgb(255, 255, 255);
+    top: 1em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+    width: 340px;
+}
+
+// the white line that divides the information
+.divider{
+    position: relative;
+    color: aliceblue;
+    left: 5em;
+    top: 0.5em;
+    width: 170px;
+}
+
+//second column
+#secondCol{
+    position:absolute;
+    top: 9em;
+    width: 350px;
+}
+
+//second column heading, designed to have a fancy font and to appear bigger than the paragraph
+.PioneeringArtMarketRoyalties{
+    position: relative;
+    color:rgb(255, 255, 255);
+    font-family: 'Kolker Brush', cursive;
+    font-size: 2.8em;
+    bottom: 0.5em;
+    width: 340px;
+}
+
+//second column paragraph, designed to have the alegreya sans font and appear smaller than the heading
+.marketRoyaltiesParagraph{
+    position: relative;
+    color: rgb(255, 255, 255);// styled black to hide it before hover
+    bottom: 1.6em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+    width: 350px;
+}
+
+// the white line that divides the information
+.divider2{
+    position: relative;
+    color: aliceblue;
+    left: 7em;
+    bottom: 1em;
+    width: 170px;
+}
+#thirdCol{
+    position: relative;
+    top: 19rem;
+    height: 200px;
+}
+
+//third column heading, designed to have a fancy font and to appear bigger than the paragraph
+.BuiltForLongevity{
+    position: relative;
+    color:white;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 2.8em;
+   // right: 1em;
+    top: 0.2em;
+    width: 300px;
+}
+
+//third column paragraph, designed to have the alegreya sans font and appear smaller than the heading
+.transactionsParagraph{
+    position: relative;
+    color: rgb(255, 255, 255);//styled black to hide it before hover
+    top: 1em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+    width: 350px;
+}
+
+// "learn more" button, designed to have a black background and a solid white border with white text
+.btn-learnMore{
+    position: relative;
+    top: 1.3em;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 0.8em;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+}
+
+
+//                                          # Media Queries #
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+//this row has three columns and a black background for all columns
+#Row2{
+    position: relative;
+    height: 515px;
+    width: 576px;
+    background-color: rgb(0, 0, 0);
+}
+
+//first column
+#firstCol{
+    position: absolute;
+    width: 530px;
+}
+
+//first column heading, designed to have a fancy font and to appear bigger than the paragraph
+.futureOfArtCollecting{
+    position: relative;
+    color:white;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 3em;
+    top: 0.2em;
+    left: 0.3em;
+}
+
+//first column paragraph, designed to have the alegreya sans font and appear smaller than the heading
+.artCollectingParagraph{
+    position: relative;
+    color: rgb(255, 255, 255);
+    top: 1em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+// the white line that divides the information
+.divider{
+    position: relative;
+    color: aliceblue;
+    left: 5em;
+    top: 0.5em;
+    width: 170px;
+}
+
+//second column
+#secondCol{
+    position:absolute;
+    top: 9em;
+}
+
+//second column heading, designed to have a fancy font and to appear bigger than the paragraph
+.PioneeringArtMarketRoyalties{
+    position: relative;
+    color:rgb(255, 255, 255);
+    font-family: 'Kolker Brush', cursive;
+    font-size: 3em;
+    bottom: 0.5em;
+}
+
+//second column paragraph, designed to have the alegreya sans font and appear smaller than the heading
+.marketRoyaltiesParagraph{
+    position: relative;
+    color: rgb(255, 255, 255);// styled black to hide it before hover
+    bottom: 1.6em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+// the white line that divides the information
+.divider2{
+    position: relative;
+    color: aliceblue;
+    left: 19em;
+    bottom: 1em;
+    width: 170px;
+}
+#thirdCol{
+    position: relative;
+    top: 19rem;
+    height: 200px;
+}
+
+//third column heading, designed to have a fancy font and to appear bigger than the paragraph
+.BuiltForLongevity{
+    position: relative;
+    color:white;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 3em;
+    top: 0.2em;
+}
+
+//third column paragraph, designed to have the alegreya sans font and appear smaller than the heading
+.transactionsParagraph{
+    position: relative;
+    color: rgb(255, 255, 255);//styled black to hide it before hover
+    top: 1em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+// "learn more" button, designed to have a black background and a solid white border with white text
+.btn-learnMore{
+    position: relative;
+    top: 1.3em;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 0.8em;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+//this row has three columns and a black background for all columns
+#Row2{
+    position: relative;
+    top: 11rem;
+    height: 515px;
+    width: 768px;
+    background-color: rgb(0, 0, 0);
+}
+
+//first column
+#firstCol{
+    position: absolute;
+    width: 3380px;
+}
+
+//first column heading, designed to have a fancy font and to appear bigger than the paragraph
+.futureOfArtCollecting{
+    position: relative;
+    color:white;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 3em;
+    top: 0.2em;
+    left: 0.3em;
+}
+
+//first column paragraph, designed to have the alegreya sans font and appear smaller than the heading
+.artCollectingParagraph{
+    position: relative;
+    color: rgb(255, 255, 255);
+    top: 1em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+// the white line that divides the information
+.divider{
+    position: relative;
+    color: aliceblue;
+    left: 5em;
+    top: 0.5em;
+    width: 170px;
+}
+
+//second column
+#secondCol{
+    position:absolute;
+    top: 9em;
+}
+
+//second column heading, designed to have a fancy font and to appear bigger than the paragraph
+.PioneeringArtMarketRoyalties{
+    position: relative;
+    color:rgb(255, 255, 255);
+    font-family: 'Kolker Brush', cursive;
+    font-size: 3em;
+    bottom: 0.5em;
+}
+
+//second column paragraph, designed to have the alegreya sans font and appear smaller than the heading
+.marketRoyaltiesParagraph{
+    position: relative;
+    color: rgb(255, 255, 255);// styled black to hide it before hover
+    bottom: 1.6em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+// the white line that divides the information
+.divider2{
+    position: relative;
+    color: aliceblue;
+    left: 19em;
+    bottom: 1em;
+    width: 170px;
+}
+#thirdCol{
+    position: relative;
+    top: 19rem;
+    height: 200px;
+}
+
+//third column heading, designed to have a fancy font and to appear bigger than the paragraph
+.BuiltForLongevity{
+    position: relative;
+    color:white;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 3em;
+    top: 0.2em;
+}
+
+//third column paragraph, designed to have the alegreya sans font and appear smaller than the heading
+.transactionsParagraph{
+    position: relative;
+    color: rgb(255, 255, 255);
+    top: 1em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+// "learn more" button, designed to have a black background and a solid white border with white text
+.btn-learnMore{
+    position: relative;
+    top: 1.3em;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 0.8em;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+//this row has three columns and a black background for all columns
+#Row2{
+    position: relative;
+    width: 992px;
+    height: 305px;
+    background-color: rgb(0, 0, 0);
+}
+#Row2:hover{
+    background-color: white;
+    //hiding the "learn more" button to reveal it when the third column is hovered on
+    .btn-learnMore{
+        opacity: 0;
+    }
+}
+    
+//first column
+#firstCol{
+    position: absolute;
+    width: 3380px;
+    width: 330px;
+}#firstCol:hover{
+    .artCollectingParagraph{
+        color: black;
+        top: -0.0em;
+        opacity: 100;
+    }
+}
+    
+//first column heading, designed to have a fancy font
+.futureOfArtCollecting{
+    position: relative;
+    color:white;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 4em;
+    top: 0.8em;
+    left: 0.3em;
+}
+    
+//first column paragraph, designed to have the alegreya sans font
+.artCollectingParagraph{
+    position: relative;
+    color: rgb(255, 255, 255);
+    top: 1em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.88em;
+    opacity: 0;//this is for the hover effect 
+}
+    
+// the white line that divides the information
+.divider{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 14.5em;
+    top: 8em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    //bottom: 1em;
+    width: 170px;
+    transform: rotate(90deg);
+}
+    
+//second column
+#secondCol{
+    position:absolute;
+    top: -0.0em;
+   // border: 5px solid red;
+    width: 330px;
+    left: 20.4em;
+}#secondCol:hover{
+    .marketRoyaltiesParagraph{
+        position: relative;
+        color: black;
+        bottom: 10em;
+        left: -0.1em;
+        opacity: 100;
+    }
+}
+    
+//second column heading, designed to have a fancy font
+.PioneeringArtMarketRoyalties{
+    position: relative;
+    color:rgb(255, 255, 255);
+    font-family: 'Kolker Brush', cursive;
+    font-size: 3.6em;
+    top: 0.3em;
+    left: 0.1em;
+}
+    
+//second column paragraph, designed to have the alegreya sans font
+.marketRoyaltiesParagraph{
+    position: relative;
+    color: rgb(255, 255, 255);
+    bottom: 1.6em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.88em;
+    opacity: 0;//this is for the hover effect
+}
+    
+// the white line that divides the information
+.divider2{
+    position: relative;
+    color: rgb(255, 255, 255);
+    left: 14.4em;
+    bottom: 8em;
+    width: 170px;
+    transform: rotate(90deg);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+#thirdCol{
+    position: absolute;
+    top: -0.0rem;
+    width: 330px;
+    left: 41em;
+}#thirdCol:hover{
+    .transactionsParagraph{
+        color: black;
+        left: -0.0em;
+        opacity: 100;
+}
+    .btn-learnMore{
+        opacity: 100;
+    }
+}
+    
+//third column heading, designed to have a fancy font
+.BuiltForLongevity{
+    position: relative;
+    color:white;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 4em;
+    top: 0.8em;
+    left: 0em;
+}
+    
+//third column paragraph, designed to have the alegreya sans font
+.transactionsParagraph{
+    position: relative;
+    color: rgb(255, 255, 255);//styled black to hide it before hover
+    top: 1em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.88em;
+    opacity: 0;//this is for the hover effect
+}
+    
+// "learn more" button, designed to have a black background and a solid white border with white text
+.btn-learnMore{
+    position: relative;
+    top: 1.3em;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 0.8em;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+}
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+//this row has three columns and a black background for all columns
+#Row2{
+    position: relative;
+    width: 1255px;
+    height: 355px;      
+    background-color: black;
+    transition: background-color 2s;
+}
+#Row2:hover{
+    background-color: white;
+    //hiding the "learn more" button to reveal it when the third column is hovered on
+    .btn-learnMore{
+        opacity: 0;
+    }
+}
+    
+//first column, the on hover effect turns the paragraph's color to black and raises it up a bit
+#firstCol{
+   position: absolute;
+   width: 410px;  
+   height: 22.2em;
+}
+#firstCol:hover{
+    .artCollectingParagraph{
+        color: black;
+        top: -0.0em;
+        opacity: 100;
+     }
+}
+    
+//first column heading, designed to have a fancy font 
+.futureOfArtCollecting{
+    position: relative;
+    color:white;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 5em;
+    left: 0.3em;
+    top: 1em;
+}
+    
+//first column paragraph, designed to have the alegreya sans font 
+.artCollectingParagraph{
+    position: relative;
+    color: white;
+    top: 1em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    left: 0.5em;
+    opacity: 0;//this is for the hover effect
+}
+    
+// the white line that divides the information
+.divider{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 20.2em;
+    top: 10em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    width: 170px;
+    transform: rotate(90deg);
+    left: 21.8em;
+}
+    
+//second column
+#secondCol{ 
+    position:absolute;
+    top: 0em;
+    width: 400px;
+    left: 26em;
+    height: 21rem;
+}#secondCol:hover{
+    .marketRoyaltiesParagraph{
+        position: relative;
+        color: black;
+        bottom: 10em;
+        left: -0.1em;
+        opacity: 100;
+    }
+}
+    
+//second column heading, designed to have a fancy font and to appear bigger than the paragraph
+.PioneeringArtMarketRoyalties{
+    position: relative;
+    color:rgb(255, 255, 255);
+    font-family: 'Kolker Brush', cursive;
+    font-size: 5em;
+    bottom: 0.5em;
+    left: 0.88em;
+    top: 0.5em;
+}
+    
+//second column paragraph, designed to have the alegreya sans font and appear smaller than the heading
+.marketRoyaltiesParagraph{
+    position: relative;
+    color: rgb(255, 255, 255);// styled black to hide it before hover
+    bottom: 1.6em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    left: 1.6em;
+    opacity: 0;//this is for the hover effect
+}
+    
+// the white line that divides the information
+.divider2{
+    position: relative;
+    color: rgb(255, 255, 255);
+    left: 21.8em;
+    bottom: 10.8em;
+    width: 170px;
+    transform: rotate(90deg);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+#thirdCol{
+    position: absolute;
+    top: -0.0rem;
+    height: 355px;
+    width: 400px;
+    left: 51em;
+    
+}#thirdCol:hover{
+    .transactionsParagraph{
+        color: black;
+        left: -0.0em;
+        opacity: 100;
+    }
+    .btn-learnMore{
+        opacity: 100;
+    }
+}
+    
+//third column heading, designed to have a fancy font
+.BuiltForLongevity{
+    position: relative;
+    color:white;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 5em;
+    left: 0.5em;
+    top: 1em;
+    width: 350px; 
+}
+    
+//third column paragraph, designed to have the alegreya sans font
+.transactionsParagraph{
+    position: relative;
+    color: rgb(255, 255, 255);//styled black to hide it before hover
+    top: 2em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    left: 4em;
+    width: 350px;
+    opacity: 0;//this is for the hover effect
+}
+    
+// "learn more" button, designed to have a black background and a solid white border with white text
+.btn-learnMore{
+    position: relative;
+    top: 4.3em;
+    left: 5.8em;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 0.9em;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+}.btn-learnMore:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+}
+}

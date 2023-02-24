@@ -1,0 +1,853 @@
+//                                      # CONTACT FORM #
+// 4th row div
+#Row4{
+  position: relative;
+  top: 3.3rem;
+  height: 822px;
+  background: url("../../../Images/splash.png") ;
+    
+  background-size:cover;
+}
+  
+//blending the background images
+#Row4::before{
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url("../../../Images/background4.jpg");
+  //background-attachment: fixed;
+  
+  background-size: cover;
+  background-position: center;
+  mix-blend-mode: screen;
+}
+    
+body, button, input {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+ // letter-spacing: 1.4px;
+}
+  
+.background {
+  display: flex;
+  min-height: 100vh;
+}
+  
+.container {
+  flex: 0 1 700px;
+  margin: auto;
+  padding: 10px;
+}
+//the form
+.screen {
+  position: relative;
+  top: 7em;
+  border-radius: 15px;
+  background:transparent;
+  opacity: 100%;
+  background-attachment:fixed;
+}
+  
+.screen:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  border-radius: 15px;
+ // box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+  z-index: -1;
+}       
+.screen-body {
+  display: flex;
+}
+  
+.screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
+  
+.screen-body-item.left {
+  display: flex;
+  flex-direction: column;
+}
+  
+//contact form title
+.app-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #ffffff;
+  font-size: 26px;
+}
+  
+.app-title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 25px;
+  height: 4px;
+  background: #ffffff;
+}
+//contact number
+.app-contact {
+  margin-top: auto;
+  font-size: 8px;
+  color: rgb(255, 255, 255);
+}
+//form input fields group
+.app-form-group {
+  margin-bottom: 15px;
+}
+  
+.app-form-group.message {
+  margin-top: 40px;
+}
+  
+.app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+}
+//form input fields
+.app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  text-transform:capitalize;
+  outline: none;
+  transition: border-color .2s;
+}
+//input field placeholders
+.app-form-control::placeholder {
+  color: rgb(255, 255, 255);
+}
+.app-form-control:focus::placeholder {
+  color: rgb(0, 0, 0);
+}
+.app-form-control:focus {
+  border-bottom-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+//form buttons
+.app-form-button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+  
+.app-form-button:hover {
+  color: #000000;
+}
+     
+@media screen and (max-width: 520px) {
+  .screen-body {
+    flex-direction: column;
+  }
+
+.screen-body-item.left {
+  margin-bottom: 30px;
+}
+  
+.app-title {
+  flex-direction: row;
+}
+  
+.app-title span {
+  margin-right: 12px;
+}
+  
+.app-title:after {
+  display: none;
+}
+}
+  
+@media screen and (max-width: 600px) {
+.screen-body {
+  padding: 40px;
+}
+  
+.screen-body-item {
+  padding: 0;
+}
+}
+
+
+//                                          # Media Queries #
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+// 4th row div
+#Row4{
+  position: relative;
+  //border: 5px solid red;
+  height: 822px;
+  background: url("../../../Images/splash.png") ;
+    
+  background-size:cover;
+}
+  
+//blending the background images
+#Row4::before{
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url("../../../Images/background4.jpg");
+  //background-attachment: fixed;
+  
+  background-size: cover;
+  background-position: center;
+  mix-blend-mode: screen;
+}
+    
+body, button, input {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+ // letter-spacing: 1.4px;
+}
+  
+.background {
+  display: flex;
+  min-height: 100vh;
+}
+  
+.container {
+  flex: 0 1 700px;
+  margin: auto;
+  padding: 10px;
+}
+//the form
+.screen {
+  position: relative;
+  top: 7em;
+  left: 2em;
+  border-radius: 15px;
+  background:transparent;
+  opacity: 100%;
+  background-attachment:fixed;
+}
+  
+.screen:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  border-radius: 15px;
+ // box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+  z-index: -1;
+}       
+.screen-body {
+  display: flex;
+}
+  
+.screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
+  
+.screen-body-item.left {
+  display: flex;
+  flex-direction: column;
+}
+  
+//contact form title
+.app-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #ffffff;
+  font-size: 26px;
+}
+  
+.app-title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 25px;
+  height: 4px;
+  background: #ffffff;
+}
+//contact number
+.app-contact {
+  margin-top: auto;
+  font-size: 8px;
+  color: rgb(255, 255, 255);
+}
+//form input fields group
+.app-form-group {
+  margin-bottom: 15px;
+}
+  
+.app-form-group.message {
+  margin-top: 40px;
+}
+  
+.app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+}
+//form input fields
+.app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  text-transform:capitalize;
+  outline: none;
+  transition: border-color .2s;
+}
+//input field placeholders
+.app-form-control::placeholder {
+  color: rgb(255, 255, 255);
+}
+.app-form-control:focus::placeholder {
+  color: rgb(0, 0, 0);
+}
+.app-form-control:focus {
+  border-bottom-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+//form buttons
+.app-form-button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+  
+.app-form-button:hover {
+  color: #000000;
+}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+// 4th row div
+#Row4{
+  position: relative;
+  top: 13rem;
+  height: 922px;
+  background: url("../../../Images/splash.png") ;
+  background-size:cover;
+}
+  
+//blending the background images
+#Row4::before{
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url("../../../Images/background4.jpg");
+  //background-attachment: fixed;
+  
+  background-size: cover;
+  background-position: center;
+  mix-blend-mode: screen;
+}
+    
+body, button, input {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+ // letter-spacing: 1.4px;
+}
+  
+.background {
+  display: flex;
+  min-height: 100vh;
+}
+  
+.container {
+  flex: 0 1 700px;
+  margin: auto;
+  padding: 10px;
+}
+//the form
+.screen {
+  position: relative;
+  top: 7em;
+  border-radius: 15px;
+  background:transparent;
+  opacity: 100%;
+  background-attachment:fixed;
+}
+  
+.screen:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  border-radius: 15px;
+ // box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+  z-index: -1;
+}       
+.screen-body {
+  display: flex;
+}
+  
+.screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
+  
+.screen-body-item.left {
+  display: flex;
+  flex-direction: column;
+}
+  
+//contact form title
+.app-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #ffffff;
+  font-size: 26px;
+}
+  
+.app-title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 25px;
+  height: 4px;
+  background: #ffffff;
+}
+//contact number
+.app-contact {
+  margin-top: auto;
+  font-size: 8px;
+  color: rgb(255, 255, 255);
+}
+//form input fields group
+.app-form-group {
+  margin-bottom: 15px;
+}
+  
+.app-form-group.message {
+  margin-top: 40px;
+}
+  
+.app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+}
+//form input fields
+.app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  text-transform:capitalize;
+  outline: none;
+  transition: border-color .2s;
+}
+//input field placeholders
+.app-form-control::placeholder {
+  color: rgb(255, 255, 255);
+}
+.app-form-control:focus::placeholder {
+  color: rgb(0, 0, 0);
+}
+.app-form-control:focus {
+  border-bottom-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+//form buttons
+.app-form-button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+  
+.app-form-button:hover {
+  color: #000000;
+}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  
+// 4th row div
+#Row4{
+  position: relative;
+  height: 1222px;
+  background: url("../../../Images/splash.png") ;
+  background-size:cover;
+}
+  
+//blending the background images
+#Row4::before{
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url("../../../Images/background.jpg");
+  //background-attachment: fixed;
+  
+  background-size: cover;
+  background-position: center;
+  mix-blend-mode: screen;
+}
+    
+body, button, input {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+ // letter-spacing: 1.4px;
+}
+  
+.background {
+  display: flex;
+  min-height: 100vh;
+}
+  
+.container {
+  flex: 0 1 700px;
+  margin: auto;
+  padding: 10px;
+}
+//the form
+.screen {
+  position: relative;
+  top: -8em;
+  border-radius: 15px;
+  background-image: url("../../../Images/background2.jpg");
+  opacity: 100%;
+  background-attachment:fixed;
+}
+  
+.screen:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+  z-index: -1;
+}       
+.screen-body {
+  display: flex;
+}
+  
+.screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
+  
+.screen-body-item.left {
+  display: flex;
+  flex-direction: column;
+}
+  
+//contact form title
+.app-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #ffffff;
+  font-size: 26px;
+}
+  
+.app-title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 25px;
+  height: 4px;
+  background: #ffffff;
+}
+//contact number
+.app-contact {
+  margin-top: auto;
+  font-size: 8px;
+  color: rgb(255, 255, 255);
+}
+//form input fields group
+.app-form-group {
+  margin-bottom: 15px;
+}
+  
+.app-form-group.message {
+  margin-top: 40px;
+}
+  
+.app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+}
+//form input fields
+.app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  text-transform:capitalize;
+  outline: none;
+  transition: border-color .2s;
+}
+//input field placeholders
+.app-form-control::placeholder {
+  color: rgb(255, 255, 255);
+}
+.app-form-control:focus::placeholder {
+  color: rgb(0, 0, 0);
+}
+.app-form-control:focus {
+  border-bottom-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+//form buttons
+.app-form-button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+  
+.app-form-button:hover {
+  color: #000000;
+
+  display: none;
+
+}
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+// 4th row div
+#Row4{
+  position: relative;
+  left: 1em;
+  height: 1222px;
+  background-image: url("../../../Images/splash.png") ;
+  background-size:cover;
+}
+  
+//blending the background images
+#Row4::before{
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url("../../../Images/background.jpg");
+  //background-attachment: fixed;
+  
+  background-size: cover;
+  background-position: center;
+  mix-blend-mode: screen;
+}
+    
+body, button, input {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+ // letter-spacing: 1.4px;
+}
+  
+.background {
+  display: flex;
+  min-height: 100vh;
+}
+  
+.container {
+  flex: 0 1 700px;
+  margin: auto;
+  padding: 10px;
+}
+//the form
+.screen {
+  position: relative;
+  top: 7em;
+  border-radius: 15px;
+  background-image: url("../../../Images/background2.jpg");
+  opacity: 100%;
+  background-attachment:fixed;
+}
+  
+.screen:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+  z-index: -1;
+}       
+.screen-body {
+  display: flex;
+}
+  
+.screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
+  
+.screen-body-item.left {
+  display: flex;
+  flex-direction: column;
+}
+  
+//contact form title
+.app-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #ffffff;
+  font-size: 26px;
+}
+  
+.app-title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 25px;
+  height: 4px;
+  background: #ffffff;
+}
+//contact number
+.app-contact {
+  margin-top: auto;
+  font-size: 8px;
+  color: rgb(255, 255, 255);
+}
+//form input fields group
+.app-form-group {
+  margin-bottom: 15px;
+}
+  
+.app-form-group.message {
+  margin-top: 40px;
+}
+  
+.app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+}
+//form input fields
+.app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  text-transform:capitalize;
+  outline: none;
+  transition: border-color .2s;
+}
+//input field placeholders
+.app-form-control::placeholder {
+  color: rgb(255, 255, 255);
+}
+.app-form-control:focus::placeholder {
+  color: rgb(0, 0, 0);
+}
+.app-form-control:focus {
+  border-bottom-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+//form buttons
+.app-form-button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+  
+.app-form-button:hover {
+  color: #000000;
+}
+     
+@media screen and (max-width: 520px) {
+  .screen-body {
+    flex-direction: column;
+  }
+
+.screen-body-item.left {
+  margin-bottom: 30px;
+}
+  
+.app-title {
+  flex-direction: row;
+}
+  
+.app-title span {
+  margin-right: 12px;
+}
+  
+.app-title:after {
+  display: none;
+}
+}
+  
+@media screen and (max-width: 600px) {
+.screen-body {
+  padding: 40px;
+}
+  
+.screen-body-item {
+  padding: 0;
+}
+}
+}
+
+// reference: https://codepen.io/krisantuswanandi/pen/KxrgeZ

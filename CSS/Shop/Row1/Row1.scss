@@ -1,0 +1,1762 @@
+// this page (SHOP) has six cards that share the same class/id name
+// the class/id name sharing also applies to the content in the cards
+
+// #Row1{
+//     border: 5px solid green;
+// }
+// this div contains the heading "FEATURED COLLECTIONS" and the two lines on its left and right sides
+.collections_container{
+    position: relative;
+    top: 2.22em;
+    width: 10px;
+}
+
+// the line on the left of the heading
+.left_line{
+    position: relative;
+    top: 0.8em;
+    left: 1em;
+    border: 1px solid rgb(0, 0, 0);
+    width: 55px;
+}
+
+// the heading "FEATURED COLLECTIONS"
+.collections{
+    position: relative;
+ //   border: 3px solid rgb(255, 0, 238);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    width: 222px;
+    top: 0.1em;
+    left: 5.2em;
+}
+
+// the line on the right of the heading
+.right_line{
+    position: relative;
+    bottom: 1em;
+    left: 18.7em;
+    border: 1px solid rgb(0, 0, 0);
+    width: 55px;
+}
+
+//card styled to have a white background and border
+#card{
+    position: relative;
+    right: 2.3rem;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    width: 23rem;
+    height: 35rem;
+    margin: 50px;
+}
+
+//card title, description and artwork price are colored black and positioned on the bottom left of the video/image
+
+// card title
+.card-title{
+    position: relative;
+    right: 1em;
+    font-family: 'Unbounded', cursive;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+// artwork description
+.card-description{
+    position: relative;
+    right: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+// artwork price
+.price{
+    position: relative;
+    right: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+// the buttons have a solid border with no radius, a white background and black text
+// on hover the text color is white and the background is black
+
+// add to cart button
+#addToCart_Button{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    left: 3em;
+    bottom: 4.1em;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    margin: 20px;
+}#addToCart_Button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+//save for later button
+#saveForLater_Button{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    left: 12em;
+  //  top: 1em;
+    bottom: 8.6em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    margin: 20px;
+}
+#saveForLater_Button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+
+//                  ///////////////        the like button          /////////////////////           //
+
+
+// styling all 18 checkboxes separately
+// styled to hide them
+#checkbox, #checkbox2, #checkbox3, #checkbox4, #checkbox5, #checkbox6,
+#checkbox7, #checkbox8, #checkbox9, #checkbox10, #checkbox11, #checkbox12,
+#checkbox13, #checkbox14, #checkbox15, #checkbox16, #checkbox17, #checkbox18{display:none;}
+
+//adjusting the size and position of the icon
+#heart-svg{
+    position: absolute;
+    left: 15.4em;
+    top: 23em;
+    width: 8%;
+    height: 8%;
+    cursor:pointer; overflow:visible; width:60px;
+    #heart{transform-origin:center; animation:animateHeartOut .3s linear forwards;}
+}
+
+// number of likes positioned on the right of the heart icon and colored white
+#count{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    bottom: 18.8em;
+    left: 17em;
+    //border: 5px solid rgb(255, 0, 0);
+}
+
+// styling all 18 checkboxes separately
+// styled to fill the heart icon black when clicked on
+//one
+#checkbox:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//two
+#checkbox2:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//three
+#checkbox3:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//four
+#checkbox4:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//five
+#checkbox5:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//six
+#checkbox6:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//seven
+#checkbox7:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//eight
+#checkbox8:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//nine
+#checkbox9:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//ten
+#checkbox10:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//eleven
+#checkbox11:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//twelve
+#checkbox12:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//thirteen
+#checkbox13:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//fourteen
+#checkbox14:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//fifteen
+#checkbox15:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//sixteen
+#checkbox16:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//seventeen
+#checkbox17:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//eighteen
+#checkbox18:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+
+// outlining the icon / adding a black border
+path{
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 2px;
+   // stroke-dasharray: 2,2;
+    stroke-linejoin: round;
+}
+  
+@keyframes animateHeart{
+    0%{transform:scale(.2);}
+    40%{transform:scale(1.2);}
+    100%{transform:scale(1);}
+}
+  
+@keyframes animateHeartOut{
+    0%{transform:scale(1.4);}
+    100%{transform:scale(1);}
+}
+
+// the alertbox after a user adds an item on the "savedForLater" page
+// styled to have a black background, white text and grey boxshadow. positioned on the middle of the screen
+.alertbox {
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    box-shadow: 5px 10px #ededed;
+    position: fixed;
+    top: 8em;
+    right: 2.5em;
+    z-index: 5;
+    width: 300px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+// //                                        # Media Queries #
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+// #Row1{
+//     border: 3px solid rgb(255, 0, 0);
+// }
+
+// this div contains the heading "FEATURED COLLECTIONS" and the two lines on its left and right sides
+.collections_container{
+    position: relative;
+    top: 2.22em;
+    width: 10px;
+}
+
+// the line on the left of the heading
+.left_line{
+    position: relative;
+    top: 0.8em;
+    left: 6.3em;
+    border: 1px solid rgb(0, 0, 0);
+    width: 55px;
+}
+
+// the heading "FEATURED COLLECTIONS"
+.collections{
+    position: relative;
+ //   border: 3px solid rgb(255, 0, 238);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    width: 222px;
+    top: 0.1em;
+    left: 11.2em;
+}
+
+// the line on the right of the heading
+.right_line{
+    position: relative;
+    bottom: 1em;
+    left: 24em;
+    border: 1px solid rgb(0, 0, 0);
+    width: 55px;
+}
+
+//card styled to have a white background and border
+#card{
+    position: relative;
+    left: 3rem;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    width: 23rem;
+    height: 35rem;
+    margin: 50px;
+}
+
+
+//card title, description and artwork price are colored black and positioned on the bottom left of the video/image
+
+// card title
+.card-title{
+    position: relative;
+    right: 1em;
+    font-family: 'Unbounded', cursive;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+// artwork description
+.card-description{
+    position: relative;
+    right: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+// artwork price
+.price{
+    position: relative;
+    right: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+// the buttons have a solid border with no radius, a white background and black text
+// on hover the text color is white and the background is black
+
+// add to cart button
+#addToCart_Button{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    left: 3em;
+    bottom: 4.1em;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    margin: 20px;
+}#addToCart_Button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+//save for later button
+#saveForLater_Button{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    left: 2em;
+  //  top: 1em;
+    bottom: 4em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    margin: 20px;
+}
+#saveForLater_Button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+//                  ///////////////        the like button          /////////////////////           //
+
+
+// styling all 18 checkboxes separately
+// styled to hide them
+#checkbox, #checkbox2, #checkbox3, #checkbox4, #checkbox5, #checkbox6,
+#checkbox7, #checkbox8, #checkbox9, #checkbox10, #checkbox11, #checkbox12,
+#checkbox13, #checkbox14, #checkbox15, #checkbox16, #checkbox17, #checkbox18{display:none;}
+
+//adjusting the size and position of the icon
+#heart-svg{
+    position: absolute;
+    left: 15.4em;
+    top: 23em;
+    width: 8%;
+    height: 8%;
+    cursor:pointer; overflow:visible; width:60px;
+    #heart{transform-origin:center; animation:animateHeartOut .3s linear forwards;}
+}
+
+// number of likes positioned on the right of the heart icon and colored white
+#count{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    bottom: 15em;
+    left: 17em;
+   // border: 5px solid rgb(255, 0, 0);
+}
+
+// styling all 18 checkboxes separately
+// styled to fill the heart icon black when clicked on
+//one
+#checkbox:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//two
+#checkbox2:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//three
+#checkbox3:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//four
+#checkbox4:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//five
+#checkbox5:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//six
+#checkbox6:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//seven
+#checkbox7:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//eight
+#checkbox8:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//nine
+#checkbox9:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//ten
+#checkbox10:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//eleven
+#checkbox11:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//twelve
+#checkbox12:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//thirteen
+#checkbox13:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//fourteen
+#checkbox14:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//fifteen
+#checkbox15:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//sixteen
+#checkbox16:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//seventeen
+#checkbox17:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//eighteen
+#checkbox18:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+
+// outlining the icon / adding a black border
+path{
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 2px;
+   // stroke-dasharray: 2,2;
+    stroke-linejoin: round;
+}
+  
+@keyframes animateHeart{
+    0%{transform:scale(.2);}
+    40%{transform:scale(1.2);}
+    100%{transform:scale(1);}
+}
+  
+@keyframes animateHeartOut{
+    0%{transform:scale(1.4);}
+    100%{transform:scale(1);}
+}
+
+// the alertbox after a user adds an item on the "savedForLater" page
+// styled to have a black background, white text and grey boxshadow. positioned on the middle of the screen
+.alertbox {
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    box-shadow: 5px 10px #ededed;
+    position: fixed;
+    top: 8em;
+    right: 10em;
+    z-index: 1;
+    width: 300px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+// #Row1{
+//     border: ;
+//     height: 4800px;
+// }
+
+// this div contains the heading "FEATURED COLLECTIONS" and the two lines on its left and right sides
+.collections_container{
+    position: relative;
+    top: 2.22em;
+    width: 10px;
+}
+
+// the line on the left of the heading
+.left_line{
+    position: relative;
+    top: 0.8em;
+    left: 11.5em;
+    border: 1px solid rgb(0, 0, 0);
+    width: 55px;
+}
+
+// the heading "FEATURED COLLECTIONS"
+.collections{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    width: 222px;
+    top: 0.1em;
+    left: 16.2em;
+}
+
+// the line on the right of the heading
+.right_line{
+    position: relative;
+    bottom: 1em;
+    left: 29em;
+   // right: 3em;
+    border: 1px solid rgb(0, 0, 0);
+    width: 55px;
+}
+
+//card styled to have a white background and border
+#card{
+    position: relative;
+    left: 8.2rem;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    width: 23rem;
+    height: 35rem;
+    margin: 50px;
+}
+
+
+//card title, description and artwork price are colored black and positioned on the bottom left of the video/image
+
+// card title
+.card-title{
+    position: relative;
+    right: 1em;
+    font-family: 'Unbounded', cursive;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+// artwork description
+.card-description{
+    position: relative;
+    right: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+// artwork price
+.price{
+    position: relative;
+    right: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+// the buttons have a solid border with no radius, a white background and black text
+// on hover the text color is white and the background is black
+
+// add to cart button
+#addToCart_Button{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    left: 3em;
+    bottom: 4.1em;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    margin: 20px;
+}#addToCart_Button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+//save for later button
+#saveForLater_Button{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    left: 2em;
+    bottom: 4em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    margin: 20px;
+}
+#saveForLater_Button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+//                  ///////////////        the like button          /////////////////////           //
+
+
+// styling all 18 checkboxes separately
+// styled to hide them
+#checkbox, #checkbox2, #checkbox3, #checkbox4, #checkbox5, #checkbox6,
+#checkbox7, #checkbox8, #checkbox9, #checkbox10, #checkbox11, #checkbox12,
+#checkbox13, #checkbox14, #checkbox15, #checkbox16, #checkbox17, #checkbox18{display:none;}
+
+//adjusting the size and position of the icon
+#heart-svg{
+    position: absolute;
+    left: 15.4em;
+    top: 23em;
+    width: 8%;
+    height: 8%;
+    cursor:pointer; overflow:visible; width:60px;
+    #heart{transform-origin:center; animation:animateHeartOut .3s linear forwards;}
+}
+
+// number of likes positioned on the right of the heart icon and colored white
+#count{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    bottom: 15em;
+    left: 17em;
+   // border: 5px solid rgb(255, 0, 0);
+}
+
+// styling all 18 checkboxes separately
+// styled to fill the heart icon black when clicked on
+//one
+#checkbox:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//two
+#checkbox2:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//three
+#checkbox3:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//four
+#checkbox4:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//five
+#checkbox5:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//six
+#checkbox6:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//seven
+#checkbox7:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//eight
+#checkbox8:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//nine
+#checkbox9:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//ten
+#checkbox10:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//eleven
+#checkbox11:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//twelve
+#checkbox12:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//thirteen
+#checkbox13:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//fourteen
+#checkbox14:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//fifteen
+#checkbox15:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//sixteen
+#checkbox16:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//seventeen
+#checkbox17:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//eighteen
+#checkbox18:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+
+// outlining the icon / adding a black border
+path{
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 2px;
+   // stroke-dasharray: 2,2;
+    stroke-linejoin: round;
+}
+  
+@keyframes animateHeart{
+    0%{transform:scale(.2);}
+    40%{transform:scale(1.2);}
+    100%{transform:scale(1);}
+}
+  
+@keyframes animateHeartOut{
+    0%{transform:scale(1.4);}
+    100%{transform:scale(1);}
+}
+
+// the alertbox after a user adds an item on the "savedForLater" page
+// styled to have a black background, white text and grey boxshadow. positioned on the middle of the screen
+.alertbox {
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    box-shadow: 5px 10px #ededed;
+    position: fixed;
+    top: 8em;
+    right: 14em;
+    z-index: 1;
+    width: 300px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+// #Row1{
+//     height: 2200px;
+// }
+
+// this div contains the heading "FEATURED COLLECTIONS" and the two lines on its left and right sides
+.collections_container{
+    position: relative;
+    top: 2.22em;
+    width: 10px;
+}
+
+// the line on the left of the heading
+.left_line{
+    position: relative;
+    top: 0.9em;
+    left: 8em;
+    border: 1px solid rgb(0, 0, 0);
+    width: 188px;
+}
+
+// the heading "FEATURED COLLECTIONS"
+.collections{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 282px;
+    top: 0.1em;
+    left: 14.7em;
+}
+
+// the line on the right of the heading
+.right_line{
+    position: relative;
+    bottom: 1.3em;
+    left: 41.4em;
+    border: 1px solid rgb(0, 0, 0);
+    width: 188px;
+}
+
+//card styled to have a white background and only visible on hover
+#card{
+    position: relative;
+    top: 5.5em;
+    left: 2rem;
+    background-color: white;
+    width: 23rem;
+    height: 35rem;
+    margin: 50px;
+
+    transition: 0.8s;
+    transform: translateY(-20px);
+    transform: translateY(40px);
+    opacity: 0;
+}
+#card:hover{
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+// this is the image or video displayed in the card
+#print{
+    cursor: pointer;
+}#print:hover{
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
+
+//card title, description and artwork price are colored black and positioned on the bottom left of the video/image
+
+// card title
+.card-title{
+    position: relative;
+    right: 1em;
+    font-family: 'Unbounded', cursive;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+// artwork description
+.card-description{
+    position: relative;
+    right: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+// artwork price
+.price{
+    position: relative;
+    right: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+// the buttons have a solid border with no radius, a white background and black text
+// on hover the text color is white and the background is black
+
+// add to cart button
+#addToCart_Button{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    left: 3em;
+    bottom: 4.1em;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    margin: 20px;
+}#addToCart_Button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+//save for later button
+#saveForLater_Button{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    left: 2em;
+    bottom: 4em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    margin: 20px;
+}
+#saveForLater_Button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+//                  ///////////////        the like button          /////////////////////           //
+
+
+// styling all 18 checkboxes separately
+// styled to hide them
+#checkbox, #checkbox2, #checkbox3, #checkbox4, #checkbox5, #checkbox6,
+#checkbox7, #checkbox8, #checkbox9, #checkbox10, #checkbox11, #checkbox12,
+#checkbox13, #checkbox14, #checkbox15, #checkbox16, #checkbox17, #checkbox18{display:none;}
+
+//adjusting the size and position of the icon
+#heart-svg{
+    position: absolute;
+    left: 15.4em;
+    top: 23em;
+    width: 8%;
+    height: 8%;
+    cursor:pointer; overflow:visible; width:60px;
+    #heart{transform-origin:center; animation:animateHeartOut .3s linear forwards;}
+}
+
+// number of likes positioned on the right of the heart icon and colored white
+#count{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    bottom: 15em;
+    left: 17em;
+   // border: 5px solid rgb(255, 0, 0);
+}
+
+// styling all 18 checkboxes separately
+// styled to fill the heart icon black when clicked on
+//one
+#checkbox:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//two
+#checkbox2:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//three
+#checkbox3:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//four
+#checkbox4:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//five
+#checkbox5:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//six
+#checkbox6:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//seven
+#checkbox7:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//eight
+#checkbox8:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//nine
+#checkbox9:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//ten
+#checkbox10:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//eleven
+#checkbox11:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//twelve
+#checkbox12:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//thirteen
+#checkbox13:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//fourteen
+#checkbox14:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//fifteen
+#checkbox15:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//sixteen
+#checkbox16:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//seventeen
+#checkbox17:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//eighteen
+#checkbox18:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+
+// outlining the icon / adding a black border
+path{
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 2px;
+   // stroke-dasharray: 2,2;
+    stroke-linejoin: round;
+}
+  
+@keyframes animateHeart{
+    0%{transform:scale(.2);}
+    40%{transform:scale(1.2);}
+    100%{transform:scale(1);}
+}
+  
+@keyframes animateHeartOut{
+    0%{transform:scale(1.4);}
+    100%{transform:scale(1);}
+}
+
+// the alertbox after a user adds an item on the "savedForLater" page
+// styled to have a black background, white text and grey boxshadow. positioned on the left
+.alertbox {
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    box-shadow: 5px 10px #dedede;
+    position: fixed;
+    top: 18em;
+    right: 40em;
+    z-index: 1;
+    width: 300px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+// #Row1{
+//     height: 5555px;
+//     border: 5px solid green;
+// }
+
+// this div contains the heading "FEATURED COLLECTIONS" and the two lines on its left and right sides
+.collections_container{
+    position: relative;
+    top: 2.22em;
+    width: 10px;
+}
+
+// the line on the left of the heading
+.left_line{
+    position: relative;
+    top: 0.9em;
+    left: 17em;
+    border: 1px solid rgb(0, 0, 0);
+    width: 188px;
+}
+
+// the heading "FEATURED COLLECTIONS"
+.collections{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 282px;
+    top: 0.1em;
+    left: 20.5em;
+}
+
+// the line on the right of the heading
+.right_line{
+    position: relative;
+    bottom: 1.3em;
+    left: 50em;
+    border: 1px solid rgb(0, 0, 0);
+    width: 188px;
+}
+
+
+//card styled to have a white background and be only visible on hover
+
+#card{
+    position: relative;
+    top: 5.5em;
+    left: 1.8rem;
+    background-color: white;
+    width: 24rem;
+    height: 37rem;
+    margin: 10px;
+
+    transition: 0.8s;
+    transform: translateY(-20px);
+    transform: translateY(40px);
+    opacity: 0;
+}
+#card:hover{
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+
+//card title, description and artwork price are colored black and positioned on the bottom left of the video/image
+
+// card title
+.card-title{
+    position: relative;
+    right: 1em;
+    font-family: 'Unbounded', cursive;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+// artwork description
+.card-description{
+    position: relative;
+    right: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+// artwork price
+.price{
+    position: relative;
+    right: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+// the buttons have a solid border with no radius, a white background and black text
+// on hover the text color is white and the background is black
+
+// add to cart button
+#addToCart_Button{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    left: 7.7em;
+    bottom: 4.44em;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    margin: 20px;
+}#addToCart_Button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+//save for later button
+#saveForLater_Button{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    left: 17em;
+    width: 105px;
+    bottom: 1.1em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    margin: 20px;
+}
+#saveForLater_Button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+// this is the image or video displayed in the card
+#print{
+    cursor: pointer;
+}#print:hover{
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+// card body
+.card-body{
+    height: 88px;
+}
+
+
+//                  ///////////////        the like button          /////////////////////           //
+
+
+// styling all 18 checkboxes separately
+// styled to hide them
+#checkbox, #checkbox2, #checkbox3, #checkbox4, #checkbox5, #checkbox6,
+#checkbox7, #checkbox8, #checkbox9, #checkbox10, #checkbox11, #checkbox12,
+#checkbox13, #checkbox14, #checkbox15, #checkbox16, #checkbox17, #checkbox18{display:none;}
+
+//adjusting the size and position of the icon
+#heart-svg{
+    position: absolute;
+    left: 17em;
+    top: 24em;
+    width: 8%;
+    height: 8%;
+    cursor:pointer; overflow:visible; width:60px;
+    #heart{transform-origin:center; animation:animateHeartOut .3s linear forwards;}
+}
+
+// number of likes positioned on the right of the heart icon and colored white
+#count{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    bottom: 15.2em;
+    left: 18.5em;
+   // border: 5px solid rgb(255, 0, 0);
+}
+
+// styling all 18 checkboxes separately
+// styled to fill the heart icon black when clicked on
+//one
+#checkbox:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//two
+#checkbox2:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//three
+#checkbox3:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//four
+#checkbox4:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//five
+#checkbox5:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//six
+#checkbox6:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//seven
+#checkbox7:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//eight
+#checkbox8:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//nine
+#checkbox9:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//ten
+#checkbox10:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//eleven
+#checkbox11:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//twelve
+#checkbox12:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//thirteen
+#checkbox13:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//fourteen
+#checkbox14:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//fifteen
+#checkbox15:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//sixteen
+#checkbox16:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+//seventeen
+#checkbox17:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+//eighteen
+#checkbox18:checked + label svg{
+    #heart{
+    transform:scale(.2);
+    fill:#ffffff; 
+    animation:animateHeart .3s linear forwards .25s;
+    }
+}
+
+
+// outlining the icon / adding a black border
+path{
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 2px;
+   // stroke-dasharray: 2,2;
+    stroke-linejoin: round;
+}
+  
+@keyframes animateHeart{
+    0%{transform:scale(.2);}
+    40%{transform:scale(1.2);}
+    100%{transform:scale(1);}
+}
+  
+@keyframes animateHeartOut{
+    0%{transform:scale(1.4);}
+    100%{transform:scale(1);}
+}
+
+// the alertbox after a user adds an item on the "savedForLater" page
+// styled to have a black background, white text and grey boxshadow. positioned on the left
+.alertbox {
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    box-shadow: 5px 10px #dedede;
+    position: fixed;
+    top: 18em;
+    right: 55em;
+    z-index: 1;
+    width: 300px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+}
+
+// reference(s): https://codepen.io/robeen/pen/PbvJjy
