@@ -22,10 +22,11 @@ the user to see what is in their folder.
 * Creating a form for if a person would like to contact me.
 
 * And within the entirety of my site, I should have at least the following jQuery functionality:
-■ A function which contains hiding/showing.
-■ A drop-down menu.
-■ Animation effects.
-■ A function with chained effects.
+
+1. A function which contains hiding/showing.
+2. A drop-down menu.
+3. Animation effects.
+4. A function with chained effects.
 
 Other features of the website which are not mentioned above may not be functional.
 
@@ -46,8 +47,6 @@ Treat it like a museum of some sort .. take a look at the art. And if you would 
 You may clone and rename the project to use for your own purposes
 
 ## Found a bug?
-
-If 
 
 An improvement I would make is making the site more responsive. But if you found an issue or would like to submit an improvement to this project, please submit an issue using the issues tab above.
 
