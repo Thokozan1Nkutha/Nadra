@@ -56,17 +56,17 @@ What you can do:
 * Add artworks to the saved for later page.
 * Delete artworks from the saved for later page.
 
-Screenshots of the site:
+Screenshots of the project:
 
-!(Screenshots/Screenshot1.png)
-!(Screenshots/Screenshot2.png)
-!(Screenshots/Screenshot3.png)
-!(Screenshots/Screenshot4.png)
-!(Screenshots/Screenshot5.png)
-!(Screenshots/Screenshot6.png)
-!(Screenshots/Screenshot7.png)
-!(Screenshots/Screenshot8.png)
-!(Screenshots/Screenshot9.png)
+![Screenshot_of_the_project](Screenshots/Screenshot1.png)
+![Screenshot_of_the_project](Screenshots/Screenshot2.png)
+![Screenshot_of_the_project](Screenshots/Screenshot3.png)
+![Screenshot_of_the_project](Screenshots/Screenshot4.png)
+![Screenshot_of_the_project](Screenshots/Screenshot5.png)
+![Screenshot_of_the_project](Screenshots/Screenshot6.png)
+![Screenshot_of_the_project](Screenshots/Screenshot7.png)
+![Screenshot_of_the_project](Screenshots/Screenshot8.png)
+![Screenshot_of_the_project](Screenshots/Screenshot9.png)
 
 
 ## Installation
