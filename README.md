@@ -1,8 +1,22 @@
 # Nadra 
 
-## is a website inspired by superrare.com which is made to showcase my understanding of the Web API
+## Table of Contents
+- [Description](#description)
+- [Introduction](#introduction)
+- [Usage](#usage)
+- [Installation](#installation)
+- [Credits](#credits)
 
-## I built the website to meet task requirements from my bootcamp which are:
+
+## Description
+
+is a website inspired by superrare.com which is made to showcase my understanding of the Web API
+
+
+
+## Introduction
+
+I built the website to meet task requirements from my bootcamp which are:
 
 * A functional “Save for later” page where users can earmark articles, images, recipes, etc. in a personal folder to be
 able to go back and see them later.
@@ -30,11 +44,21 @@ the user to see what is in their folder.
 
 Other features of the website which are not mentioned above may not be functional.
 
-## How you can enjoy the site:
+## Usage
+
+How you can enjoy the site:
 
 Treat it like a museum of some sort .. take a look at the art. And if you would like to see more from the artists or models, you can click on their names on the website and you'll be redirected to their instagram profiles.
 
-## How to install:
+What you can do:
+
+* Like and unlike artworks
+* Add artworks to the saved for later page.
+* Delete artworks from the saved for later page.
+
+## Installation
+
+How to install:
 
 * Clone the project
 
@@ -50,7 +74,7 @@ You may clone and rename the project to use for your own purposes
 
 An improvement I would make is making the site more responsive. But if you found an issue or would like to submit an improvement to this project, please submit an issue using the issues tab above.
 
-## Credits?
+## Credits
 
 The Artists and Models are credited on the website by using their real/instagram names.
 
