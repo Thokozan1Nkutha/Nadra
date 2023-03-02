@@ -56,7 +56,17 @@ What you can do:
 * Add artworks to the saved for later page.
 * Delete artworks from the saved for later page.
 
-![Alt text](Screenshots/Screenshot1.png)
+Screenshots of the site:
+
+!(Screenshots/Screenshot1.png)
+!(Screenshots/Screenshot2.png)
+!(Screenshots/Screenshot3.png)
+!(Screenshots/Screenshot4.png)
+!(Screenshots/Screenshot5.png)
+!(Screenshots/Screenshot6.png)
+!(Screenshots/Screenshot7.png)
+!(Screenshots/Screenshot8.png)
+!(Screenshots/Screenshot9.png)
 
 
 ## Installation
