@@ -56,7 +56,7 @@ What you can do:
 * Add artworks to the saved for later page.
 * Delete artworks from the saved for later page.
 
-![Alt text](path/to/image.png)
+![Alt text](path/Screenshots/Screenshot1.png)
 
 
 ## Installation
