@@ -1,4 +1,4 @@
-# Nadra 
+# Nadra (Capstone Project IV)
 
 ## Table of Contents
 - [Description](#description)
@@ -55,6 +55,9 @@ What you can do:
 * Like and unlike artworks
 * Add artworks to the saved for later page.
 * Delete artworks from the saved for later page.
+
+![Alt text](path/to/image.png)
+
 
 ## Installation
 
